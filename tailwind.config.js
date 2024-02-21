@@ -5,6 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				inter: ['Inter Variable', 'sans-serif'],
+				garamond: ['EB Garamond', 'serif'],
 			},
 		},
 	},

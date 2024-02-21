@@ -20,9 +20,11 @@ import '@fontsource-variable/inter';
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="bg-[#faf0dc] text-black container mx-4 md:mx-8 lg:mx-12 xl:mx-16">
+	<body class="bg-[#1a1a1a] text-white">
 		<Navbar />
-		<slot/>
+		<div class="container text-center text-wrap w-full mx-auto px-5 max-w-3xl font-inter">
+			<slot/>
+		</div>
 	</body>
 </html>
 

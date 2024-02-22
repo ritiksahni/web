@@ -19,8 +19,25 @@ import '@fontsource-variable/inter';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<style>
+			@font-face {
+				font-family: 'Writer';
+				src: url('fonts/PPWriter-Book.otf') format('opentype');
+				font-weight: normal;
+				font-style: normal;
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: 'Rustler Barter';
+				src: url('fonts/rustlerbarter.otf') format('opentype');
+				font-weight: normal;
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
 	</head>
-	<body class="bg-[#1a1a1a] text-white">
+	<body class="bg-[#0e0e0e] text-white">
 		<Navbar />
 		<div class="container text-center text-wrap w-full mx-auto px-5 max-w-3xl font-inter">
 			<slot/>

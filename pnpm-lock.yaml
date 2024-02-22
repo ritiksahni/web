@@ -14,7 +14,7 @@ dependencies:
   '@fontsource-variable/inter':
     specifier: ^5.0.16
     version: 5.0.16
-  '@fontsource/eb-garamond':
+  '@fontsource-variable/quicksand':
     specifier: ^5.0.16
     version: 5.0.16
   astro:
@@ -624,8 +624,8 @@ packages:
     resolution: {integrity: sha512-k+BUNqksTL+AN+o+OV7ILeiE9B5M5X+/jA7LWvCwjbV9ovXTqZyKRhA/x7uYv/ml8WQ0XNLBM7cRFIx4jW0/hg==}
     dev: false
 
-  /@fontsource/eb-garamond@5.0.16:
-    resolution: {integrity: sha512-i+HloM1w0r6goxgW0FBIewnRKT1jg0zcHRJM7f87e22kPtQR11Ye5FQuuD1/JbbLwj3bLrnoQKIDaz8B9yNSBQ==}
+  /@fontsource-variable/quicksand@5.0.16:
+    resolution: {integrity: sha512-I8QmSpiukev1QRNE9eimA+r7SLbYlNGi1iOZrLKdm6bXN1nSHFU98PlWIK1K/VRjR2MqNeStaVaIzwi4pnuDOA==}
     dev: false
 
   /@isaacs/cliui@8.0.2:

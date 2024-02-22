@@ -6,6 +6,7 @@ export default {
 		extend: {
 			fontFamily: {
 				inter: ['Inter Variable', 'sans-serif'],
+				quicksand: ['Quicksand Variable', 'sans-serif'],
 				garamond: ['EB Garamond', 'serif'],
 				writer: ['Writer', 'serif'],
 				rustlerBarter: ['Rustler Barter', 'serif'],

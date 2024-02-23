@@ -1,0 +1,26 @@
+---
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Ritik Sahni - {frontmatter.title}</title>
+	</head>
+	<body class="bg-[#0e0e0e] text-white">
+        <!-- Header -->
+		<div class="font-inter flex justify-center items-center flex-col">
+            <h1 class="text-3xl">{frontmatter.title}</h1>
+            <p class="text-md">{frontmatter.description}</p>
+        </div>
+        
+        <div class="flex justify-center flex-col items-center h-screen w-screen">
+            <slot/>
+        </div>
+	</body>
+</html>

@@ -1,12 +1,16 @@
 ---
 import Layout from '@layouts/Layout.astro';
+import PostEntry from '@components/PostEntry.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 
 <Layout title="Ritik Sahni - Posts">
 	<main class="font-quicksand font-light">
-		<!-- Insert content. -->
         <p class="text-2xl flex justify-center items-center">Posts</p>
-        {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+        {allPosts.map((post) => (
+			<div class="pt-6">
+				<PostEntry title={post.frontmatter.title} postUrl={post.url}/>
+			</div>
+		))}
 	</main>
 </Layout>

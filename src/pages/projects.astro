@@ -7,7 +7,7 @@ const allProjects = [{
 	link: 'https://whatnote.besabi.co.in',
 }, {
 	title: 'OSS Bounty',
-	description: 'A platform to post bounties for open-source issues. Built with Express.js, React. (NOT DEPLOYED)'
+	description: 'A platform to post bounties for open-source issues. Built with Express.js, React. (NOT DEPLOYED)',
 	link: 'https://github.com/ritiksahni/oss-bounty-backend',
 }]
 ---
@@ -18,8 +18,10 @@ const allProjects = [{
 		<h1>projects made by ritik.</h1>
 		{allProjects.map((project, index) => {
 			return (
-				<div class="m-8">
-					<h2>{project.title}</h2>
+			<div class="m-8">
+					<a href={project.link}>
+						<h2>{project.title}</h2>
+					</a>
 					<p>{project.description}</p>
 				</div>
 			)

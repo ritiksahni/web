@@ -18,7 +18,7 @@ const allProjects = [{
 		<h1>projects made by ritik.</h1>
 		{allProjects.map((project, index) => {
 			return (
-			<div class="m-8">
+				<div class="m-8" key={index}>
 					<a href={project.link}>
 						<h2>{project.title}</h2>
 					</a>
@@ -26,5 +26,6 @@ const allProjects = [{
 				</div>
 			)
 		})}
+
 	</main>
 </Layout>

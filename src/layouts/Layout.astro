@@ -1,5 +1,6 @@
 ---
 import Navbar from '@components/Navbar.astro';
+import { theme } from '../stores/theme.store.js';
 
 interface Props {
 	title: string;
@@ -38,7 +39,7 @@ import '@fontsource-variable/quicksand';
 			}
 		</style>
 	</head>
-	<body class="bg-[#0e0e0e] text-white">
+	<body class={theme.value === 'dark' ? `bg-[#0e0e0e] text-white`: `bg-white text-black`}>
 		<Navbar />
 		<div class="container text-center text-wrap w-full mx-auto px-5 max-w-3xl font-inter">
 			<slot/>

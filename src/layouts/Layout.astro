@@ -1,6 +1,5 @@
 ---
 import Navbar from '@components/Navbar.astro';
-import { theme } from '../stores/theme.store.js';
 
 interface Props {
 	title: string;
@@ -37,9 +36,17 @@ import '@fontsource-variable/quicksand';
 				font-style: normal;
 				font-display: swap;
 			}
+
+			@font-face {
+				font-family: 'Proxima Nova';
+				src: url('fonts/proximanova-bold.otf') format('opentype');
+				font-weight: bold;
+				font-style: normal;
+				font-display: swap;
+			}
 		</style>
 	</head>
-	<body class={theme.value === 'dark' ? `bg-[#0e0e0e] text-white`: `bg-white text-black`}>
+	<body class='bg-[#0e0e0e] text-white'>
 		<Navbar />
 		<div class="container text-center text-wrap w-full mx-auto px-5 max-w-3xl font-inter">
 			<slot/>

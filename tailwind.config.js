@@ -10,6 +10,7 @@ export default {
 				garamond: ['EB Garamond', 'serif'],
 				writer: ['Writer', 'serif'],
 				rustlerBarter: ['Rustler Barter', 'serif'],
+				proximaNova: ['Proxima Nova Bold', 'sans-serif'],
 			},
 		},
 	},

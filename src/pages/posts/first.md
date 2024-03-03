@@ -1,11 +1,11 @@
 ---
 layout: '../../layouts/ContentLayout.astro'
-title: 'first post'
+title: 'hello world'
 description: 'testing things out...'
 ---
 
 # Hello, world.
 
-```
+```js
 const abc = 'first variable';
 ```

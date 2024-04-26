@@ -2,13 +2,14 @@
 title: 'Breath'
 publishDate: 'September 26 2023'
 tags:
-    - Essay
+  - Archived (old posts)
 ---
+
 Breath.
 
 Pay attention to your breath.
 
-The day's over. 
+The day's over.
 
 You've done a lot of thinking today. The thought of ice cream cravings during a shower, the thought of her randomly in the middle of your work bout. There were also short periods of time during your day where you didn't think hard enough. You were consumed by 60 second long reels about flowers, jokes about your families. Every new video is like a short-introduction to a new person.
 
@@ -21,10 +22,3 @@ The day's over.
 Pay attention to your breath.
 
 Breath.
-
-  
-
-
----
-
-[Powered by beehiiv](https://www.beehiiv.com/?utm_campaign=d0b8609e-729e-48fb-aa39-c97dc8747d45&utm_medium=post_rss&utm_source=superbold)

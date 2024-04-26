@@ -2,8 +2,9 @@
 title: 'Priorities in Conflicts'
 publishDate: 'March 05 2022'
 tags:
-    - Essay
+  - Archived (old posts)
 ---
+
 A lot of conflicts remain unsolved because of mismatch in priorities of the parties involved in an argument.
 
 Let's start with a basic question: What is a conflict?
@@ -33,10 +34,3 @@ The priority mismatch is clear in the given example that becomes the sole reason
 Understanding the priority of the person arguing with you can help you reach a middle ground quick. It can end up with "Okay, you seem to want money out of it so I think business can work out just fine for you but I prioritize relationships and for that reason, I'll go to college"
 
 With that, a conflict can be resolved. Understand individual priorities.
-
-  
-
-
----
-
-[Powered by beehiiv](https://www.beehiiv.com/?utm_campaign=2866def5-6d6b-4929-8119-e1a808de75dd&utm_medium=post_rss&utm_source=superbold)

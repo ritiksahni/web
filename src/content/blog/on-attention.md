@@ -2,8 +2,9 @@
 title: 'On Attention'
 publishDate: 'February 26 2022'
 tags:
-    - Essay
+  - Archived (old posts)
 ---
+
 Today, I was reading Deep Work by Cal Newport in order to learn about focus, attention, distraction.
 
 In the third chapter of the book, there are ideas on how the allocation of attention is responsible for how we feel instead of the circumstances.
@@ -23,10 +24,3 @@ We cannot entirely accept that escapism is a bad thing. I think that it depends 
 In the example of the cancer patient, it helped her live happily by ignoring the truth of the dark side going on in her life.
 
 To solve a problem, confront it. However, you cannot always and immediately do that and those are the moments we resort to work, social media, and other usual distractions.
-
-  
-
-
----
-
-[Powered by beehiiv](https://www.beehiiv.com/?utm_campaign=9d19691b-1560-46bf-bd01-23b802a2aac4&utm_medium=post_rss&utm_source=superbold)

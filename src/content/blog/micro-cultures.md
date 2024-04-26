@@ -2,8 +2,9 @@
 title: 'Micro-Cultures'
 publishDate: 'August 16 2022'
 tags:
-    - Essay
+  - Archived (old posts)
 ---
+
 I realized I've embraced a more individualistic lifestyle in the past 1 year as compared to the previous 3-4 years.
 
 I think of the micro-cultures I was a part of or could be a part of.
@@ -19,10 +20,3 @@ Groups of people talking about rock bands and metal.
 "I don't care if they copy Led Zeppelin, they're good"
 
 Out there in the real world you can find a similar structure in gyms where people strive for a common goal and understand one another.
-
-  
-
-
----
-
-[Powered by beehiiv](https://www.beehiiv.com/?utm_campaign=69875e04-274f-488c-9041-a8296a33bfce&utm_medium=post_rss&utm_source=superbold)

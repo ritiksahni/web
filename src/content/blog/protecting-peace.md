@@ -1,6 +1,6 @@
 ---
 title: 'Protecting Peace: A Game?'
-publishDate: 'January 15 2025'
+publishDate: 'Jan 15 2025'
 tags:
   - Essay
 ---

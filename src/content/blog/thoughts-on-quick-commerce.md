@@ -54,7 +54,7 @@ It’s: “We’ll only give you orders you can reasonably deliver in 10 minutes
 
 ⸻
 
-Outrage Without Insight
+### Outrage Without Insight
 
 Moral outrage is easy when you don’t know how anything works.
 

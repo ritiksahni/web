@@ -21,7 +21,7 @@ That’s not how any of this works. At all.
 
 ⸻
 
-What Quick Commerce Actually Looks Like
+### What Quick Commerce Actually Looks Like
 
 The 10-minute delivery model doesn’t depend on speed. It depends on systems.
 
@@ -37,7 +37,7 @@ No chaos. No dangerous races.
 
 ⸻
 
-Riders Aren’t The Ones “Delivering Fast”
+### Riders Aren’t The Ones “Delivering Fast”
 
 This is the part people get wrong.
 
@@ -66,7 +66,7 @@ It’s not exploitation. It’s evolution.
 
 ⸻
 
-The Real Flex: Systems Thinking
+### The Real Flex: Systems Thinking
 
 From the second you hit “Place Order,” an invisible web of decision-making kicks in — engineered, optimized, and orchestrated for speed without chaos.
 
@@ -80,7 +80,7 @@ Because that’s the kind of systems thinking we should be studying, not tweetin
 
 ⸻
 
-TL;DR:
+### TL;DR:
 
 	•	10-minute delivery isn’t fast because riders are rushing — it’s fast because the system is smart.
 	•	Dark stores, optimized picker workflows, and smart rider allocation make it seamless.

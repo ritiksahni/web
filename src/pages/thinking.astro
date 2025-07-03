@@ -29,7 +29,7 @@ const thoughtsWithContent = await Promise.all(
     </div>
     
     <div class="grid gap-6 sm:gap-8">
-        {thoughts.map((thought) => (
+        {thoughtsWithContent.map((thought) => (
             <article class="border-l-2 border-dashed border-muted pl-4 sm:pl-6 hover:border-accent transition-colors duration-200">
                 <div class="flex flex-col gap-2 sm:gap-3">
                     <header class="flex flex-col gap-1 sm:gap-2">

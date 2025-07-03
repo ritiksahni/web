@@ -24,6 +24,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 9,
         genre: 'Sci-Fi',
         description: 'Epic continuation of Paul Atreides\' journey',
+        coverImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=900&fit=crop',
         dateConsumed: '2024-03-15',
         status: 'completed',
         notes: 'Incredible visuals and Hans Zimmer\'s score'
@@ -37,6 +38,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 8,
         genre: 'Biography/Drama',
         description: 'The story of J. Robert Oppenheimer',
+        coverImage: 'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=600&h=900&fit=crop',
         dateConsumed: '2023-07-21',
         status: 'completed',
         notes: 'Mind-bending narrative structure'
@@ -52,6 +54,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 9,
         genre: 'Technology',
         description: 'Your journey to mastery',
+        coverImage: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=900&fit=crop',
         dateConsumed: '2024-01-15',
         status: 'completed',
         notes: 'Essential for any developer'
@@ -65,6 +68,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 8,
         genre: 'Self-Help',
         description: 'Tiny changes, remarkable results',
+        coverImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=900&fit=crop',
         status: 'currently-consuming',
         notes: 'Great insights on habit formation'
     },
@@ -79,6 +83,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 8,
         genre: 'R&B/Pop',
         description: 'Dark and atmospheric album',
+        coverImage: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop',
         dateConsumed: '2020-03-20',
         status: 'completed',
         notes: 'Perfect late-night listening'
@@ -92,6 +97,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 10,
         genre: 'Rock',
         description: 'Epic rock opera masterpiece',
+        coverImage: 'https://images.unsplash.com/photo-1471478331149-c72f17e33c73?w=600&h=600&fit=crop',
         status: 'completed',
         notes: 'Timeless classic - never gets old'
     },
@@ -104,6 +110,7 @@ export const consumptionData: ConsumptionItem[] = [
         rating: 9,
         genre: 'Electronic',
         description: 'Their final masterpiece',
+        coverImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop',
         status: 'completed',
         notes: 'Perfect blend of electronic and disco'
     }

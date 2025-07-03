@@ -1,0 +1,533 @@
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { consumptionData, type ConsumptionItem } from '../data/consumption.ts';
+
+const pageTitle = 'Consumption';
+const pageDescription = 'A showcase of films, books, and music I\'ve consumed with an immersive scroll experience.';
+
+// Group items by type for better organization
+const films = consumptionData.filter(item => item.type === 'film');
+const books = consumptionData.filter(item => item.type === 'book');
+const music = consumptionData.filter(item => item.type === 'album' || item.type === 'song');
+
+// Function to get status color
+function getStatusColor(status: ConsumptionItem['status']) {
+    switch (status) {
+        case 'completed': return 'text-green-500';
+        case 'currently-consuming': return 'text-yellow-500';
+        case 'want-to-consume': return 'text-blue-500';
+        default: return 'text-gray-500';
+    }
+}
+
+// Function to get type icon
+function getTypeIcon(type: ConsumptionItem['type']) {
+    switch (type) {
+        case 'film': return '🎬';
+        case 'book': return '📚';
+        case 'album': return '💿';
+        case 'song': return '🎵';
+        default: return '📄';
+    }
+}
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+    <div class="consumption-container relative">
+        <!-- Hero Section -->
+        <div class="hero-section mb-16 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                Consumption
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                A curated collection of films, books, and music that have shaped my perspective. 
+                Scroll to explore the dimensionally-reduced journey through my cultural consumption.
+            </p>
+        </div>
+
+        <!-- 3D Scroll Container -->
+        <div class="scroll-container" id="scrollContainer">
+            <!-- Films Section -->
+            <section class="consumption-section" data-category="films">
+                <h2 class="section-title">
+                    🎬 Films
+                </h2>
+                <div class="items-grid">
+                    {films.map((item, index) => (
+                        <div class="consumption-item" data-index={index} data-type="film">
+                            <div class="item-card">
+                                <div class="card-front">
+                                    <div class="type-icon">{getTypeIcon(item.type)}</div>
+                                    <h3 class="item-title">{item.title}</h3>
+                                    <p class="item-creator">by {item.creator}</p>
+                                    <div class="item-year">{item.year}</div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="item-details">
+                                        <div class={`status ${getStatusColor(item.status)}`}>
+                                            {item.status.replace('-', ' ')}
+                                        </div>
+                                        {item.rating && (
+                                            <div class="rating">
+                                                Rating: {'★'.repeat(Math.floor(item.rating))}
+                                                <span class="rating-number">({item.rating}/10)</span>
+                                            </div>
+                                        )}
+                                        {item.genre && <div class="genre">Genre: {item.genre}</div>}
+                                        {item.description && <p class="description">{item.description}</p>}
+                                        {item.notes && <p class="notes">Notes: {item.notes}</p>}
+                                        {item.dateConsumed && (
+                                            <div class="date-consumed">Watched: {item.dateConsumed}</div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+            <!-- Books Section -->
+            <section class="consumption-section" data-category="books">
+                <h2 class="section-title">
+                    📚 Books
+                </h2>
+                <div class="items-grid">
+                    {books.map((item, index) => (
+                        <div class="consumption-item" data-index={index} data-type="book">
+                            <div class="item-card">
+                                <div class="card-front">
+                                    <div class="type-icon">{getTypeIcon(item.type)}</div>
+                                    <h3 class="item-title">{item.title}</h3>
+                                    <p class="item-creator">by {item.creator}</p>
+                                    <div class="item-year">{item.year}</div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="item-details">
+                                        <div class={`status ${getStatusColor(item.status)}`}>
+                                            {item.status.replace('-', ' ')}
+                                        </div>
+                                        {item.rating && (
+                                            <div class="rating">
+                                                Rating: {'★'.repeat(Math.floor(item.rating))}
+                                                <span class="rating-number">({item.rating}/10)</span>
+                                            </div>
+                                        )}
+                                        {item.genre && <div class="genre">Genre: {item.genre}</div>}
+                                        {item.description && <p class="description">{item.description}</p>}
+                                        {item.notes && <p class="notes">Notes: {item.notes}</p>}
+                                        {item.dateConsumed && (
+                                            <div class="date-consumed">Read: {item.dateConsumed}</div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+            <!-- Music Section -->
+            <section class="consumption-section" data-category="music">
+                <h2 class="section-title">
+                    🎵 Music
+                </h2>
+                <div class="items-grid">
+                    {music.map((item, index) => (
+                        <div class="consumption-item" data-index={index} data-type="music">
+                            <div class="item-card">
+                                <div class="card-front">
+                                    <div class="type-icon">{getTypeIcon(item.type)}</div>
+                                    <h3 class="item-title">{item.title}</h3>
+                                    <p class="item-creator">by {item.creator}</p>
+                                    <div class="item-year">{item.year}</div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="item-details">
+                                        <div class={`status ${getStatusColor(item.status)}`}>
+                                            {item.status.replace('-', ' ')}
+                                        </div>
+                                        {item.rating && (
+                                            <div class="rating">
+                                                Rating: {'★'.repeat(Math.floor(item.rating))}
+                                                <span class="rating-number">({item.rating}/10)</span>
+                                            </div>
+                                        )}
+                                        {item.genre && <div class="genre">Genre: {item.genre}</div>}
+                                        {item.description && <p class="description">{item.description}</p>}
+                                        {item.notes && <p class="notes">Notes: {item.notes}</p>}
+                                        {item.dateConsumed && (
+                                            <div class="date-consumed">Listened: {item.dateConsumed}</div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
+        </div>
+
+        <!-- Scroll Progress Indicator -->
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+</BaseLayout>
+
+<style>
+    .consumption-container {
+        perspective: 1200px;
+        overflow-x: hidden;
+    }
+
+    .hero-section {
+        transform-style: preserve-3d;
+        animation: heroFadeIn 1s ease-out;
+    }
+
+    @keyframes heroFadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(50px) rotateX(20deg);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0) rotateX(0);
+        }
+    }
+
+    .scroll-container {
+        position: relative;
+        transform-style: preserve-3d;
+    }
+
+    .consumption-section {
+        margin-bottom: 8rem;
+        transform-style: preserve-3d;
+        opacity: 0;
+        transform: translateZ(-100px) rotateX(15deg);
+        transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .consumption-section.in-view {
+        opacity: 1;
+        transform: translateZ(0) rotateX(0deg);
+    }
+
+    .section-title {
+        @apply text-3xl md:text-4xl font-bold mb-8 text-center;
+        background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        transform-style: preserve-3d;
+    }
+
+    .items-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .consumption-item {
+        height: 400px;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        opacity: 0;
+        transform: translateX(-100px) rotateY(-20deg);
+        transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .consumption-item.animate-in {
+        opacity: 1;
+        transform: translateX(0) rotateY(0deg);
+    }
+
+    .item-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .item-card:hover {
+        transform: rotateY(180deg) scale(1.05);
+    }
+
+    .card-front,
+    .card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 16px;
+        padding: 2rem;
+        background: linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.1), 
+            rgba(255, 255, 255, 0.05)
+        );
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .card-front {
+        @apply bg-gradient-to-br from-purple-500/10 to-pink-500/10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-back {
+        @apply bg-gradient-to-br from-blue-500/10 to-green-500/10;
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .type-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    }
+
+    .item-title {
+        @apply text-xl font-bold mb-2;
+        color: var(--color-text-primary, #1f2937);
+    }
+
+    .item-creator {
+        @apply text-base opacity-80 mb-2;
+        color: var(--color-text-secondary, #6b7280);
+    }
+
+    .item-year {
+        @apply text-sm font-medium;
+        color: var(--color-text-accent, #8b5cf6);
+    }
+
+    .item-details {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .status {
+        @apply font-semibold text-sm uppercase tracking-wide mb-3;
+    }
+
+    .rating {
+        @apply mb-2;
+        color: #fbbf24;
+    }
+
+    .rating-number {
+        @apply ml-1 text-sm opacity-70;
+    }
+
+    .genre {
+        @apply text-sm opacity-80 mb-2;
+    }
+
+    .description {
+        @apply text-sm mb-3 opacity-90;
+        font-style: italic;
+    }
+
+    .notes {
+        @apply text-sm mb-2 opacity-80;
+    }
+
+    .date-consumed {
+        @apply text-xs opacity-60 mt-auto;
+    }
+
+    .scroll-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        transform-origin: left;
+        transform: scaleX(0);
+        z-index: 1000;
+        transition: transform 0.1s ease-out;
+    }
+
+    /* Dark mode adjustments */
+    @media (prefers-color-scheme: dark) {
+        .item-title {
+            color: var(--color-text-primary, #f9fafb);
+        }
+        
+        .item-creator {
+            color: var(--color-text-secondary, #d1d5db);
+        }
+        
+        .card-front,
+        .card-back {
+            background: linear-gradient(135deg, 
+                rgba(0, 0, 0, 0.2), 
+                rgba(0, 0, 0, 0.1)
+            );
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .items-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        
+        .consumption-item {
+            height: 350px;
+        }
+        
+        .card-front,
+        .card-back {
+            padding: 1.5rem;
+        }
+        
+        .type-icon {
+            font-size: 2.5rem;
+        }
+        
+        .item-title {
+            font-size: 1.1rem;
+        }
+    }
+</style>
+
+<script>
+    // Dimensionality reduction scroll effects
+    function initScrollEffects() {
+        const scrollContainer = document.getElementById('scrollContainer');
+        const scrollProgress = document.getElementById('scrollProgress');
+        const sections = document.querySelectorAll('.consumption-section');
+        const items = document.querySelectorAll('.consumption-item');
+
+        // Intersection Observer for sections
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    
+                    // Animate items within the section with stagger
+                    const sectionItems = entry.target.querySelectorAll('.consumption-item');
+                    sectionItems.forEach((item, index) => {
+                        setTimeout(() => {
+                            item.classList.add('animate-in');
+                        }, index * 150); // Stagger animation
+                    });
+                }
+            });
+        }, {
+            threshold: 0.2,
+            rootMargin: '0px 0px -100px 0px'
+        });
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // Scroll progress and parallax effects
+        function updateScrollEffects() {
+            const scrollTop = window.pageYOffset;
+            const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = scrollTop / documentHeight;
+
+            // Update progress bar
+            if (scrollProgress) {
+                scrollProgress.style.transform = `scaleX(${scrollPercent})`;
+            }
+
+            // Apply 3D transformations based on scroll
+            sections.forEach((section, index) => {
+                const rect = section.getBoundingClientRect();
+                const elementTop = rect.top;
+                const elementHeight = rect.height;
+                const windowHeight = window.innerHeight;
+
+                // Calculate scroll progress for this section
+                const scrollProgress = Math.max(0, Math.min(1, 
+                    (windowHeight - elementTop) / (windowHeight + elementHeight)
+                ));
+
+                // Apply 3D transformations
+                const translateZ = (scrollProgress - 0.5) * 200;
+                const rotateX = (scrollProgress - 0.5) * 10;
+                const scale = 0.9 + (scrollProgress * 0.1);
+
+                if (section.classList.contains('in-view')) {
+                    section.style.transform = `
+                        translateZ(${translateZ}px) 
+                        rotateX(${rotateX}deg) 
+                        scale(${scale})
+                    `;
+                }
+            });
+
+            // Individual item transformations
+            items.forEach((item, index) => {
+                const rect = item.getBoundingClientRect();
+                const elementTop = rect.top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight && elementTop > -rect.height) {
+                    const progress = (windowHeight - elementTop) / windowHeight;
+                    const translateY = (progress - 0.5) * 20;
+                    const rotateY = (progress - 0.5) * 5;
+                    
+                    if (item.classList.contains('animate-in')) {
+                        item.style.transform = `
+                            translateY(${translateY}px) 
+                            rotateY(${rotateY}deg)
+                        `;
+                    }
+                }
+            });
+        }
+
+        // Throttled scroll handler
+        let ticking = false;
+        function handleScroll() {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    updateScrollEffects();
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        updateScrollEffects(); // Initial call
+
+        // Enhanced hover effects for cards
+        items.forEach(item => {
+            const card = item.querySelector('.item-card');
+            
+            item.addEventListener('mouseenter', () => {
+                card.style.transform += ' translateZ(20px)';
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                card.style.transform = card.style.transform.replace(' translateZ(20px)', '');
+            });
+        });
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', initScrollEffects);
+    
+    // Reinitialize on page transitions (for Astro)
+    document.addEventListener('astro:after-swap', initScrollEffects);
+</script>

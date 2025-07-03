@@ -59,6 +59,10 @@ const siteConfig: SiteConfig = {
             text: 'Blog',
             href: '/blog'
         },
+        {
+            text: 'Consumption',
+            href: '/consumption'
+        },
         // {
         //     text: 'Notes',
         //     href: '/notes'

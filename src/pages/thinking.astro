@@ -5,6 +5,14 @@ import FormattedDate from '../components/FormattedDate.astro';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 
 const thoughts = (await getCollection('thinking')).sort(sortItemsByDateDesc);
+
+// Render all thoughts to get their content
+const thoughtsWithContent = await Promise.all(
+    thoughts.map(async (thought) => {
+        const { Content } = await thought.render();
+        return { ...thought, Content };
+    })
+);
 ---
 
 <BaseLayout
@@ -21,42 +29,32 @@ const thoughts = (await getCollection('thinking')).sort(sortItemsByDateDesc);
     </div>
     
     <div class="grid gap-6 sm:gap-8">
-        {posts.map((post) => (
+        {thoughts.map((thought) => (
             <article class="border-l-2 border-dashed border-muted pl-4 sm:pl-6 hover:border-accent transition-colors duration-200">
                 <div class="flex flex-col gap-2 sm:gap-3">
                     <header class="flex flex-col gap-1 sm:gap-2">
-                        <h2 class="text-lg sm:text-xl font-serif">
-                            <a 
-                                href={`/blog/${post.slug}`}
-                                class="text-main hover:text-accent transition-colors duration-200"
-                            >
-                                {post.data.title}
-                            </a>
+                        <h2 class="text-lg sm:text-xl font-serif text-main">
+                            {thought.data.title}
                         </h2>
                         <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-muted">
-                            <FormattedDate date={post.data.publishDate} />
-                            {post.data.tags && post.data.tags.length > 0 && (
+                            <FormattedDate date={thought.data.publishDate} />
+                            {thought.data.tags && thought.data.tags.length > 0 && (
                                 <>
                                     <span>•</span>
                                     <div class="flex flex-wrap gap-1">
-                                        {post.data.tags.map((tag: string) => (
-                                            <a 
-                                                href={`/tags/${tag.toLowerCase()}`}
-                                                class="px-2 py-1 text-xs rounded-md bg-muted/20 hover:bg-muted/30 transition-colors"
-                                            >
+                                        {thought.data.tags.map((tag: string) => (
+                                            <span class="px-2 py-1 text-xs rounded-md bg-muted/20">
                                                 #{tag}
-                                            </a>
+                                            </span>
                                         ))}
                                     </div>
                                 </>
                             )}
                         </div>
                     </header>
-                    {post.data.excerpt && (
-                        <p class="text-sm sm:text-base text-muted leading-relaxed">
-                            {post.data.excerpt}
-                        </p>
-                    )}
+                    <div class="text-sm sm:text-base text-main leading-relaxed prose-sm">
+                        <thought.Content />
+                    </div>
                 </div>
             </article>
         ))}

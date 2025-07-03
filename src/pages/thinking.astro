@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+---
+
+<BaseLayout
+    title="Thinking"
+    description="Raw thoughts, notes, and insights-in-progress. A digital garden of ideas."
+    image={{ src: '/dante-preview.jpg', alt: 'Thinking Feed' }}
+    showHeader={false}
+>
+    <div class="mb-12 sm:mb-16">
+        <h1 class="mb-4 text-2xl leading-tight font-serif italic sm:mb-6 sm:text-4xl">Thinking</h1>
+        <p class="text-base sm:text-lg text-muted max-w-2xl">
+            Not full essays—just raw notes, questions, insights-in-progress. A stream of consciousness where I think out loud about whatever crosses my mind.
+        </p>
+    </div>
+    
+    <div class="grid gap-6 sm:gap-8">
+        {posts.map((post) => (
+            <article class="border-l-2 border-dashed border-muted pl-4 sm:pl-6 hover:border-accent transition-colors duration-200">
+                <div class="flex flex-col gap-2 sm:gap-3">
+                    <header class="flex flex-col gap-1 sm:gap-2">
+                        <h2 class="text-lg sm:text-xl font-serif">
+                            <a 
+                                href={`/blog/${post.slug}`}
+                                class="text-main hover:text-accent transition-colors duration-200"
+                            >
+                                {post.data.title}
+                            </a>
+                        </h2>
+                        <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-muted">
+                            <FormattedDate date={post.data.publishDate} />
+                            {post.data.tags && post.data.tags.length > 0 && (
+                                <>
+                                    <span>•</span>
+                                    <div class="flex flex-wrap gap-1">
+                                        {post.data.tags.map((tag: string) => (
+                                            <a 
+                                                href={`/tags/${tag.toLowerCase()}`}
+                                                class="px-2 py-1 text-xs rounded-md bg-muted/20 hover:bg-muted/30 transition-colors"
+                                            >
+                                                #{tag}
+                                            </a>
+                                        ))}
+                                    </div>
+                                </>
+                            )}
+                        </div>
+                    </header>
+                    {post.data.excerpt && (
+                        <p class="text-sm sm:text-base text-muted leading-relaxed">
+                            {post.data.excerpt}
+                        </p>
+                    )}
+                </div>
+            </article>
+        ))}
+    </div>
+    
+    <div class="mt-16 sm:mt-24 p-6 border border-dashed border-muted rounded-lg bg-muted/5">
+        <h3 class="text-lg font-serif mb-2">About this feed</h3>
+        <p class="text-sm text-muted leading-relaxed">
+            This is my digital garden—a place for growing ideas in public. These aren't polished essays but rather raw thoughts, questions, and insights as they develop. Think of it as my thinking-out-loud space.
+        </p>
+    </div>
+</BaseLayout>

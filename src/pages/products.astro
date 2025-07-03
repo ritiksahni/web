@@ -1,0 +1,180 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
+const featuredProjects = projects.filter(({ data }) => data.isFeatured);
+const otherProjects = projects.filter(({ data }) => !data.isFeatured);
+---
+
+<BaseLayout
+    title="Products & Projects"
+    description="A showcase of software products, tools, and projects I've built to solve real-world problems."
+    image={{ src: '/dante-preview.jpg', alt: 'Products and Projects' }}
+    showHeader={false}
+>
+    <div class="mb-12 sm:mb-16">
+        <h1 class="mb-4 text-2xl leading-tight font-serif italic sm:mb-6 sm:text-4xl">Products & Projects</h1>
+        <p class="text-base sm:text-lg text-muted max-w-3xl">
+            I build software that solves real problems. From cybersecurity tools to developer frameworks, each project represents my passion for creating technology that makes a meaningful impact.
+        </p>
+    </div>
+
+    <!-- Featured Projects -->
+    {featuredProjects.length > 0 && (
+        <section class="mb-16 sm:mb-24">
+            <h2 class="mb-8 text-xl font-serif italic sm:mb-12 sm:text-2xl">Featured Projects</h2>
+            <div class="grid gap-8 sm:gap-12">
+                {featuredProjects.map((project) => (
+                    <article class="group border border-dashed border-muted rounded-lg p-6 sm:p-8 hover:border-accent transition-all duration-300 hover:shadow-lg">
+                        <div class="flex flex-col gap-4 sm:gap-6">
+                            <header>
+                                <h3 class="text-xl sm:text-2xl font-serif mb-2 group-hover:text-accent transition-colors duration-300">
+                                    <a href={`/projects/${project.slug}`}>
+                                        {project.data.title}
+                                    </a>
+                                </h3>
+                                {project.data.description && (
+                                    <p class="text-muted leading-relaxed">
+                                        {project.data.description}
+                                    </p>
+                                )}
+                            </header>
+                            
+                            <div class="flex flex-wrap items-center gap-4 text-sm text-muted">
+                                <time>
+                                    {new Date(project.data.publishDate).toLocaleDateString('en-US', {
+                                        year: 'numeric',
+                                        month: 'long'
+                                    })}
+                                </time>
+                                <span class="px-2 py-1 bg-accent/10 text-accent rounded-md text-xs font-medium">
+                                    Featured
+                                </span>
+                            </div>
+                            
+                            <a 
+                                href={`/projects/${project.slug}`}
+                                class="inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline hover:underline-offset-2 group-hover:gap-3 transition-all duration-300"
+                            >
+                                View Project Details
+                                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                ))}
+            </div>
+        </section>
+    )}
+
+    <!-- Other Projects -->
+    {otherProjects.length > 0 && (
+        <section class="mb-16 sm:mb-24">
+            <h2 class="mb-8 text-xl font-serif italic sm:mb-12 sm:text-2xl">More Projects</h2>
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {otherProjects.map((project) => (
+                    <article class="group border border-dashed border-muted rounded-lg p-4 sm:p-6 hover:border-accent transition-all duration-300">
+                        <div class="flex flex-col gap-3">
+                            <header>
+                                <h3 class="text-lg font-serif mb-2 group-hover:text-accent transition-colors duration-300">
+                                    <a href={`/projects/${project.slug}`}>
+                                        {project.data.title}
+                                    </a>
+                                </h3>
+                                {project.data.description && (
+                                    <p class="text-sm text-muted leading-relaxed line-clamp-3">
+                                        {project.data.description}
+                                    </p>
+                                )}
+                            </header>
+                            
+                            <div class="flex items-center justify-between">
+                                <time class="text-xs text-muted">
+                                    {new Date(project.data.publishDate).toLocaleDateString('en-US', {
+                                        year: 'numeric',
+                                        month: 'short'
+                                    })}
+                                </time>
+                                
+                                <a 
+                                    href={`/projects/${project.slug}`}
+                                    class="text-xs font-medium text-accent hover:underline hover:underline-offset-2"
+                                >
+                                    View Details
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                ))}
+            </div>
+        </section>
+    )}
+
+    <!-- Skills & Technologies -->
+    <section class="mb-16 sm:mb-24">
+        <h2 class="mb-8 text-xl font-serif italic sm:mb-12 sm:text-2xl">Skills & Technologies</h2>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="p-6 border border-dashed border-muted rounded-lg">
+                <h3 class="text-lg font-serif mb-3 text-accent">🔒 Cybersecurity</h3>
+                <ul class="space-y-1 text-sm text-muted">
+                    <li>Vulnerability Assessment</li>
+                    <li>Penetration Testing</li>
+                    <li>Security Automation</li>
+                    <li>SIEM Implementation</li>
+                    <li>Incident Response</li>
+                </ul>
+            </div>
+            
+            <div class="p-6 border border-dashed border-muted rounded-lg">
+                <h3 class="text-lg font-serif mb-3 text-accent">⚡ JavaScript Development</h3>
+                <ul class="space-y-1 text-sm text-muted">
+                    <li>Node.js & Express</li>
+                    <li>React & TypeScript</li>
+                    <li>API Development</li>
+                    <li>Performance Optimization</li>
+                    <li>Browser Extensions</li>
+                </ul>
+            </div>
+            
+            <div class="p-6 border border-dashed border-muted rounded-lg">
+                <h3 class="text-lg font-serif mb-3 text-accent">🛠️ Tools & Infrastructure</h3>
+                <ul class="space-y-1 text-sm text-muted">
+                    <li>Docker & Kubernetes</li>
+                    <li>PostgreSQL & MongoDB</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Cloud Platforms</li>
+                    <li>Monitoring & Analytics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="p-8 border border-dashed border-muted rounded-lg bg-muted/5 text-center">
+        <h2 class="text-xl font-serif mb-4">Interested in Working Together?</h2>
+        <p class="text-muted mb-6 max-w-2xl mx-auto">
+            I'm always excited to collaborate on interesting projects, especially those involving cybersecurity, developer tools, or innovative web applications.
+        </p>
+        <a 
+            href="/contact"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors duration-300 font-medium"
+        >
+            Get in Touch
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+        </a>
+    </section>
+</BaseLayout>
+
+<style>
+    .line-clamp-3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+</style>

@@ -1,8 +1,18 @@
 ---
 import siteConfig from '../data/site-config';
+import LinkedIn from '../icons/LinkedIn.astro';
+import Instagram from '../icons/Instagram.astro';
+import TwitterX from '../icons/TwitterX.astro';
 
 const socialLinks = siteConfig.socialLinks || [];
 const navLinks = siteConfig.footerNavLinks || [];
+
+const getSocialIcon = (text: string) => {
+    if (text.toLowerCase().includes('linkedin')) return LinkedIn;
+    if (text.toLowerCase().includes('instagram')) return Instagram;
+    if (text.toLowerCase().includes('twitter') || text.toLowerCase().includes('x (')) return TwitterX;
+    return null;
+};
 ---
 
 <footer class="w-full max-w-3xl mx-auto pt-12 pb-10 sm:pt-24 sm:pb-14">
@@ -26,16 +36,20 @@ const navLinks = siteConfig.footerNavLinks || [];
         {
             socialLinks.length > 0 && (
                 <div class="flex flex-wrap gap-x-4 gap-y-1">
-                    {socialLinks.map((link) => (
-                        <a
-                            class="inline-flex items-center justify-center text-sm hover:underline hover:underline-offset-2"
-                            href={link.href}
-                            target="_blank"
-                            rel="noopener noreferer"
-                        >
-                            {link.text}
-                        </a>
-                    ))}
+                    {socialLinks.map((link) => {
+                        const IconComponent = getSocialIcon(link.text);
+                        return (
+                            <a
+                                class="inline-flex items-center justify-center gap-2 text-sm hover:underline hover:underline-offset-2"
+                                href={link.href}
+                                target="_blank"
+                                rel="noopener noreferer"
+                            >
+                                {IconComponent && <IconComponent class="w-4 h-4" />}
+                                {link.text}
+                            </a>
+                        );
+                    })}
                 </div>
             )
         }

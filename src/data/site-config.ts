@@ -101,7 +101,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hey, I\'m Ritik Sahni',
+        title: '',
         text: 'JavaScript Developer, Cyber Security Enthusiast, Writer, and Boxer.<br/><br/>I build things with code, explore security vulnerabilities, and think out loud about tech and life.',
         actions: [
             {

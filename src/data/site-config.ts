@@ -52,10 +52,6 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Products',
-            href: '/products'
-        },
-        {
             text: 'Projects',
             href: '/projects'
         },
@@ -106,7 +102,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hey, I\'m Ritik Sahni',
-        text: 'I\'m a JavaScript Developer, Cyber Security Enthusiast, Writer, and Boxer based somewhere on the internet.<br/><br/>I build things with code, explore security vulnerabilities, write about tech and life, and throw punches in the ring. This website is my digital space where I think out loud about technology, creativity, and everything in between.<br/><br/>When I\'m not coding or writing, you\'ll find me studying cybersecurity, training in the boxing gym, or diving deep into the latest tech trends.',
+        text: 'JavaScript Developer, Cyber Security Enthusiast, Writer, and Boxer.<br/><br/>I build things with code, explore security vulnerabilities, and think out loud about tech and life.',
         actions: [
             {
                 text: 'Get in Touch',

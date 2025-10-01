@@ -178,3 +178,10 @@ Append your ideas below, messy-first. Date entries if helpful.
 — End v1 —
 
 
+
+
+Design:
+
+
+Blue: #2C1AEC
+White: #FDF9F3

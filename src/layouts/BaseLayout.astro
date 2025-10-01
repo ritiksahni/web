@@ -52,8 +52,10 @@ const { showHeader = true, wide = false, ...head } = Astro.props;
             // Lightbox
             document.addEventListener('click', (e) => {
                 const t = e.target as HTMLElement | null;
-                if (t && t.tagName === 'IMG' && t.closest('figure')) {
-                    const src = (t as HTMLImageElement).getAttribute('src');
+                // Enable lightbox for any content image inside main/prose
+                if (t && t.tagName === 'IMG' && t.closest('main') && t.closest('.prose')) {
+                    const imgEl = t as HTMLImageElement;
+                    const src = (imgEl.currentSrc || imgEl.src || '').toString();
                     const lb = document.getElementById('lightbox');
                     const img = document.getElementById('lightbox-img') as HTMLImageElement | null;
                     if (src && lb && img) {

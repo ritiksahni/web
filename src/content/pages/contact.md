@@ -5,8 +5,12 @@ seo:
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
-Feel free to drop me an email at [ritik@ritiksahni.com](mailto:ritik@ritiksahni.com), and I'll do my best to respond as soon as possible.
+**Socials**  
+  •  X: [@ritiksahni22](https://x.com/ritiksahni22)  
+  •  LinkedIn: [ritik-sahni](https://www.linkedin.com/in/ritik-sahni/)  
+  •  Instagram: [@ritiksahni22](https://www.instagram.com/ritiksahni22)  
+  •  GitHub: [ritiksahni](https://github.com/ritiksahni)  
+  •  Email: [ritik@ritiksahni.com](mailto:ritik@ritiksahni.com) 
 
-<!-- _Social Media:_ -->
 
-I'm not on social media platforms like Instagram, Twitter, Snapchat.
+Expect email responses within 48hrs.

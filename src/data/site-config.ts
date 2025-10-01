@@ -67,19 +67,16 @@ const siteConfig: SiteConfig = {
             text: 'Terms',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
-        {
-            text: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/ritik-sahni/'
-        }
+        { text: 'X', href: 'https://x.com/ritiksahni22' },
+        { text: 'LinkedIn', href: 'https://www.linkedin.com/in/ritik-sahni/' },
+        { text: 'Instagram', href: 'https://www.instagram.com/ritiksahni22' },
+        { text: 'GitHub', href: 'https://github.com/ritiksahni' },
+        { text: 'Email', href: 'mailto:ritik@ritiksahni.com' }
     ],
     hero: {
-        title: '', // Title is not needed.
+        title: 'Ritik Sahni', // Title is not needed.
         text: 'This website is my digital space.<br/> I think out loud about tech, life, and everything in between.',
         actions: [
             {

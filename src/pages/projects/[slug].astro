@@ -21,6 +21,13 @@ type Props = { project: CollectionEntry<'projects'>; prevProject: CollectionEntr
 
 const { project, prevProject, nextProject } = Astro.props;
 const { title, description, seo } = project.data;
+let heroImage: string | undefined = undefined;
+if (seo?.image?.src) {
+    const rel = seo.image.src.replace(/^\.\//, '');
+    const images = import.meta.glob('../../content/projects/**', { eager: true, as: 'url' }) as Record<string, string>;
+    const key = `../../content/projects/${rel}`;
+    heroImage = images[key];
+}
 const { Content } = await project.render();
 ---
 
@@ -30,6 +37,13 @@ const { Content } = await project.render();
             <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
         </header>
         <div class="max-w-none prose prose-dante sm:prose-lg">
+            {
+                heroImage && (
+                    <figure>
+                        <img src={heroImage} alt={seo?.image?.alt || ''} loading="lazy" decoding="async" />
+                    </figure>
+                )
+            }
             <Content />
         </div>
     </article>

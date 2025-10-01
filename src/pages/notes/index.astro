@@ -1,16 +1,39 @@
 ---
 import { getCollection } from 'astro:content';
+import { marked } from 'marked';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+const pages = await getCollection('pages');
+const notesPage = pages.find((p) => p.slug === 'notes');
+let raw = '';
+if (notesPage) {
+    raw = notesPage.body;
+}
 
-const notesRaw = await getCollection('notes');
-const notes = await Promise.all(
-    notesRaw
-        .sort((a, b) => +b.data.publishDate - +a.data.publishDate)
-        .map(async (entry) => {
-            const { Content } = await entry.render();
-            return { entry, Content };
-        })
-);
+function toHtml(md: string): string {
+    const out = marked.parse(md);
+    return typeof out === 'string' ? out : '';
+}
+
+type NoteItem = { date: Date; title: string; html: string };
+function parseNotes(markdown: string): NoteItem[] {
+    const sections = markdown.split(/\n##\s+/).filter(Boolean);
+    return sections.map((s) => {
+        const [head, ...rest] = s.split('\n');
+        const [dateStr, title] = (head || '').split('|').map((t) => (t || '').trim());
+        const body = rest.join('\n').trim();
+        return {
+            date: new Date(dateStr || ''),
+            title: title || '',
+            html: toHtml(body)
+        };
+    });
+}
+
+function formatDate(d: Date): string {
+    return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: '2-digit' });
+}
+
+const notesItems = parseNotes(raw);
 ---
 
 <BaseLayout title="Notes" description="A linear stream of short notes." showHeader={false} wide>
@@ -21,22 +44,44 @@ const notes = await Promise.all(
         </div>
     </section>
 
-    <ol class="relative border-s border-dashed border-accent pl-8 space-y-10">
-        {
-            notes.map(({ entry, Content }) => (
-                <li>
-                    <div class="flex items-start gap-3">
-                        <span class="mt-1 inline-block w-2.5 h-2.5 rounded-full bg-accent shrink-0" />
-                        <div class="min-w-0">
-                            <time class="block text-xs uppercase tracking-wide text-accent">
-                                {new Date(entry.data.publishDate).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: '2-digit' })}
-                            </time>
-                            <h3 class="mt-1 text-xl font-serif font-medium">{entry.data.title}</h3>
-                            <div class="mt-3 max-w-2xl prose prose-dante">{Content && <Content />}</div>
-                        </div>
-                    </div>
-                </li>
-            ))
+    <div class="relative border-s border-dashed border-accent pl-8">
+        <div class="timeline-content max-w-2xl prose prose-dante">
+            <ul>
+                {
+                    notesItems.map((note) => (
+                        <li>
+                            <time datetime={note.date.toISOString()}>{formatDate(note.date)}</time>
+                            <h3>{note.title}</h3>
+                            <div set:html={note.html} />
+                        </li>
+                    ))
+                }
+            </ul>
+        </div>
+    </div>
+
+    <style>
+        .timeline-content ul {
+            @apply space-y-8;
         }
-    </ol>
+        .timeline-content ul > li {
+            position: relative;
+        }
+        .timeline-content ul > li::before {
+            content: '';
+            position: absolute;
+            left: -2.1rem;
+            top: 0.35rem;
+            width: 0.6rem;
+            height: 0.6rem;
+            border-radius: 9999px;
+            background: rgb(var(--color-accent));
+        }
+        .timeline-content time {
+            @apply block text-xs uppercase tracking-wide text-accent;
+        }
+        .timeline-content h3 {
+            @apply mt-1 text-xl font-serif font-medium;
+        }
+    </style>
 </BaseLayout>

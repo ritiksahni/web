@@ -1,40 +1,43 @@
 ---
 import NavLink from './NavLink.astro';
-import ThemeToggle from './ThemeToggle.astro';
 import siteConfig from '../data/site-config';
 
 const navLinks = siteConfig.headerNavLinks || [];
 ---
 
-<nav class="min-h-10 pt-4 pb-12 relative sm:min-h-14 sm:pb-24 md:pt-8">
-    {
-        navLinks.length > 0 && (
-            <div class="w-full max-w-3xl mx-auto relative">
-                <button
-                    class="menu-toggle w-8 h-8 -ml-1 flex items-center justify-center relative z-30 md:hidden"
-                    aria-label="Open Menu"
-                    aria-expanded="false"
-                    aria-controls="menu-items"
+<nav class="pt-6 pb-10 relative">
+    <div class="w-full max-w-6xl mx-auto grid grid-cols-12 items-center">
+        <div class="col-span-3">
+            <a href="/" class="font-serif text-xl md:text-2xl text-accent underline-anim">Ritik Sahni</a>
+        </div>
+        <div class="col-span-6">
+            {
+                navLinks.length > 0 && (
+                    <ul id="menu-items" class="menu flex justify-center gap-6">
+                        {navLinks.map((link) => (
+                            <li>
+                                <NavLink class="font-serif text-accent underline-anim" href={link.href}>
+                                    {link.text}
+                                </NavLink>
+                            </li>
+                        ))}
+                    </ul>
+                )
+            }
+        </div>
+        <div class="col-span-3 flex justify-end">
+            <a
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full border border-accent text-accent hover:opacity-80"
+                href="/rss.xml"
+                aria-label="RSS"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"
+                    ><path
+                        d="M6.18 17.82a1.82 1.82 0 1 1 0-3.64 1.82 1.82 0 0 1 0 3.64zM3 6a15 15 0 0 1 15 15h-3A12 12 0 0 0 3 9V6zm0 6a9 9 0 0 1 9 9H9a6 6 0 0 0-6-6v-3z"
+                    ></path></svg
                 >
-                    <span class="menu-toggle-icon w-6 h-px relative bg-current" />
-                </button>
-                <ul id="menu-items" class="menu flex gap-6">
-                    {navLinks.map((link) => (
-                        <li class="py-1">
-                            <NavLink
-                                class="text-xl font-serif text-main hover:underline hover:underline-offset-2 hover:decoration-1 md:text-base"
-                                href={link.href}
-                            >
-                                {link.text}
-                            </NavLink>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        )
-    }
-    <div class="absolute right-0 top-4 z-10 md:top-8">
-        <ThemeToggle />
+            </a>
+        </div>
     </div>
 </nav>
 

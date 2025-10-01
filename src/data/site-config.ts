@@ -47,26 +47,12 @@ const siteConfig: SiteConfig = {
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
-        {
-            text: 'Home',
-            href: '/'
-        },
-        // {
-        //     text: 'Projects',
-        //     href: '/projects'
-        // },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        // {
-        //     text: 'Notes',
-        //     href: '/notes'
-        // },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        { text: 'Writings', href: '/blog' },
+        { text: 'Notes', href: '/notes' },
+        { text: 'Projects', href: '/projects' },
+        { text: 'Uses', href: '/uses' },
+        { text: 'About', href: '/about' },
+        { text: 'Now', href: '/now' }
     ],
     footerNavLinks: [
         {

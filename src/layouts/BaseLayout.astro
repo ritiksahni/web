@@ -4,33 +4,67 @@ import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro'
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
-import PostHog from '../components/posthog.astro'
+import PostHog from '../components/posthog.astro';
 
-export type Props = HeadProps & { showHeader?: boolean };
+export type Props = HeadProps & { showHeader?: boolean; wide?: boolean };
 
-const { showHeader = true, ...head } = Astro.props;
+const { showHeader = true, wide = false, ...head } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en" class="antialiased break-words">
     <head>
         <BaseHead {...head} />
-        <script>
-            if (localStorage.theme === 'dark') {
-                document.documentElement.classList.add('dark');
-            }
-        </script>
         <ViewTransitions />
         <PostHog />
     </head>
     <body class="bg-main text-main">
         <div class="flex flex-col min-h-screen px-4 md:px-8">
+            <div id="topbar" class="fixed top-0 left-0 right-0 h-0.5 bg-accent origin-left scale-x-0 opacity-0 pointer-events-none"></div>
             <Nav />
             {showHeader && <Header />}
-            <main class="grow w-full max-w-3xl mx-auto">
+            <main class:list={['grow w-full mx-auto', wide ? 'max-w-6xl' : 'max-w-3xl']}>
                 <slot />
             </main>
             <Footer />
         </div>
+        <div id="lightbox" class="lightbox-backdrop" aria-hidden="true">
+            <img id="lightbox-img" class="lightbox-image" alt="" />
+        </div>
+        <script>
+            const topbar = document.getElementById('topbar');
+            document.addEventListener('astro:before-swap', () => {
+                if (topbar) {
+                    topbar.style.opacity = '1';
+                    topbar.style.transform = 'scaleX(0)';
+                    requestAnimationFrame(() => {
+                        topbar.style.transition = 'transform 500ms ease-out, opacity 300ms ease-out';
+                        topbar.style.transform = 'scaleX(1)';
+                    });
+                }
+            });
+            document.addEventListener('astro:after-swap', () => {
+                if (topbar) {
+                    topbar.style.opacity = '0';
+                    topbar.style.transform = 'scaleX(0)';
+                }
+            });
+            // Lightbox
+            document.addEventListener('click', (e) => {
+                const t = e.target as HTMLElement | null;
+                if (t && t.tagName === 'IMG' && t.closest('figure')) {
+                    const src = (t as HTMLImageElement).getAttribute('src');
+                    const lb = document.getElementById('lightbox');
+                    const img = document.getElementById('lightbox-img') as HTMLImageElement | null;
+                    if (src && lb && img) {
+                        img.setAttribute('src', src);
+                        lb.classList.add('is-open');
+                    }
+                }
+            });
+            document.getElementById('lightbox')?.addEventListener('click', () => {
+                document.getElementById('lightbox')?.classList.remove('is-open');
+            });
+        </script>
     </body>
 </html>

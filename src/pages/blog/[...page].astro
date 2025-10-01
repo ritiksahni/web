@@ -19,14 +19,17 @@ const { page } = Astro.props;
 const blog = page.data;
 ---
 
-<BaseLayout
-    title="Blog"
-    description="Embark on a journey of personal insights and experiences through my blog"
-    image={{ src: '/dante-preview.jpg', alt: 'The preview of the site' }}
-    showHeader={false}
->
-    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Blog Archive</h1>
-    {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
+<BaseLayout title="Writing" description="Long-form ideas on engineering and systems." showHeader={false} wide>
+    <section class="full-bleed blue-hero py-10 sm:py-14 mb-12 sm:mb-16">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-8 relative">
+            <div class="grid" aria-hidden="true"></div>
+            <h1 class="text-5xl sm:text-6xl leading-tight font-serif font-medium tracking-tight">Writing</h1>
+            <p class="mt-2 text-lg sm:text-xl max-w-3xl">Engineering utility, backend systems, and systems thinking beyond code.</p>
+        </div>
+    </section>
+    <div class="border-t border-accent/40 pt-8">
+        {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
+    </div>
     <Pagination page={page} class="my-16 sm:my-24" />
     <Subscribe class="my-16 sm:my-24" />
 </BaseLayout>

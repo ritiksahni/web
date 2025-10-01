@@ -19,11 +19,23 @@ const { title, seo } = page.data;
 const { Content } = await page.render();
 ---
 
-<BaseLayout title={seo?.title ?? title} description={seo?.description} image={seo?.image} showHeader={false}>
+<BaseLayout title={seo?.title ?? title} description={seo?.description} image={seo?.image} showHeader={false} wide>
+    <section class="full-bleed blue-hero py-8 sm:py-12 mb-12 sm:mb-16">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-8">
+            <h1 class="text-5xl sm:text-6xl leading-tight font-serif font-medium tracking-tight">{title}</h1>
+            {seo?.description && <p class="mt-2 text-lg sm:text-xl max-w-3xl">{seo.description}</p>}
+            {
+                page.slug === 'now' && (
+                    <p class="mt-2 text-sm opacity-90">
+                        <a class="underline-anim" href="https://sive.rs/now" target="_blank" rel="noopener">
+                            What is a Now page?
+                        </a>
+                    </p>
+                )
+            }
+        </div>
+    </section>
     <article class="mb-16 sm:mb-24">
-        <header class="mb-8">
-            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
-        </header>
         <div class="max-w-none prose prose-dante sm:prose-lg">
             <Content />
         </div>

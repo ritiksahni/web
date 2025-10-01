@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const pages = await getCollection('pages');
+const notesPage = pages.find((p) => p.slug === 'notes');
+let raw = '';
+if (notesPage) {
+    raw = notesPage.body;
+}
+
+function toHtml(md: string): string {
+    const out = marked.parse(md);
+    return typeof out === 'string' ? out : '';
+}
+
+type NoteItem = { date: Date; title: string; html: string };
+function parseNotes(markdown: string): NoteItem[] {
+    const sections = markdown.split(/\n##\s+/).filter(Boolean);
+    return sections.map((s) => {
+        const [head, ...rest] = s.split('\n');
+        const [dateStr, title] = (head || '').split('|').map((t) => (t || '').trim());
+        const body = rest.join('\n').trim();
+        return {
+            date: new Date(dateStr || ''),
+            title: title || '',
+            html: toHtml(body)
+        };
+    });
+}
+
+function formatDate(d: Date): string {
+    return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: '2-digit' });
+}
+
+const notesItems = parseNotes(raw);
+---
+
+<BaseLayout title="Notes" description="A linear stream of short notes." showHeader={false} wide>
+    <section class="full-bleed blue-hero py-8 sm:py-12 mb-12 sm:mb-16">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-8">
+            <h1 class="text-5xl sm:text-6xl leading-tight font-serif font-medium tracking-tight">Notes</h1>
+            <p class="mt-2 text-lg sm:text-xl max-w-3xl">Short, unfiltered thoughts. Fast-moving. Sometimes with images from my iPhone.</p>
+        </div>
+    </section>
+
+    <div class="relative border-s border-dashed border-accent pl-8">
+        <div class="timeline-content max-w-2xl prose prose-dante">
+            <ul>
+                {
+                    notesItems.map((note) => (
+                        <li>
+                            <time datetime={note.date.toISOString()}>{formatDate(note.date)}</time>
+                            <h3>{note.title}</h3>
+                            <div set:html={note.html} />
+                        </li>
+                    ))
+                }
+            </ul>
+        </div>
+    </div>
+
+    <style>
+        .timeline-content ul {
+            @apply space-y-8;
+        }
+        .timeline-content ul > li {
+            position: relative;
+        }
+        .timeline-content ul > li::before {
+            content: '';
+            position: absolute;
+            left: -2.1rem;
+            top: 0.35rem;
+            width: 0.6rem;
+            height: 0.6rem;
+            border-radius: 9999px;
+            background: rgb(var(--color-accent));
+        }
+        .timeline-content time {
+            @apply block text-xs uppercase tracking-wide text-accent;
+        }
+        .timeline-content h3 {
+            @apply mt-1 text-xl font-serif font-medium;
+        }
+    </style>
+</BaseLayout>

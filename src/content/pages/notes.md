@@ -11,4 +11,4 @@ Re-vamping the site. Blue is good.
 
 ## 2025-10-03 | Ship of Theseus.
 
-I just watched the Ship of Theseus ([https://www.youtube.com/watch?v=zuQYlgL73o0](https://www.youtube.com/watch?v=zuQYlgL73o0&t=5547s)).
+I just watched the Ship of Theseus ([https://www.youtube.com/watch?v=zuQYlgL73o0](https://www.youtube.com/watch?v=zuQYlgL73o0)).

@@ -39,12 +39,12 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Ritik Sahni',
-    subtitle: 'Software Development, Cyber Security, Writing, Boxing.',
+    subtitle: 'Software Engineering, Cyber Security, Writing, Boxing.',
     description:
-        'Ritik Sahni is a JavaScript Developer, Cyber Security Enthusiast, Writer, and Boxer. He writes about JavaScript, Cyber Security, and other topics.',
+        'Ritik Sahni is a JavaScript Developer, Cyber Security Enthusiast, Writer. He writes about software engineering, technology, and culture.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/og-ritik.png',
+        alt: 'Ritik Sahni'
     },
     headerNavLinks: [
         { text: 'Writings', href: '/blog' },

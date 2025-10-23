@@ -19,6 +19,7 @@ Jobs will evolve, and we'll figure it out.
 The following is what you hear when one doesn't understand what work means:
 
 AI will write essays → essayists are dead.
+
 AI can write code → software engineering is dead.
 
 When you mistake the tool for the craft, every new tool feels like an existential threat.

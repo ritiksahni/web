@@ -7,10 +7,10 @@ seo:
 
 ## Gear
 - Laptop: MacBook Pro, Apple Silicon (M3 Pro)
-- Phone: iPhone 17, 256GB
+- Phone: Apple iPhone 17
+- Audio: Apple AirPods Pro 3
 - Notebook: [YesWeHack](https://yeswehack.com)'s notebook I received years ago.
-- Pen: Classmate Octane
-- Audio: Mivi Duopods
+- Pen: Classmate Octane, Parker Classic.
 
 ## Apps
 - Editor: [Cursor](https://cursor.com) / [Sublime Text](https://www.sublimetext.com/)

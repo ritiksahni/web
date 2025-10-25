@@ -1,2 +1,0 @@
-- [ ] Add a "like" / "heart" feature.
-- [ ] Come up with ideas for homepage.

@@ -24,6 +24,7 @@ const { Content } = await page.render();
         <div class="w-full max-w-6xl mx-auto px-4 md:px-8">
             <h1 class="text-5xl sm:text-6xl leading-tight font-serif font-medium tracking-tight">{title}</h1>
             {seo?.description && <p class="mt-2 text-lg sm:text-xl max-w-3xl">{seo.description}</p>}
+            {seo?.updated && <p class="mt-2 text-lg sm:text-xl max-w-3xl">Last updated: {seo.updated}</p>}
             {
                 page.slug === 'now' && (
                     <p class="mt-2 text-sm opacity-90">

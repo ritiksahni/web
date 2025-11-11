@@ -3,19 +3,16 @@ title: Now
 seo:
   title: What I’m doing now
   description: A brief snapshot of what I’m focused on right now.
+  updated: Nov 11, 2025
 ---
 
-### Migrating to iOS.
+### Match Day
 
-Switched from an Android phone by Samsung to an iPhone 17. Working on iOS app ideas that I will be building the next couple of weeks.
+Boxing match on December 6, 2025.
 
-Exploring B2C apps around meditation, productivity, focus.
+Life revolves around training for the upcoming fight, nowadays.
 
-### Training
-
-I've lost a few kgs of weight in the last one month, working on better endurance so I can fight a boxing match soon.
-
-Watching sparring footage in the evening as a pre-workout ritual to gear up.
+Reviewing matches and sparring footage.
 
 Boxers to look out for:
 - Roy Jones Jr.

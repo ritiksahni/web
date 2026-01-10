@@ -21,8 +21,10 @@ function parseNotes(markdown: string): NoteItem[] {
         const [head, ...rest] = s.split('\n');
         const [dateStr, title] = (head || '').split('|').map((t) => (t || '').trim());
         const body = rest.join('\n').trim();
+        const parsedDate = new Date(dateStr || '');
+        const isValidDate = !isNaN(parsedDate.getTime());
         return {
-            date: new Date(dateStr || ''),
+            date: isValidDate ? parsedDate : new Date(0),
             title: title || '',
             html: toHtml(body)
         };

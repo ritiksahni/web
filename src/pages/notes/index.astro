@@ -33,7 +33,7 @@ function formatDate(d: Date): string {
     return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: '2-digit' });
 }
 
-const notesItems = parseNotes(raw);
+const notesItems = parseNotes(raw).sort((a, b) => b.date.getTime() - a.date.getTime());
 ---
 
 <BaseLayout title="Notes" description="A linear stream of short notes." showHeader={false} wide>

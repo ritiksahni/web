@@ -39,9 +39,9 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Ritik Sahni',
-    subtitle: 'Software Engineering, Cyber Security, Writing, Boxing.',
+    subtitle: 'Software Engineer. Building tools, writing essays.',
     description:
-        'Ritik Sahni is a JavaScript Developer, Cyber Security Enthusiast, Writer. He writes about software engineering, technology, and culture.',
+        'Ritik Sahni is a software engineer and writer. He builds developer tools and writes about engineering, technology, and culture.',
     image: {
         src: '/og-ritik.png',
         alt: 'Ritik Sahni'
@@ -50,6 +50,7 @@ const siteConfig: SiteConfig = {
         { text: 'Writings', href: '/blog' },
         { text: 'Notes', href: '/notes' },
         { text: 'Projects', href: '/projects' },
+        { text: 'Bookshelf', href: '/bookshelf' },
         { text: 'Uses', href: '/uses' },
         { text: 'About', href: '/about' },
         { text: 'Now', href: '/now' }
@@ -77,7 +78,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Ritik Sahni', // Title is not needed.
-        text: 'This website is my digital space.<br/> I think out loud about tech, life, and everything in between.',
+        text: 'I build things and write about them.<br/>Systems, tools, and the occasional essay on what it means to make stuff.',
         actions: [
             {
                 text: 'Get in Touch',
@@ -91,7 +92,7 @@ const siteConfig: SiteConfig = {
         formUrl: '#' // I am using Netlify Forms so no need for a form action.
     },
     postsPerPage: 8,
-    projectsPerPage: 8
+    projectsPerPage: 12
 };
 
 export default siteConfig;

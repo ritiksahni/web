@@ -1,29 +1,15 @@
 ---
 title: Now
 seo:
-  title: What I’m doing now
-  description: A brief snapshot of what I’m focused on right now.
-  updated: Nov 11, 2025
+  title: What I'm doing now
+  description: A brief snapshot of what I'm focused on right now.
+  updated: Mar 07, 2026
 ---
 
-### Match Day
+### Building
 
-Boxing match on December 6, 2025.
+[trystandout.com](https://trystandout.com). On the way to $1k MRR in 5 weeks. It's the kind of deadline that makes everything else sharper. Every day is either shipping a feature or talking to a user. No middle ground.
 
-Life revolves around training for the upcoming fight, nowadays.
+### Training
 
-Reviewing matches and sparring footage.
-
-Boxers to look out for:
-- Roy Jones Jr.
-- Lomachenko
-- Floyd Mayweather Jr.
-- Gervonta Davis
-
-### AppSumo
-
-Gearing up for an AppSumo launch for [CopyMagic](https://copymagic.app). It's still under review, expecting launch in a few weeks. The review is still pending.
-
-### Breathing
-
-I've been conscious of my breathing patterns and I realize that it's working against me in my athletic pursuits. Exploring Buteyko breathing.
+Working with a personal trainer. Tracking strength numbers and diet progress week over week.

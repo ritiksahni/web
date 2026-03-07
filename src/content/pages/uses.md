@@ -6,11 +6,12 @@ seo:
 ---
 
 ## Gear
-- Laptop: MacBook Pro, Apple Silicon (M3 Pro)
+- Laptop: MacBook Air M4
 - Phone: Apple iPhone 17
 - Audio: Apple AirPods Pro 3
 - Notebook: [YesWeHack](https://yeswehack.com)'s notebook I received years ago.
-- Pen: Classmate Octane, Parker Classic.
+- Pen: Classmate Octane, Parker Classic, Uniball Eye.
+- Running Shoes: Asics Nimbus 27
 
 ## Apps
 - Editor: [Cursor](https://cursor.com) / [Sublime Text](https://www.sublimetext.com/)

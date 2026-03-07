@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const csvPath = join(process.cwd(), 'src/data/books.csv');
+const raw = readFileSync(csvPath, 'utf-8');
+
+type Book = {
+    title: string;
+    authors: string;
+    shelves: string;
+    slug: string;
+};
+
+const rows = raw.trim().split('\n').slice(1);
+const books: Book[] = rows.map((row) => {
+    const cols: string[] = [];
+    let current = '';
+    let inQuotes = false;
+    for (const char of row) {
+        if (char === '"') {
+            inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+            cols.push(current);
+            current = '';
+        } else {
+            current += char;
+        }
+    }
+    cols.push(current);
+    return {
+        title: cols[1] || '',
+        authors: cols[3] || '',
+        shelves: cols[8] || '',
+        slug: cols[6] || ''
+    };
+});
+
+const statusOf = (b: Book) => {
+    const s = b.shelves;
+    if (s.includes('IS_READING')) return 'reading';
+    if (s.includes('FINISHED')) return 'finished';
+    if (s.includes('DROPPED')) return 'dropped';
+    return 'want';
+};
+
+const reading = books.filter((b) => statusOf(b) === 'reading');
+const finished = books.filter((b) => statusOf(b) === 'finished');
+const wantToRead = books.filter((b) => statusOf(b) === 'want');
+const dropped = books.filter((b) => statusOf(b) === 'dropped');
+
+const literalUrl = (slug: string) => `https://literal.club/ritiksahni/book/${slug}`;
+---
+
+<BaseLayout title="Bookshelf" description="Books I've read, I'm reading, and want to read." showHeader={false} wide>
+    <section class="full-bleed blue-hero py-8 sm:py-12 mb-12 sm:mb-16">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-8">
+            <h1 class="text-5xl sm:text-6xl leading-tight font-serif font-medium tracking-tight">Bookshelf</h1>
+            <p class="mt-2 text-lg sm:text-xl max-w-3xl">Books I've read, I'm reading, and want to read. Tracked on <a class="underline underline-offset-2" href="https://literal.club/ritiksahni" target="_blank" rel="noopener">Literal</a>.</p>
+        </div>
+    </section>
+
+    <article class="mb-16 sm:mb-24">
+        <div class="max-w-none prose prose-dante sm:prose-lg">
+            {reading.length > 0 && (
+                <section class="mb-12">
+                    <h2 class="text-2xl font-serif font-medium mb-6">Currently Reading</h2>
+                    <ul class="list-none pl-0 space-y-3">
+                        {reading.map((b) => (
+                            <li class="pl-0">
+                                <a href={literalUrl(b.slug)} target="_blank" rel="noopener" class="no-underline hover:underline">
+                                    <strong>{b.title}</strong>
+                                </a>
+                                <span class="opacity-60"> by {b.authors}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+            )}
+
+            <section class="mb-12">
+                <h2 class="text-2xl font-serif font-medium mb-6">Finished ({finished.length})</h2>
+                <ul class="list-none pl-0 space-y-3">
+                    {finished.map((b) => (
+                        <li class="pl-0">
+                            <a href={literalUrl(b.slug)} target="_blank" rel="noopener" class="no-underline hover:underline">
+                                <strong>{b.title}</strong>
+                            </a>
+                            <span class="opacity-60"> by {b.authors}</span>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="text-2xl font-serif font-medium mb-6">Want to Read ({wantToRead.length})</h2>
+                <ul class="list-none pl-0 space-y-3">
+                    {wantToRead.map((b) => (
+                        <li class="pl-0">
+                            <a href={literalUrl(b.slug)} target="_blank" rel="noopener" class="no-underline hover:underline">
+                                <strong>{b.title}</strong>
+                            </a>
+                            <span class="opacity-60"> by {b.authors}</span>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+
+            {dropped.length > 0 && (
+                <section class="mb-12">
+                    <h2 class="text-2xl font-serif font-medium mb-6">Dropped ({dropped.length})</h2>
+                    <ul class="list-none pl-0 space-y-3">
+                        {dropped.map((b) => (
+                            <li class="pl-0">
+                                <a href={literalUrl(b.slug)} target="_blank" rel="noopener" class="no-underline hover:underline">
+                                    <strong>{b.title}</strong>
+                                </a>
+                                <span class="opacity-60"> by {b.authors}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+            )}
+        </div>
+    </article>
+</BaseLayout>

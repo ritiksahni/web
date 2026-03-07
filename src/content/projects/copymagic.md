@@ -2,6 +2,14 @@
 title: 'CopyMagic: The Smartest Clipboard Manager for MacOS.'
 description: CopyMagic is a clipboard manager.
 publishDate: 'Jan 02 2024'
+tech:
+  - Swift
+  - macOS
+tags:
+  - productivity
+  - ai
+github: ritiksahni/copymagic
+link: https://copymagic.app
 seo:
   image:
     src: './project-img/copymagic-slide.png'

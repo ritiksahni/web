@@ -77,3 +77,7 @@ That’s it. A few tiny HTTP requests, and suddenly a multi‑gigabyte archive b
 Source code for browser-demo: https://github.com/ritiksahni/zip-over-range
 
 > A ZIP file read backwards is like an open book.
+
+---
+
+I built a browser tool around this idea. Check out [zip-over-range](/projects/zip-over-range/) if you want to try it yourself.

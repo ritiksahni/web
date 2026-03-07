@@ -38,6 +38,10 @@ const projects = defineCollection({
         description: z.string().optional(),
         publishDate: z.coerce.date(),
         isFeatured: z.boolean().default(false),
+        tags: z.array(z.string()).default([]),
+        tech: z.array(z.string()).default([]),
+        github: z.string().optional(),
+        link: z.string().optional(),
         seo: seoSchema.optional()
     })
 });

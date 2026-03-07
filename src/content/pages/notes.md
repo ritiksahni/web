@@ -22,3 +22,7 @@ Exploring the Buteyko breathing method.
 → Resulting in better athletic endurance, and recovery.
 
 I've been conscious of my breathing patterns for the last few months, and I'd like to regulate it better.
+
+## 2026-03-07 | Currently Reading
+
+Reading [Who The F*ck Are You](https://www.goodreads.com/book/show/242873033-who-the-f-k-are-you) by Harinder Singh Pelia.

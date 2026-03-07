@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 type Props = { project: CollectionEntry<'projects'>; prevProject: CollectionEntry<'projects'>; nextProject: CollectionEntry<'projects'> };
 
 const { project, prevProject, nextProject } = Astro.props;
-const { title, description, seo } = project.data;
+const { title, description, seo, tech, github } = project.data;
 let heroImage: string | undefined = undefined;
 if (seo?.image?.src) {
     const rel = seo.image.src.replace(/^\.\//, '');
@@ -35,6 +35,18 @@ const { Content } = await project.render();
     <article class="mb-16 sm:mb-24">
         <header class="mb-8">
             <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
+            {(tech.length > 0 || github) && (
+                <div class="mt-4 flex flex-wrap items-center gap-3">
+                    {tech.map((t) => (
+                        <span class="text-sm px-2.5 py-0.5 rounded-full border border-current/20 opacity-70">{t}</span>
+                    ))}
+                    {github && (
+                        <a href={`https://github.com/${github}`} class="text-sm opacity-70 hover:opacity-100 underline underline-offset-2" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                    )}
+                </div>
+            )}
         </header>
         <div class="max-w-none prose prose-dante sm:prose-lg">
             {

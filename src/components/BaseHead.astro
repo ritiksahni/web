@@ -10,7 +10,7 @@ export type Props = {
 };
 
 const origin = Astro.site?.origin || new URL(Astro.request.url).origin;
-const defaultOg = { src: new URL('/api/og.svg', origin).toString(), alt: 'Ritik Sahni' };
+const defaultOg = { src: new URL('/og/default.png', origin).toString(), alt: 'Ritik Sahni' };
 const { description = '', image = defaultOg, pageType = 'website' } = Astro.props;
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
 const resolvedImage = image?.src

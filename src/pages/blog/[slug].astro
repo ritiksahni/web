@@ -26,7 +26,7 @@ type Props = { post: CollectionEntry<'blog'>; prevPost: CollectionEntry<'blog'>;
 const { href } = Astro.url;
 const { post, prevPost, nextPost } = Astro.props;
 const { title, publishDate, updatedDate, excerpt, tags = [], seo } = post.data;
-const og = `/api/og.svg?title=${encodeURIComponent(title)}`;
+const og = `/og/blog/${post.slug}.png`;
 const { Content } = await post.render();
 ---
 

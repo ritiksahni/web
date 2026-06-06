@@ -1,4 +1,5 @@
 import { Resvg } from '@resvg/resvg-js';
+import { join } from 'node:path';
 
 const WIDTH = 1200;
 const HEIGHT = 630;
@@ -10,45 +11,12 @@ const FG = '#FDF9F3';
 const SITE_NAME = 'Ritik Sahni';
 const DEFAULT_TAGLINE = 'Backend systems, tech & culture.';
 
-let instrumentSerifWoff2Base64: string | null = null;
-
-function arrayBufferToBase64(buf: ArrayBuffer): string {
-    let binary = '';
-    const bytes = new Uint8Array(buf);
-    for (let i = 0; i < bytes.byteLength; i++) binary += String.fromCharCode(bytes[i]);
-    try {
-        return btoa(binary);
-    } catch {
-        return Buffer.from(bytes).toString('base64');
-    }
-}
-
-async function fetchFontBase64(
-    googleCssUrl: string,
-    opts: { weight: number; style: 'normal' | 'italic' }
-): Promise<string | null> {
-    const cssRes = await fetch(googleCssUrl);
-    const css = await cssRes.text();
-    const blockRegex = new RegExp(
-        `@font-face[^}]*font-style: ${opts.style}[^}]*font-weight: ${opts.weight}[^}]*src: [^;]*url\\(([^)]+)\\)[^}]*}`,
-        'm'
-    );
-    const match = css.match(blockRegex);
-    const url = match?.[1];
-    if (!url) return null;
-    const fontRes = await fetch(url);
-    const buf = await fontRes.arrayBuffer();
-    return arrayBufferToBase64(buf);
-}
-
-async function ensureFonts(): Promise<void> {
-    if (!instrumentSerifWoff2Base64) {
-        instrumentSerifWoff2Base64 = await fetchFontBase64(
-            'https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap',
-            { weight: 400, style: 'normal' }
-        );
-    }
-}
+const FONT_FAMILY = 'Instrument Serif';
+/**
+ * Bundled locally so OG generation never depends on the network at build time.
+ * Resolved from the project root, which is the cwd during `astro build`.
+ */
+const FONT_PATH = join(process.cwd(), 'src/lib/fonts/InstrumentSerif-Regular.ttf');
 
 export function wrapTitleToLines(title: string, maxLenPerLine: number): string[] {
     const words = title.split(/\s+/);
@@ -99,9 +67,7 @@ function headlineFontSize(lines: string[]): number {
  * Same typography as `/og/default.png` / `og-ritik.png`: Instrument Serif only,
  * two-line centered lockup. Default = name + tagline; with `headline` = title + site name.
  */
-export async function buildOgSvg(headline: string | undefined): Promise<string> {
-    await ensureFonts();
-
+export function buildOgSvg(headline: string | undefined): string {
     const raw = (headline ?? '').trim();
     const normalized = raw.toLowerCase();
     const safeTitle =
@@ -135,20 +101,8 @@ export async function buildOgSvg(headline: string | undefined): Promise<string> 
 
     const aria = escapeXml(isDefaultLayout ? `${SITE_NAME} — ${DEFAULT_TAGLINE}` : `${safeTitle} — ${SITE_NAME}`);
 
-    const styles = `
-    <style>
-      @font-face {
-        font-family: 'Instrument Serif';
-        font-style: normal;
-        font-weight: 400;
-        src: url(data:font/woff2;base64,${instrumentSerifWoff2Base64 || ''}) format('woff2');
-      }
-    </style>
-  `;
-
     return `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${aria}">
-  ${styles}
   <rect width="100%" height="100%" fill="${BG}"/>
   <g>
     ${primaryTextEls}
@@ -162,6 +116,12 @@ export function renderOgPng(svg: string): Uint8Array {
         fitTo: {
             mode: 'width',
             value: WIDTH
+        },
+        font: {
+            // Load the bundled serif directly — no system fonts, no network.
+            fontFiles: [FONT_PATH],
+            loadSystemFonts: false,
+            defaultFontFamily: FONT_FAMILY
         }
     });
     return new Uint8Array(resvg.render().asPng());

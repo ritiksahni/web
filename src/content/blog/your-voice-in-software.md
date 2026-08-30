@@ -1,7 +1,7 @@
 ---
 title: 'Your Voice in Software'
 publishDate: 'Aug 30 2026'
-excerpt: 'Most software is judged on whether it works. The software that stays with us carries the presence of people who cared how working should feel — taste becomes style, style becomes voice.'
+excerpt: 'On taste, personal expression, and why the best software feels like someone cared.'
 tags:
   - software
   - aesthetics

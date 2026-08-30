@@ -5,6 +5,7 @@ excerpt: 'Most software is judged on whether it works. The software that stays w
 tags:
   - software
   - aesthetics
+  - tech
 ---
 
 You’re most likely reading this essay through software. I don’t think anybody is printing it on A4-sized sheets to read. Although that would be a beautiful gesture, and it would make me grateful.

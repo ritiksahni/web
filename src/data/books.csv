@@ -1,207 +1,486 @@
-id,title,subtitle,authors,isbn10,isbn13,slug,language,shelves
-"cke1nxn0n0678fi0ylxva1e9n","Endure","Mind, Body, and the Curiously Elastic Limits of Human Performance","Alex Hutchinson","0062499971","9780062499974","alex-hutchinson-endure-48uqk","en","WANTS_TO_READ"
-"ckeefclpa0410wf0y8bpfg0o3","1984","","George Orwell","0547249640","9780547249643","george-orwell-1984-4w1fe","en","WANTS_TO_READ"
-"ckend9dzt2824jm0yibqn88an","The Subtle Art of Not Giving a F*ck","A Counterintuitive Approach to Living a Good Life","Mark Manson","006245773X","9780062457738","mark-manson-the-subtle-art-of-not-giving-a-fck-c3rqp","en","WANTS_TO_READ"
-"ckenday573573jm0y78wtjlcz","Outliers","The Story of Success","Malcolm Gladwell","0141036257","9780141036250","malcolm-gladwell-outliers-4mfao","en","WANTS_TO_READ"
-"ckendbllg3880jm0ytmaott5g","Think and Grow Rich","","Napoleon Hill","1605069302","9781605069302","napoleon-hill-think-and-grow-rich-zw69b","en","FINISHED"
-"ckenddnqf4789jm0yrpf9u0bd","The Design of Everyday Things","","Donald A. Norman","0262525674","9780262525671","donald-a-norman-the-design-of-everyday-things-0c7fn","en","WANTS_TO_READ"
-"cketpjwmm16051jm0y6zdk5ouo","How to Win Friends and Influence People","","General Press, Dale Carnegie","8180320219","9788180320217","dale-carnegie-general-press-how-to-win-friends-and-influence-people-ogkr9","en","FINISHED"
-"cketqjupl21366jm0ycwopwxq6","Sapiens","A Brief History of Humankind","Yuval Noah Harari","0099590085","9780099590088","yuval-noah-harari-sapiens-ohhok","en","WANTS_TO_READ"
-"cketr5oad29084jm0yswcmwbgf","Principles","","Ray Dalio","1982112387","9781982112387","ray-dalio-principles-hwb8a","en","WANTS_TO_READ"
-"cketre3ej30699jm0ydhd11wrq","Atomic Habits","Tiny Changes, Remarkable Results : an Easy & Proven Way to Build Good Habits & Break Bad Ones","James Clear","0735211299","9780735211292","james-clear-atomic-habits-q5py4","en","FINISHED"
-"ckfsaptg71141hkx25z3nhfrz","Superintelligence","Paths, Dangers, Strategies","Nick Bostrom","0199678111","9780199678112","superintelligence-5elo8","en","WANTS_TO_READ"
-"ckg2lkuvb1383onx2cmo7zstd","Tools of Titans","The Tactics, Routines, and Habits of Billionaires, Icons, and World-class Performers","Timothy Ferriss","1328683788","9781328683786","tools-of-titans-8ox88","en","WANTS_TO_READ"
-"ckg3mdj5u1327gmx2oantq1kb","Steve Jobs","","Walter Isaacson, Steve Jobs","1451648537","9781451648539","steve-jobs-o59au","en","FINISHED, Gifts"
-"ckg3mgdsc3870gmx27p8v4mrv","The Kite Runner","","Khaled Hosseini","1350033243","9781350033245","the-kite-runner-ez54a","en","WANTS_TO_READ"
-"ckg97g00f0180ztx2c82ri3mk","Ace","What Asexuality Reveals about Desire, Society, and the Meaning of Sex","Angela Chen","080701379X","9780807013793","ace-poloe","en","WANTS_TO_READ"
-"ckgcfx1is38100zb8nqyk70tu","Never Let Me Go","","Kazuo Ishiguro","0571249388","9780571249381","never-let-me-go-lxl23","en","DROPPED"
-"ckgcg0j4h55940zb8hl7s8b04","The Dispossessed","An Ambiguous Utopia","Ursula K. Le Guin","0785764038","9780785764038","the-dispossessed-1hav3","en","WANTS_TO_READ"
-"ckgea9cah274050zb8hdginufz","Utopia for Realists","And How We Can Get There","Rutger Bregman","1408890259","9781408890257","utopia-for-realists-uh3we","en","WANTS_TO_READ"
-"ckgeaaore283820zb88uq0i3db","The Laws of Human Nature","","Robert Greene","1782833889","9781782833888","the-laws-of-human-nature-g189e","en","FINISHED"
-"ckgeasdzj397630zb8ck42oc0s","The Daily Stoic","366 Meditations on Wisdom, Perseverance, and the Art of Living: Featuring new translations of Seneca, Epictetus, and Marcus Aurelius","Ryan Holiday, Stephen Hanselman","178283317X","9781782833178","the-daily-stoic-j8ic3","en","WANTS_TO_READ"
-"ckgeaspse401500zb8outrh4th","Ego is the Enemy","","Ryan Holiday","1591847818","9781591847816","ego-is-the-enemy-1l0rf","en","FINISHED"
-"ckgeavwo5418820zb8fb41t9te","Rich Dad, Poor Dad","What the Rich Teach Their Kids about Money - that the Poor and Middle Class Do Not!","Robert T. Kiyosaki","0751532711","9780751532715","rich-dad-poor-dad-g11re","en","FINISHED"
-"ckgeaxe9e433530zb8ch0i7t7k","Do Design","Why Beauty Is Key to Everything","Alan Moore","1907974288","9781907974281","do-design-ph198","en","WANTS_TO_READ"
-"ckgicp2pz171100y8yu54h27an","The Road to Character","","David Brooks","081299325X","9780812993257","the-road-to-character-7f83u","en","IS_READING"
-"ckgicrew8188460y8y4umz5jlz","The $100 Startup","Reinvent the Way You Make a Living, Do what You Love, and Create a New Future","Chris Guillebeau","0307951529","9780307951526","the-dollar100-startup-7mdwl","en","FINISHED"
-"ckgidrrj4259300y8y4um4uzb4","Make Time","How to focus on what matters every day","Jake Knapp, John Zeratsky","1473552915","9781473552913","make-time-cgvwe","en","WANTS_TO_READ"
-"ckgidzg8e309570y8yq6uotr2w","Making Sense","Conversations on Consciousness, Morality and the Future of Humanity","Sam Harris","1473560071","9781473560079","making-sense-qb7ag","en","WANTS_TO_READ"
-"ckgr3l8wc23510zadfqqkin79","A Little Life","Shortlisted for the Man Booker Prize 2015","Hanya Yanagihara","144729484X","9781447294849","a-little-life-d44ko","en","WANTS_TO_READ"
-"ckhchz7bo10620z3aco9cwiho","The Black Swan","","Nassim Nicholas Taleb","0812979184","9780812979183","the-black-swan-mg7ze","en","WANTS_TO_READ"
-"ckhcisl1q38410z3a6y6prhjm","Atomic Design","","Brad Frost","0998296600","9780998296609","atomic-design-4zpmf","en","WANTS_TO_READ"
-"ckhdifqp901670zkh3fzgivy5","Zen and the Art of Motorcycle Maintenance","An Inquiry Into Values","Robert M. Pirsig","0060589469","9780060589462","zen-and-the-art-of-motorcycle-maintenance-817n6","en","WANTS_TO_READ"
-"ckhdifrx203170zkh1eruejhu","Hooked","How to Build Habit-forming Products","Ryan Hoover, Nir Eyal","1591847788","9781591847786","hooked-u5dpd","en","WANTS_TO_READ"
-"ckhdifujx05050zkhkan41tmr","Rework","","Jason Fried","0307463745","9780307463746","rework-kljqe","en","FINISHED"
-"ckhdjxair26091llg3maog7m8","Thinking, Fast and Slow","","Daniel Kahneman","0374275637","9780374275631","thinking-fast-and-slow-wwuk4","en","WANTS_TO_READ"
-"ckhdjxsin45931llge871ugxf","Shoe Dog","A Memoir by the Creator of Nike","Philip H. Knight","1501135910","9781501135910","shoe-dog-iraoz","en","FINISHED, Gifts"
-"ckhdjxtrn47131llgoihsmjad","The Hard Thing About Hard Things","Building a Business When There Are No Easy Answers","Ben Horowitz","0062273205","9780062273208","the-hard-thing-about-hard-things-obql4","en","WANTS_TO_READ"
-"ckhdjyrmx69991llg7lacbpzo","Fooled By Randomness","The Hidden Role Of Chance In Life And In The Markets","Nassim Nicholas Taleb","0812975219","9780812975215","fooled-by-randomness-lfeqd","en","WANTS_TO_READ"
-"ckhdjzefb78051llg8ubsjmbb","Antifragile","Things That Gain from Disorder","Nassim Nicholas Taleb","1400067820","9781400067824","antifragile-83arx","en","WANTS_TO_READ"
-"ckhdkhmjt119541llgqkl9n64t","Deep Work","Rules for Focused Success in a Distracted World","Cal Newport","1455586692","9781455586691","deep-work-wbun9","en","FINISHED"
-"ckhdkhvnd126591llghl055scg","Zero to One","Notes on Startups, Or how to Build the Future","Peter A. Thiel, Blake Masters","0804139296","9780804139298","zero-to-one-idrk3","en","FINISHED"
-"ckhdkhwyj127961llg3s9xtv5l","The War of Art","Break Through the Blocks and Win Your Inner Creative Battles","Steven Pressfield","0446691437","9780446691437","the-war-of-art-c6vuz","en","WANTS_TO_READ"
-"ckhdki05i130661llgtlh9wvy9","The Game","Penetrating the Secret Society of Pickup Artists","Neil Strauss","0060554738","9780060554736","the-game-lfdhg","en","WANTS_TO_READ"
-"ckhdkmbr6333950zapr0r2do0b","One Up On Wall Street","How To Use What You Already Know To Make Money In The Market","John Rothchild, Peter Lynch","0743200403","9780743200400","one-up-on-wall-street-q057w","en","WANTS_TO_READ"
-"ckhevy5il39500zjuw2k03lgc","Bird by Bird","Some Instructions on Writing and Life","Anne Lamott","0385480016","9780385480017","bird-by-bird-ip0ni","en","WANTS_TO_READ"
-"ckhexa8ox40120zluwbw7uhgb","The Decision Book","Fifty models for strategic thinking (New Edition)","Roman Tschäppeler, Mikael Krogerus","1782834052","9781782834052","the-decision-book-4aqfx","en","FINISHED"
-"ckhghhkl511970z955fcjz3uz","A Gentleman in Moscow","The worldwide bestseller","Amor Towles","1448135508","9781448135509","a-gentleman-in-moscow-vk7y0","en","WANTS_TO_READ"
-"ckhicnqii210780z95pxyovt77","The Plague","","Albert Camus","0141395214","9780141395210","the-plague-u1zzv","en","WANTS_TO_READ"
-"ckhq875le11630zg1i9axvlhv","Invisible Women","Data Bias in a World Designed for Men","Caroline Criado Perez","1419729071","9781419729072","invisible-women-lvxxl","en","WANTS_TO_READ"
-"ckhq877o414180zg1rd5alf3n","The Silent Patient","","Alex Michaelides","1250301696","9781250301697","the-silent-patient-n3igb","en","FINISHED"
-"cki5y0yju820010c1a9ohby0m","To Kill a Mockingbird","","Harper Lee","0062368680","9780062368683","to-kill-a-mockingbird-89wxl","en","WANTS_TO_READ"
-"ckiiopkje5036810baz4upopx6","12 Rules for Life","An Antidote to Chaos","Jordan B. Peterson","0345816021","9780345816023","12-rules-for-life-9nfol","en","DROPPED"
-"ckiiopltr5056510ba0hmjnxeu","Can't Hurt Me","Master Your Mind and Defy the Odds - Clean Edition","David Goggins","1544507852","9781544507859","cant-hurt-me-f4xmy","en","WANTS_TO_READ"
-"ckipv7yzg024410k11bzaf5uq","Lying","","Sam Harris","1940051010","9781940051017","lying-mo6m9","en","WANTS_TO_READ"
-"ckiunsicr501610kya5y1mntb","Why Nations Fail","The Origins of Power, Prosperity, and Poverty","Daron Acemoğlu, James A. Robinson","0307719219","9780307719218","why-nations-fail-8lqqv","en","WANTS_TO_READ"
-"ckiuwmno2303780zk5pjm856nf","Skin in the Game","The Thrills and Logic of Risk Taking","Nassim Nicholas Taleb","0241300657","9780241300657","skin-in-the-game-ofybo","en","WANTS_TO_READ"
-"ckjo4tyml197321id148cuuoc0","The Psychology of Money","Timeless lessons on wealth, greed, and happiness","Morgan Housel","0857197681","9780857197689","the-psychology-of-money-81pxa","en","FINISHED, Gifts"
-"ckjpr7nd522230zm4d4wxctnc","The Biggest Bluff","How I Learned to Pay Attention, Master Myself, and Win","Maria Konnikova","052552262X","9780525522621","the-biggest-bluff-eg6b3","en","WANTS_TO_READ"
-"ckjpranhz67020zm4ne3rzsdp","Justice","What's the Right Thing to Do?","Michael Sandel","0141041331","9780141041339","justice-bh597","en","WANTS_TO_READ"
-"ckjpzsnjq07940zm4p08pa83r","No Longer Human","","Osamu Dazai","0811204812","9780811204811","no-longer-human-l6v2a","en","WANTS_TO_READ"
-"ckjso959e52810zj1sv99dkzb","The Three-Body Problem","","Liu Cixin, Ken Liu","0765377063","9780765377067","the-three-body-problem-8n1zz","en","WANTS_TO_READ"
-"ckkfgyvj1187761i7lnesz7ju0","The Stranger","","Albert Camus","0307827666","9780307827661","the-stranger-3b5v2","en","FINISHED"
-"ckkln8g1k142991i7juluiok1f","The Midnight Library","","Matt Haig","1786892715","9781786892713","the-midnight-library-mrpx0","en","WANTS_TO_READ"
-"cklc38k5x82191j6cqiphw6sm","The Boron Letters","","Gary Halbert, Bond Halbert","1484825985","9781484825983","the-boron-letters-ii99p","en","WANTS_TO_READ"
-"cklgk0io539021ifb4wwwmije","Range","Why Generalists Triumph in a Specialized World","David Epstein","0735214484","9780735214484","range-yb56h","en","WANTS_TO_READ"
-"cklgk54y4208481ifb4tu7r4g1","The Checklist Manifesto","How to Get Things Right","Atul Gawande","1846683149","9781846683145","the-checklist-manifesto-hxx8r","en","FINISHED"
-"cklgk5b7f217261ifbfz9ngqtx","Ordinary People","","Diana Evans","1784742163","9781784742164","ordinary-people-7eegw","en","WANTS_TO_READ"
-"cklgk9lga318361ifb1ogm522g","The Fall","","Albert Camus","0679720227","9780679720225","the-fall-7uqoz","en","WANTS_TO_READ"
-"ckm1x9vrc862261ideq6oy0nkh","The Utopia of Rules","","David Graeber","1612195180","9781612195186","the-utopia-of-rules-aqr8a","en","WANTS_TO_READ"
-"ckmauitxf22441ija46u0obrq","Eleanor Oliphant is Completely Fine","","Gail Honeyman","0735220689","9780735220683","eleanor-oliphant-is-completely-fine-48i43","en","WANTS_TO_READ"
-"ckmaum47v110041ijagg85wox1","Madame Bovary","Provincial Manners","Gustave Flaubert","0192840398","9780192840394","madame-bovary-wed3b","en","DROPPED"
-"ckmb32of8139831ijaj4gt42hl","Independent People","An Epic","Halldór Laxness","0679767924","9780679767923","independent-people-54d3i","en","WANTS_TO_READ"
-"ckmb32rga142721ija3by7ccde","A Man Called Ove","A Novel","Fredrik Backman","1476738017","9781476738017","a-man-called-ove-373bu","en","WANTS_TO_READ"
-"ckmb34bnz187171ijafr0d8w5m","Adult Children of Emotionally Immature Parents","How to Heal from Difficult, Rejecting, Or Self-involved Parents","Lindsay C. Gibson","1626251703","9781626251700","adult-children-of-emotionally-immature-parents-1bvqd","en","FINISHED"
-"ckmb34dao189111ija2v2waz6d","East of Eden","","John Steinbeck","0142000655","9780142000656","east-of-eden-18yjb","en","WANTS_TO_READ"
-"ckmbkav5b03041kjayv3n4jwh","The Alchemist","","Paulo Coelho","0062315005","9780062315007","the-alchemist-pjupi","en","FINISHED"
-"ckmbsvvji03381jjamigfaxmy","They Both Die at the End","","Adam Silvera","0062457799","9780062457790","they-both-die-at-the-end-mele5","en","WANTS_TO_READ"
-"ckmjhrbj1491951ibjddund8dq","Creative Selection","Inside Apple's Design Process During the Golden Age of Steve Jobs","Ken Kocienda","1250194474","9781250194473","creative-selection-cblqz","en","WANTS_TO_READ"
-"ckmji0c2b522011ibj2g5vv4eg","Thinking in Systems","A Primer","Donella H. Meadows, Diana Wright","1603580557","9781603580557","thinking-in-systems-0q34a","en","WANTS_TO_READ"
-"ckmlv351x222311ib4b0sc7g0b","Super Thinking","The Big Book of Mental Models","Gabriel Weinberg","0525542817","9780525542810","superthinking-d4lhr","en","WANTS_TO_READ"
-"ckmzgh4po261141i9h0p3ewn68","The Art of Thinking Clearly","","Rolf Dobelli","0062359800","9780062359803","the-art-of-thinking-clearly-c9l6r","en","FINISHED"
-"ckn78webp350781i8djd28rk5v","The Book of Why","The New Science of Cause and Effect","Judea Pearl, Dana Mackenzie","046509760X","9780465097609","the-book-of-why-q6rxo","en","WANTS_TO_READ"
-"ckna2hggj107991i3icew0odgd","Solving Product Design Exercises","Questions and Answers","Artiom Dashinsky","1977000428","9781977000422","solving-product-design-exercises-jmgmj","en","WANTS_TO_READ"
-"cknk4l0r546261ic8ajoierel","Kolyma Tales","","Varlan Shalanov","0140186956","9780140186956","kolyma-tales-xoqjw","en","WANTS_TO_READ"
-"ckowrht2i7247031ic2xawk50h8","Beyond Good and Evil","","Friedrich Nietzsche","014044923X","9780140449235","beyond-good-and-evil-jlpwe","un","WANTS_TO_READ"
-"ckp41kfpo02391gjsv34e33xy","The Liars' Club","A Memoir","Mary Karr","0143035746","9780143035749","the-liars-club-rcqde","en","WANTS_TO_READ"
-"ckp41kqft30401gjshq5j3unq","The Prophet","","Kahlil Gibran","000100039X","9780001000391","the-prophet-66gbm","en","WANTS_TO_READ"
-"ckp41l07953661gjssgva1el4","Who Moved My Cheese?","An Amazing Way to Deal with Change in Your Work and in Your Life","Spencer Johnson","0091883768","9780091883768","who-moved-my-cheese-9oly1","un","FINISHED"
-"ckp43dijj265061gjssp6gn9v4","Think Again","The Power of Knowing what You Don't Know","Adam Grant","1984878107","9781984878106","think-again-xjd47","un","FINISHED"
-"ckp43djc9266091gjsqgtu2pz2","How to Do the Work","Recognize Your Patterns, Heal from Your Past, and Create Your Self","Nicole LePera","0063012103","9780063012103","how-to-do-the-work-x6bj7","un","WANTS_TO_READ"
-"ckpa5ec7r8588421i8pofbns0n7","Stubborn Attachments","A Vision for a Society of Free, Prosperous, and Responsible Individuals","Tyler Cowen","1732265135","9781732265134","stubborn-attachments-9e3pm","en","WANTS_TO_READ"
-"ckpil8tt87980461ib71ie4sr30","Story Engineering","","Larry Brooks","1599632810","9781599632810","story-engineering-hazcj","en","WANTS_TO_READ"
-"ckpixw01124263wlidgbx8ic6","Algorithms to Live By","The Computer Science of Human Decisions","Tom Griffiths, Brian Christian","1627790365","9781627790369","algorithms-to-live-by-qr8yc","un","WANTS_TO_READ"
-"ckpixw4hh33073wlin1anjyyh","King, Warrior, Magician, Lover","Rediscovering the Archetypes of the Mature Masculine","Robert Moore","0062506064","9780062506061","king-warrior-magician-lover-0yl3c","un","WANTS_TO_READ"
-"ckpjw8hga116661liztkqx3np","The Beginning of Infinity","Explanations that Transform the World","David Deutsch","0670022756","9780670022755","the-beginning-of-infinity-b3jlr","un","WANTS_TO_READ"
-"ckpkm0lq622711rlid0jsg8p2","Biomimicry","Innovation Inspired by Nature","Janine M. Benyus","0061958921","9780061958922","biomimicry-0uvr9","un","DROPPED"
-"ckpli1bpt15128921ib7eo9lz77b","Serpent & Dove","","Shelby Mahurin","0062878042","9780062878045","serpent-and-dove-5nam8","en","WANTS_TO_READ"
-"ckpo92qg8131351gmzta3u2a1k","Dark Matter","A Novel","Blake Crouch","1101904224","9781101904220","dark-matter-3a2uq","un","WANTS_TO_READ"
-"ckppt1es8408671giv7v8j0yl2","The Prince","","Niccolò Machiavelli","0937832383","9780937832387","the-prince-o6o0e","un","WANTS_TO_READ"
-"ckpptwabn1143271givhm0ndcyt","The 48 Laws of Power","","Robert Greene","0140280197","9780140280197","the-48-laws-of-power-16lji","un","FINISHED"
-"ckppvvev81331551givtzt7c72b","Fight Club","","Chuck Palahniuk","0393355942","9780393355949","fight-club-h2l6h","un","WANTS_TO_READ"
-"ckprlulgo55311gjy5mv3hwij","Shop Class as Soulcraft","An Inquiry Into the Value of Work","Matthew B. Crawford","1594202230","9781594202230","shop-class-as-soulcraft-2lnlp","un","WANTS_TO_READ"
-"ckps8nn1a56151gjy85ep463w","A Mind for Numbers","How to Excel at Math and Science (even If You Flunked Algebra)","Barbara A. Oakley","039916524X","9780399165245","a-mind-for-numbers-aq3zu","un","WANTS_TO_READ"
-"ckps8oxh782471gjya8o8kzk9","Jonathan Livingston Seagull","","Richard Bach","0743278909","9780743278904","jonathan-livingston-seagull-44kk3","un","Gifts, FINISHED"
-"ckpsnmo2r99921rjml980gntn","Behave","The Biology of Humans at Our Best and Worst","Robert M. Sapolsky","1594205078","9781594205071","behave-55dbr","un","WANTS_TO_READ"
-"ckpsw8sw005811rjmn3t4cssc","The Culture Map","Decoding How People Think, Lead, and Get Things Done Across Cultures","Erin Meyer","1610392760","9781610392761","the-culture-map-2bvli","un","WANTS_TO_READ"
-"ckpvy423o197011rjm2hkgsd4s","Notes from Underground","","Fyodor Dostoevsky","067973452X","9780679734529","notes-from-underground-2jluj","un","WANTS_TO_READ"
-"ckpwaudpe8675141i92tn6qfuue","Anthro-Vision","A New Way to See in Business and Life","Gillian Tett","1982140968","9781982140960","anthro-vision-zpfq4","un","WANTS_TO_READ"
-"ckpzvq57j847031rjmnupjals4","The Bed of Procrustes","Philosophical and Practical Aphorisms","Nassim Nicholas Taleb","1400069971","9781400069972","the-bed-of-procrustes-kcque","un","WANTS_TO_READ"
-"ckpzvvn911081561rjmqccuoauz","Super Thinking","The Big Book of Mental Models","Gabriel Weinberg, Lauren McCann","0525533583","9780525533580","super-thinking-cw4gu","un","WANTS_TO_READ"
-"ckpzw33q51261311rjmz51xf84y","How Innovation Works","And Why It Flourishes in Freedom","Matt Ridley","0062916599","9780062916594","how-innovation-works-v747q","un","WANTS_TO_READ"
-"ckqeoo1pw32051j5zcmfo1m4l","The Monk Who Sold His Ferrari","A Fable About Fulfilling Your Dreams & Reaching Your Destiny","Robin Sharma","0062515675","9780062515674","the-monk-who-sold-his-ferrari-vkodj","en","FINISHED"
-"ckqeoo6jc39061j5z1b3qw91b","Dream with Your Eyes Open","An Entrepreneurial Journey","Ronnie Screwvala","8129135884","9788129135889","dream-with-your-eyes-open-45zoy","un","WANTS_TO_READ"
-"ckqhqm4wx12271ftuic20bd25","The Way of Men","","Jack Donovan","0985452307","9780985452308","the-way-of-men-jdc4r","en","WANTS_TO_READ"
-"ckqi3qs6y69261j5zoipf62nf","The Almanack of Naval Ravikant","A Guide to Wealth and Happiness","Eric Jorgenson","1544514212","9781544514215","the-almanack-of-naval-ravikant-7aeik","un","FINISHED"
-"ckqxnrct318565414wv37tx670s","A Book of Simple Living","Brief Notes from the Hills","Ruskin Bond","9385288253","9789385288258","a-book-of-simple-living-z7lo9","en","WANTS_TO_READ"
-"ckr1qjldq05vf01crr3bxx8e0","Asylum","","Madeleine Roux","0062220969","9780062220967","madeleine-rouxasylum-1nv4f","en","WANTS_TO_READ"
-"ckr1qnlrw073w01cr5immt9kg","Blink","The Power of Thinking Without Thinking","Malcolm Gladwell","0316010669","978-0316010665","malcolm-gladwellblink-2g91u","en","DROPPED"
-"ckr1r72ct0cwg01crq3c5a8mt","Ella Minnow Pea","a novel in letters","Mark Dunn","0385722435","","mark-dunnella-minnow-pea-gdfax","en","WANTS_TO_READ"
-"ckr1r7us30d4z01crk55htt7k","Emotional Intelligence","10th Anniversary Edition; Why It Can Matter More Than IQ","Daniel Goleman","055380491X","9780553804911","daniel-golemanemotional-intelligence-3cq8x","en","DROPPED"
-"ckr1rcse30ept01crnc998lb8","Far From the Madding Crowd","","Thomas Hardy","142092852X","9781420928525","thomas-hardyfar-from-the-madding-crowd-jehb1","en","WANTS_TO_READ"
-"ckr1ry2bf0l3y01crj8h2c8zz","Influence","The Psychology of Persuasion (Collins Business Essentials)","Robert B. Cialdini ","006124189X","9780061241895","robert-b-cialdiniinfluence-ujb3y","en","WANTS_TO_READ"
-"ckr1shj600qc001crcyvtkgib","Master of the Game","","Sidney Sheldon","0006472613","9780006472612","sidney-sheldonmaster-of-the-game-ag6q5","en","WANTS_TO_READ"
-"ckr1tik5b11ez01cr7p0ot33p","Stoner","","John Williams","1590171993","9781590171998","john-williamsstoner-cd9ah","en","WANTS_TO_READ"
-"ckr1u473e17uy01cr7t17caed","The E-myth revisited","why most small businesses don't work and what to do about it","Michael E. Gerber","0887307280","","michael-e-gerberthe-e-myth-revisited-pcrgg","en","WANTS_TO_READ"
-"ckr1umfux1df801crbhzls6bu","The magicians","a novel","Lev Grossman","","9780670020553","lev-grossmanthe-magicians-jb1p0","en","WANTS_TO_READ"
-"ckr1us03s1exy01cr921lyfcj","The Myth of Sisyphus","Penguin Modern Classics","Albert Camus","0141182008","9780141182001","albert-camusthe-myth-of-sisyphus-penguin-modern-classics-vqavl","en","WANTS_TO_READ"
-"ckr1uu6921fmj01cr30xl90eg","The Old Man and the Sea","","Ernest Hemingway","0684830493","9780684830490","ernest-hemingwaythe-old-man-and-the-sea-ojr5g","en","FINISHED"
-"ckr1v1wr11i0801crsrj0wniu","The Richest Man in Babylon","","George S. Clason","0451205367","9780451205360","george-s-clasonthe-richest-man-in-babylon-7lcpq","en","FINISHED"
-"ckr1vow9i1p7w01croc5uf8k1","Tuesdays with Morrie","an old man, a young man, and life's greatest lesson","Mitch Albom","","9780767905923","mitch-albomtuesdays-with-morrie-q42y3","en","Gifts, FINISHED"
-"ckrah4f8i0gqa01bjgj5ei41w","Prisoners of Geography","Ten Maps That Tell You Everything You Need to Know About Global Politics","Tim Marshall","1783961414","9781783961412","tim-marshallprisoners-of-geography-vo84b","en","WANTS_TO_READ"
-"ckrbperrr81444183s753tb4cl","The Art of War","","Sunzi, Sun Tzu","1599869772","9781599869773","the-art-of-war-ibl05","en","FINISHED"
-"ckrgyzf671445171excpex5itrb","101 Essays That Will Change The Way You Think","","Brianna Wiest","1945796065","9781945796067","101-essays-that-will-change-the-way-you-think-fqpyx","en","WANTS_TO_READ"
-"ckrkpi4gp3337581excx5pkmrsz","The Art of Innovation","Lessons in Creativity from Ideo, America's Leading Design Firm","TOM AUTOR KELLEY","0385499841","9780385499842","the-art-of-innovation-y7vqu","en","DROPPED"
-"ckrl0svn9369827183shpg92rev","The Thing Which Has No Name","","Rory Sutherland","0753556510","9780753556511","the-thing-which-has-no-name-u7xlf","en","WANTS_TO_READ"
-"ckrlockh1770661183svzbiz5uz","Traction","A Startup Guide to Getting Customers","Gabriel Weinberg, Justin Mares","0976339609","9780976339601","traction-w9p8y","en","WANTS_TO_READ"
-"ckrltd1mz812995183skjrow24c","How to See","Visual Adventures in a World God Never Made","George Nelson","0714873837","9780714873831","how-to-see-18c6h","en","WANTS_TO_READ"
-"ckrmc2wdd9546178f4zrytbd6","The Courage To Be Disliked","How to Free Yourself, Change Your Life and Achieve Real Happiness","Ichiro Kishimi, Fumitake Koga","176063073X","9781760630737","the-courage-to-be-disliked-6dubz","en","DROPPED"
-"ckrmcrf2b29529178f6nnwmp85","The Summons","","John Grisham","0385339593","9780385339599","the-summons-cukej","en","DROPPED"
-"ckrodqqrs26332014qyddmajxdl","The Mahabharata","A Modern Rendering","Ramesh Menon","0595401872","9780595401871","the-mahabharata-72wan","en","WANTS_TO_READ"
-"ckrooo44w594309178f7u9duz4t","No Rules Rules","Netflix and the Culture of Reinvention","Reed Hastings","0593152387","9780593152386","no-rules-rules-2zdmc","en","WANTS_TO_READ"
-"ckrp1gtk71046361178f5phiu6mo","Broken (in the best possible way)","","Jenny Lawson","1250077036","9781250077035","broken-in-the-best-possible-way-ok6ea","en","WANTS_TO_READ"
-"ckrpwtq5g639881euwc5kvof1g","The Tender Bar","A Memoir","J. R. Moehringer","1401383416","9781401383411","the-tender-bar-wgmoo","en","WANTS_TO_READ"
-"ckrpxnb4x650861euwfvba4z8n","Love People, Use Things","Because the Opposite Never Works","Joshua Fields Millburn, Ryan Nicodemus","1472263871","9781472263872","love-people-use-things-3zm8d","en","WANTS_TO_READ"
-"ckrqob79i12514281czqdgeln5xf","Model Thinker","What You Need to Know to Make Data Work for You","Scott E. Page","0465094627","9780465094622","model-thinker-n45r7","en","WANTS_TO_READ"
-"ckrqpib5j14936161czqby2ahbpa","The Go-giver","A Little Story about a Powerful Business Idea","John David Mann, Bob Burg","159184200X","9781591842002","the-go-giver-lfxhx","en","WANTS_TO_READ"
-"ckrqx69s8253591798kg81dj21","Ghachar Ghochar","","Vivēka Śānabhāga","014311168X","9780143111689","ghachar-ghochar-gf596","en","FINISHED"
-"ckrroi0r32000921798mf99q9hv","The 3 Mistakes of My Life","A Story about Business, Cricket, and Religion","Chetan Bhagat","8129113724","9788129113726","the-3-mistakes-of-my-life-cxepu","en","FINISHED"
-"ckrs0jazq26957617981h0xh4zw","Human Compatible","Artificial Intelligence and the Problem of Control","Stuart Russell","0525558616","9780525558613","human-compatible-k9m8f","en","WANTS_TO_READ"
-"ckrtb8pan4246791798gnvzke2d","Win Bigly","Persuasion in a World where Facts Don't Matter","Scott Adams","0735219710","9780735219717","win-bigly-xj8zi","en","WANTS_TO_READ"
-"ckruz1ddz260361fsq3tmo8qmf","How to Win an Indian Election","What Political Parties Don't Want You to Know","Shivam Shankar Singh","0143446843","9780143446842","how-to-win-an-indian-election-uh54e","en","WANTS_TO_READ"
-"ckrweuctz11561681798j5cxwfea","A Thousand Boy Kisses","","Tillie Cole","1530496195","9781530496198","a-thousand-boy-kisses-cr01e","en","WANTS_TO_READ"
-"cks8unre66607811k98hs5z4n16","The Wisdom of Psychopaths","What Saints, Spies, and Serial Killers Can Teach Us About Success","Kevin Dutton","0374291357","9780374291358","the-wisdom-of-psychopaths-6am8e","en","WANTS_TO_READ"
-"cks93o7x313961351k989h97eoaw","$100M Offers","How to Make Offers So Good People Feel Stupid Saying No","Alex Hormozi","1737475715","9781737475712","dollar100m-offers-37o56","en","WANTS_TO_READ"
-"cks94op4z15803291k98y75rbvr6","Fire and Rain","The Beatles, Simon & Garfunkel, James Taylor, CSNY, and the Lost Story of 1970","David Browne","0306818507","9780306818509","fire-and-rain-rnhby","en","WANTS_TO_READ"
-"cks9h7mpf2390571k98iuo10bui","The Innovation Stack","Building an Unbeatable Business One Crazy Idea at a Time","Jim McKelvey","0593086732","9780593086735","the-innovation-stack-8gxw0","en","WANTS_TO_READ"
-"cksa8402d6929531k98qb9156te","The Ape that Understood the Universe","How the Mind and Culture Evolve","Steve Stewart-Williams","1108425046","9781108425049","the-ape-that-understood-the-universe-1znh9","en","WANTS_TO_READ"
-"cksdzwu0j17451l198sqg67scl","Wanting","The Power of Mimetic Desire in Everyday Life","Luke Burgis","1250262488","9781250262486","wanting-57l4x","en","WANTS_TO_READ"
-"cksg04wft1291115y2thdgmsid","Think","A Compelling Introduction to Philosophy","Simon Blackburn","0192854259","9780192854254","think-yxkrf","en","WANTS_TO_READ"
-"cksga8s9y33421fwl16j1k1yq","Greenlights","Your Journal, Your Journey","Matthew McConaughey","0593235479","9780593235478","greenlights-d0nvi","en","FINISHED"
-"ckshgjl0v192785q2981ieveidc","The Art of Dramatic Writing","Its Basis in the Creative Interpretation of Human Motives","Lajos Egri","1439123799","9781439123799","the-art-of-dramatic-writing-ijw7c","en","WANTS_TO_READ"
-"cksyt20mt1814187ohe5i6avr","The Spanish Love Deception (Spanish Love Deception #1)","","Elena Armas","","9798705893843","elena-armas-the-spanish-love-deception-clrpm","en","FINISHED"
-"ckt0bkrl111781114y37yv0pps5","Power","The Essential Works of Michel Foucault 1954-1984","Michel Foucault","0141991372","9780141991375","michel-foucault-power-hehdm","en","WANTS_TO_READ"
-"ckt2vdj2q148547a17axgsg24ft","The Ghostwriter","","Alessandra Torre","1940941946","9781940941943","alessandra-torre-the-ghostwriter-w9p0f","en","WANTS_TO_READ"
-"ckt79s9s057137313ruaf5ba6pa","Invent and Wander","","Jeff Bezos","","9791191425581","jeff-bezos-invent-and-wander-5e0jz","ko","WANTS_TO_READ"
-"ckt8uhj5j79257313ru7ecjbiav","The Unending Game","A Former R&AW Chief’s Insights into Espionage","Vikram Sood","9353051665","9789353051662","vikram-sood-the-unending-game-iomwf","en","WANTS_TO_READ"
-"ckti22xna118475m7aqr29j539","Slay Belles & Mayhem","A Medley of Dark Tales"," Lylah James, Brianna Hale, Anna Edwards","","9798574233061","anna-edwards-lylah-james-brianna-hale-slay-belles-and-mayhem-vro72","en","FINISHED"
-"cktk37q7m117745nr7atepc9wf1","The Ultimate Goal: A Former R&AW Chief Deconstructs How Nations andIntelligence Agencies Construct Narratives","","Vikram Sood","935357952X","9789353579524","vikram-sood-the-ultimate-goal-a-former-randaw-chief-deconstructs-how-nations-andintelligence-agencies-construct-narratives-we2e8","en","WANTS_TO_READ"
-"cku8dyjb21204313y7hph7w0p3","Gaban","The Stolen Jewels","Premchand,","0195662636","9780195662634","premchand-gaban-e1era","en","WANTS_TO_READ"
-"ckuh3502i1043324j7as0jqeusc","Very Cold People","A Novel","Sarah Manguso","0593241223","9780593241226","sarah-manguso-very-cold-people-ijz9x","en","WANTS_TO_READ"
-"ckuh3a25i1197974j7ahrtwls5j","Oh William!","A Novel","Elizabeth Strout","0812989430","9780812989434","elizabeth-strout-oh-william-u3noa","en","WANTS_TO_READ"
-"ckuh92xbw9125813ud9i2w5h9h","General Systemantics","An Essay on how Systems Work, and Especially how They Fail, Together with the Very First Annotated Compendium of Basic Systems Axioms : a Handbook and Ready Reference for Scientists, Engineers, Laboratory Workers, Administrators, Public Officials, Systems Analysts, Etc., Etc., Etc., and the General Public","John Gall","","","john-gall-general-systemantics-0k8ef","en","WANTS_TO_READ"
-"ckuwmj8zi6844232b7a1t3ze1pb","The Storyteller","Tales of Life and Music","Dave Grohl","0063076098","9780063076099","dave-grohl-the-storyteller-l95f4","en","WANTS_TO_READ"
-"ckvu77qo7238951as7dvvhj50f0","The Vegetarian","A Novel","Kang Han","0553448188","9780553448184","kang-han-the-vegetarian-hobo5","en","WANTS_TO_READ"
-"ckvw526xq666121fwjtdu62698","How To Live","27 conflicting answers and one weird conclusion","Derek Sivers","","","derek-sivers-how-to-live-aerpx","en","WANTS_TO_READ"
-"ckvz4eugg16469731ezhk88yy8ew","What Got You Here Won't Get You There","","Shane Clester, Marshall Goldsmith","1610660137","9781610660136","marshall-goldsmith-shane-clester-what-got-you-here-wont-get-you-there-akjoy","en","WANTS_TO_READ"
-"ckw0vce5s14091615ht9g4grok0","Four Psychos","The Dark Side #1","Kristy Cunning","","","kristy-cunning-four-psychos-jbcoe","en","WANTS_TO_READ"
-"ckw4yye1z15010381fbdonnopt45","The Rudest Book Ever","","Shwetabh Gangwar","9388754433","9789388754439","shwetabh-gangwar-the-rudest-book-ever-p4khu","en","FINISHED"
-"ckwa759bu14446691efs6uhtw9nx","Flights","","Olga Tokarczuk","0525534199","9780525534198","olga-tokarczuk-flights-0e1hr","en","WANTS_TO_READ"
-"ckwfbmxjt39621013uao0sn4dqy","Research for People Who Think They Would Rather Create","","Dirk Vis","9493148432","9789493148437","dirk-vis-research-for-people-who-think-they-would-rather-create-popxj","en","WANTS_TO_READ"
-"ckxrny1uu922050iv2shhg7ijc","Ultralearning: Accelerate Your Career, Master Hard Skills and Outsmart the Competition","","Scott H. Young","0008305722","9780008305727","scott-h-young-ultralearning-accelerate-your-career-master-hard-skills-and-outsmart-the-competition-zfz0z","en","WANTS_TO_READ"
-"cky4t7xch9965260hvkple6d2yt","No Shortcuts","Rare Insights from 15 Successful Startup Founders","Nistha Tripathi","9352808274","9789352808274","nistha-tripathi-no-shortcuts-0xip2","en","WANTS_TO_READ"
-"cky5os76614701570hvkgtqfk89s","Tarkash","","Javed Akhtar","8126707267","9788126707263","javed-akhtar-tarkash-qdqck","hi","FINISHED"
-"cky5yv71f12022200ik6cniswq3l","Build","An unorthodox guide to making things worth making.","Tony Fadell","1787634116","9781787634114","tony-fadell-build-78c5y","en","WANTS_TO_READ"
-"ckz03ldr25282540jicidi9vynz","Thank You for Arguing, Fourth Edition","What Aristotle, Lincoln, and Homer Simpson Can Teach Us about the Art of Persuasion","Jay Heinrichs","1663631778","9781663631770","jay-heinrichs-thank-you-for-arguing-fourth-edition-4kl2u","en","WANTS_TO_READ"
-"ckz6z4w4q4402330hej7zrp1811","Self-made Man","One Woman's Journey Into Manhood and Back Again","Norah Vincent","0670034665","9780670034666","norah-vincent-self-made-man-80229","en","WANTS_TO_READ"
-"ckzro7r8m8490190ki9gh1zoaz5","The Word Snoop","","Ursula Dubosarsky","0803734069","9780803734067","ursula-dubosarsky-the-word-snoop-izckm","en","WANTS_TO_READ"
-"cl01f2b685572400jhxgwe1tmwx","Tell the Machine Goodnight","A Novel","Katie Williams","0525533133","9780525533139","katie-williams-tell-the-machine-goodnight-ux4qf","en","WANTS_TO_READ"
-"cl0pblip7118220i9a7z4r0zhb","Serious Guide to Joke Writing","How to Say Something Funny about Anything","Sally Holloway","1907498370","9781907498374","sally-holloway-serious-guide-to-joke-writing-q7kji","en","FINISHED"
-"cl0pbljuc122680i9aa5s7h2a9","Dharma","","Amish Tripathi","9389648882","9789389648881","amish-tripathi-dharma-5coc9","en","FINISHED"
-"cl0pblo9e133840i9a3zsv72s6","On Being and Becoming","An Existentialist Approach to Life","Jennifer Anna Gosetti-Ferencei","0190913657","9780190913656","jennifer-anna-gosetti-ferencei-on-being-and-becoming-1ygy0","en","WANTS_TO_READ"
-"cl0pblplw137590i9algl1di9z","The High Performance Entrepreneur","Golden Rules for Success in Today's World","Subroto Bagchi","0670999180","9780670999187","subroto-bagchi-the-high-performance-entrepreneur-j0rcy","en","WANTS_TO_READ"
-"cl1662w3t5624030hwbq1ep5mlt","Without Their Permission","The Story of Reddit and a Blueprint for How to Change the World","Alexis Ohanian","","","alexis-ohanian-without-their-permission-efwz2","un","WANTS_TO_READ"
-"cl17vrno713236400iekyu8xz7ux","Word Power Made Easy","The Complete Handbook for Building a Superior Vocabulary","Norman Lewis","0307817490","9780307817495","norman-lewis-word-power-made-easy-wbz5d","en","WANTS_TO_READ"
-"cl2g9bjj36652880is9o29bb7m8","Maybe You Should Talk to Someone","A Therapist, hertherapist, and Our Lives Revealed","Lori Gottlieb","1922310719","9781922310712","lori-gottlieb-maybe-you-should-talk-to-someone-y6r91","en","WANTS_TO_READ"
-"cl5atgmoz6457040h04gubz70y9","The Creative Act","A Way of Being","Rick Rubin","0593652886","9780593652886","rick-rubin-the-creative-act-ff6ov","en","WANTS_TO_READ"
-"cl5vbk32h3767180hh0dfblf1kd","Now Is Not the Time to Panic","A Novel","Kevin Wilson","0062913506","9780062913500","kevin-wilson-now-is-not-the-time-to-panic-kb564","en","WANTS_TO_READ"
-"cl6m1kojr2589970idun1infnkd","Get on Track: How to Build, Run, and Level Up Your Program Management Office","","Paula Dieli","1774580446","9781774580448","paula-dieli-get-on-track-how-to-build-run-and-level-up-your-program-management-office-9mlro","en","WANTS_TO_READ"
-"clasp16sd3065360hur2rr7e6iq","The Urgent Life","My Story of Love, Loss, and Survival","Bozoma Saint John","0593300173","9780593300176","bozoma-saint-john-the-urgent-life-xmb0q","en","WANTS_TO_READ"
-"clbxykbrd10401710hvioi5gxykt","Mixed Signals","How Incentives Really Work","Uri Gneezy","0300255535","9780300255539","uri-gneezy-mixed-signals-1iwp4","en","WANTS_TO_READ"
-"clm5clpfa6503440heuqz7z6vd7","$100M Leads","How to Get Strangers to Want to Buy Your Stuff","Alex Hormozi","1737475766","9781737475767","alex-hormozi-dollar100m-leads-59fim","en","WANTS_TO_READ"
-"clmn5gn6u8309140hhyky361785","Good Material","","Dolly Alderton","0241523672","9780241523674","dolly-alderton-good-material-rek7y","en","FINISHED"
-"clqlhcb1t3883800hshakn23evw","Parade","A Novel","Rachel Cusk","0374610045","9780374610043","rachel-cusk-parade-3pgh1","en","WANTS_TO_READ"
-"clr0az80w8988870hi5qnabv96q","So Late in the Day","Stories of Women and Men","Claire Keegan","0802160859","9780802160850","claire-keegan-so-late-in-the-day-kezdd","en","WANTS_TO_READ"
-"clud04kdf3734760hv5v0u473mv","Headshot","A Novel","Rita Bullwinkel","0593654102","9780593654101","rita-bullwinkel-headshot-3wa6y","en","WANTS_TO_READ"
-"cmga44mej10492780h0bicauv6d9","Flashlight","","Susan Choi","","9780374616373","susan-choi-flashlight-grfm3","en","DROPPED"
-"cmjk9e0yk1945410hsvmtpdz2pa","Why The Poor Don’t Kill Us","The Psychology of Indians","Manu Joseph","9365234573","9789365234572","manu-joseph-why-the-poor-dont-kill-us-c8w6y","en","FINISHED"
+Title,Subtitle,Author,ISBN,ISBN13,Language,Reading Status,My Rating,Date Started,Date Read,Shelves,My Review,Literal Slug
+"The Silo Effect","The Peril of Expertise and the Promise of Breaking Down Barriers","Gillian Tett","1451644744","9781451644746","en","WANTS_TO_READ","","","","","","the-silo-effect-0aybk"
+"The Checklist Manifesto","How to Get Things Right","Atul Gawande","1846683149","9781846683145","en","IS_READING","5","2022-04-08","2022-04-16","","Love the storytelling. I never felt bored reading this book.","the-checklist-manifesto-hxx8r"
+"Freakonomics Rev Ed","A Rogue Economist Explores the Hidden Side of Everything","Steven D. Levitt, Stephen J. Dubner","0061234001","9780061234002","en","FINISHED","","","2022-06-05","","","freakonomics-rev-ed-p7be8"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","FINISHED","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","WANTS_TO_READ","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","NONE","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Freakonomics Rev Ed","A Rogue Economist Explores the Hidden Side of Everything","Steven D. Levitt, Stephen J. Dubner","0061234001","9780061234002","en","FINISHED","","","2022-06-05","","","freakonomics-rev-ed-p7be8"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","FINISHED","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Freakonomics Rev Ed","A Rogue Economist Explores the Hidden Side of Everything","Steven D. Levitt, Stephen J. Dubner","0061234001","9780061234002","en","NONE","","","2022-06-05","","","freakonomics-rev-ed-p7be8"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","FINISHED","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","NONE","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Think Again","The Power of Knowing what You Don't Know","Adam Grant","1984878107","9781984878106","un","FINISHED","5","","2022-04-05","","Great book with practical tips. I had a lot of ""wow"" moments reading this one.","think-again-xjd47"
+"Freakonomics Rev Ed","A Rogue Economist Explores the Hidden Side of Everything","Steven D. Levitt, Stephen J. Dubner","0061234001","9780061234002","en","WANTS_TO_READ","","","2022-06-05","","","freakonomics-rev-ed-p7be8"
+"The Rational Optimist","How Prosperity Evolves","Matt Ridley","006145205X","9780061452055","un","WANTS_TO_READ","","","","","","the-rational-optimist-f3h32"
+"The Spanish Love Deception (Spanish Love Deception #1)","","Elena Armas","","9798705893843","en","WANTS_TO_READ","3","2023-02-11","2023-02-28","","Not my type but fine.
+
+Decent writing, I was not bored for the most part.","elena-armas-the-spanish-love-deception-clrpm"
+"12 Rules for Life","An Antidote to Chaos","Jordan B. Peterson","0345816021","9780345816023","en","IS_READING","","2022-01-04","","","","12-rules-for-life-9nfol"
+"Emotional Intelligence","10th Anniversary Edition; Why It Can Matter More Than IQ","Daniel Goleman","055380491X","9780553804911","en","IS_READING","","2022-02-05","","","","daniel-golemanemotional-intelligence-3cq8x"
+"The Checklist Manifesto","How to Get Things Right","Atul Gawande","1846683149","9781846683145","en","WANTS_TO_READ","5","2022-04-08","2022-04-16","","Love the storytelling. I never felt bored reading this book.","the-checklist-manifesto-hxx8r"
+"The Only Gaijin in the Village","","Iain Maloney","184697514X","9781846975141","en","WANTS_TO_READ","","","","","","iain-maloney-the-only-gaijin-in-the-village-xuik2"
+"Blink","The Power of Thinking Without Thinking","Malcolm Gladwell","0316010669","978-0316010665","en","IS_READING","","2022-01-04","","","","malcolm-gladwellblink-2g91u"
+"Think Again","The Power of Knowing what You Don't Know","Adam Grant","1984878107","9781984878106","un","WANTS_TO_READ","5","","2022-04-05","","Great book with practical tips. I had a lot of ""wow"" moments reading this one.","think-again-xjd47"
+"The Spanish Love Deception (Spanish Love Deception #1)","","Elena Armas","","9798705893843","en","IS_READING","3","2023-02-11","2023-02-28","","Not my type but fine.
+
+Decent writing, I was not bored for the most part.","elena-armas-the-spanish-love-deception-clrpm"
+"Biomimicry","Innovation Inspired by Nature","Janine M. Benyus","0061958921","9780061958922","un","WANTS_TO_READ","","2022-10-22","","","","biomimicry-0uvr9"
+"Biomimicry","Innovation Inspired by Nature","Janine M. Benyus","0061958921","9780061958922","un","IS_READING","","2022-10-22","","","","biomimicry-0uvr9"
+"The Courage To Be Disliked","How to Free Yourself, Change Your Life and Achieve Real Happiness","Ichiro Kishimi, Fumitake Koga","176063073X","9781760630737","en","IS_READING","","2022-06-05","","","","the-courage-to-be-disliked-6dubz"
+"Greenlights","Your Journal, Your Journey","Matthew McConaughey","0593235479","9780593235478","en","IS_READING","5","","2023-04-24","","This is how a memoir should be like.","greenlights-d0nvi"
+"The Silent Patient","","Alex Michaelides","1250301696","9781250301697","en","IS_READING","4","2023-04-05","2023-04-12","","I enjoyed reading this. The ending felt a little rushed & predictable.","the-silent-patient-n3igb"
+"Greenlights","Your Journal, Your Journey","Matthew McConaughey","0593235479","9780593235478","en","FINISHED","5","","2023-04-24","","This is how a memoir should be like.","greenlights-d0nvi"
+"Greenlights","Your Journal, Your Journey","Matthew McConaughey","0593235479","9780593235478","en","IS_READING","5","","2023-04-24","","This is how a memoir should be like.","greenlights-d0nvi"
+"The Summons","","John Grisham","0385339593","9780385339599","en","IS_READING","","2024-09-10","","","","the-summons-cukej"
+"Word Power Made Easy","","Norman Lewis","067174190X","9780671741907","en","WANTS_TO_READ","","","","","","word-power-made-easy-v2mji"
+"Operating Systems Three Easy Pieces","","Remzi H.Arpaci-Dusseau","","9791156007395","ko","IS_READING","","2025-06-12","","","","remzi-harpaci-dusseau-operating-systems-three-easy-pieces-227zc"
+"Steve Jobs","","Walter Isaacson, Steve Jobs","1451648537","9781451648539","en","WANTS_TO_READ","5","2025-06-12","2025-12-21","","This is now one of my favourite biographies. It offers a fascinating glimpse into Jobs’ worldview and the stories that shaped those ideologies surrounding living, technology, and art.","steve-jobs-o59au"
+"Steve Jobs","","Walter Isaacson, Steve Jobs","1451648537","9781451648539","en","IS_READING","5","2025-06-12","2025-12-21","","This is now one of my favourite biographies. It offers a fascinating glimpse into Jobs’ worldview and the stories that shaped those ideologies surrounding living, technology, and art.","steve-jobs-o59au"
+"The Art of Innovation","Lessons in Creativity from Ideo, America's Leading Design Firm","TOM AUTOR KELLEY","0385499841","9780385499842","en","IS_READING","","2025-11-01","","","","the-art-of-innovation-y7vqu"
+"Madame Bovary","Provincial Manners","Gustave Flaubert","0192840398","9780192840394","en","WANTS_TO_READ","","","","","","madame-bovary-wed3b"
+"Thank You for Arguing","What Aristotle, Lincoln, and Homer Simpson Can Teach Us about the Art of Persuasion","Jay Heinrichs","0307341445","9780307341440","en","WANTS_TO_READ","","","","","","thank-you-for-arguing-u3jev"
+"Operating Systems Three Easy Pieces","","Remzi H.Arpaci-Dusseau","","9791156007395","ko","WANTS_TO_READ","","2025-06-12","","","","remzi-harpaci-dusseau-operating-systems-three-easy-pieces-227zc"
+"Ghachar Ghochar","","Vivēka Śānabhāga","014311168X","9780143111689","en","WANTS_TO_READ","2.5","2026-02-01","2026-02-01","","It’s about a poor family from Bangalore that suddenly sees a lot of money.
+
+With the sudden influx of money, and a new lifestyle, norms are challenged and problems brew slowly at every end. Most of them remain unspoken throughout the book, it’s something you feel.
+
+This is a translated work (originally written in Kannada) and I think it’s a decent read you can finish in a day. Felt bleak at times.
+
+Personally, not a big fan. I hate the family and all the members. I don’t appreciate their attitude. Money doesn’t buy class, sure.","ghachar-ghochar-gf596"
+"The Old Man and the Sea","","Ernest Hemingway","0684830493","9780684830490","en","IS_READING","3","2025-12-22","2025-12-24","","In modern times, this book feels anti-algorithmic.
+
+One fisherman. One boat. Blood, salt, fatigue.
+
+Too far out in the sea for hours where nothing happens.
+
+The nothingness is the medium with which Hemingway conveys everything. The struggle, the restraint, the wrestle with a challenge.
+
+Almost like punching a bag for hours. There’s rhythm, no arc.
+
+A book about maintaining form under pressure. 
+
+Santiago, the fisherman, doesn’t “discover” himself in the sea. He doesn’t transform. He doesn’t resolve a psychological arc. He holds the line. That’s it.
+
+Hemingway’s ethic is brutally conservative here: dignity is not self-expression or growth; dignity is not breaking.
+
+The book is not inspiring nor magnetic, just coherent.","ernest-hemingwaythe-old-man-and-the-sea-ojr5g"
+"The Old Man and the Sea","","Ernest Hemingway","0684830493","9780684830490","en","FINISHED","3","2025-12-22","2025-12-24","","In modern times, this book feels anti-algorithmic.
+
+One fisherman. One boat. Blood, salt, fatigue.
+
+Too far out in the sea for hours where nothing happens.
+
+The nothingness is the medium with which Hemingway conveys everything. The struggle, the restraint, the wrestle with a challenge.
+
+Almost like punching a bag for hours. There’s rhythm, no arc.
+
+A book about maintaining form under pressure. 
+
+Santiago, the fisherman, doesn’t “discover” himself in the sea. He doesn’t transform. He doesn’t resolve a psychological arc. He holds the line. That’s it.
+
+Hemingway’s ethic is brutally conservative here: dignity is not self-expression or growth; dignity is not breaking.
+
+The book is not inspiring nor magnetic, just coherent.","ernest-hemingwaythe-old-man-and-the-sea-ojr5g"
+"The Old Man and the Sea","","Ernest Hemingway","0684830493","9780684830490","en","NONE","3","2025-12-22","2025-12-24","","In modern times, this book feels anti-algorithmic.
+
+One fisherman. One boat. Blood, salt, fatigue.
+
+Too far out in the sea for hours where nothing happens.
+
+The nothingness is the medium with which Hemingway conveys everything. The struggle, the restraint, the wrestle with a challenge.
+
+Almost like punching a bag for hours. There’s rhythm, no arc.
+
+A book about maintaining form under pressure. 
+
+Santiago, the fisherman, doesn’t “discover” himself in the sea. He doesn’t transform. He doesn’t resolve a psychological arc. He holds the line. That’s it.
+
+Hemingway’s ethic is brutally conservative here: dignity is not self-expression or growth; dignity is not breaking.
+
+The book is not inspiring nor magnetic, just coherent.","ernest-hemingwaythe-old-man-and-the-sea-ojr5g"
+"Flashlight","","Susan Choi","","9780374616373","en","WANTS_TO_READ","2.5","2025-12-30","","","My literary palate did not like this one. I gave it a few chances; it didn't work.
+
+I had better expectations from this Booker Prize long-listed book.
+
+Perhaps it's a book for the latest stages of my life.
+
+The granular realism made it rather unengaging, dull. ","susan-choi-flashlight-grfm3"
+"Why The Poor Don’t Kill Us","The Psychology of Indians","Manu Joseph","9365234573","9789365234572","en","IS_READING","4.5","2025-12-24","2025-12-26","","I was introduced to Manu Joseph via a show he created that’s on Netflix, “Decoupled”.
+
+It’s the kind of a show that made me want to learn more about who developed it instead of being a mere consumer of the plot. It’s when I noticed the work of Manu Joseph, who, in this book, splendidly conveys the nature of India in all its absurdities.
+
+Decoupled felt refreshing, unique, well-written. It hilariously showcased the Indian class divide and it grappled with idea of how India treats money, class, religion.
+
+Why The Poor Don’t Kill Us feels like an extension of sorts. At times, I read certain excerpts with the voice of R. Madhavan who plays the protagonist in the show Decoupled. It was hard to me for decouple the show with the book.
+
+Now, the book asserts the psychology of Indians across different socio-economic backgrounds and talks about ideas like how the aesthetic ugliness of the country reassures the poor, our outlook towards money and how it makes sense for rich moneylenders to prefer an austere life, how material success is more powerful than mere activism to bring real change.
+
+It is a darkly hilarious book that will make you laugh, and then leave you uncomfortable because you laughed. It confronts a reality that is deeply relevant to the Indian society in a bold, unapologetic	fashion that leaves you surprised because what you read in this book is what you live around, everyday, without noticing.","manu-joseph-why-the-poor-dont-kill-us-c8w6y"
+"The Stranger","","Albert Camus","0307827666","9780307827661","en","WANTS_TO_READ","4.5","2025-12-26","2025-12-28","","I haven’t read fiction this arresting in a long time. The opening line alone is so remarkable that I had to take a pause and gear up for what followed. The story of Meursault is that he fails to live with a narrative to please societal expectations.
+
+Camus stages a thought experiment with the help of Meursault: What happens if a man refuses to lie emotionally in a world that requires it?
+
+The book is about the punishment you get for not living up to social expectations regardless of how you feel.
+
+Meursault is ruthless, but in an honest way that intends no harm for others and yet, he’s punished for being that way.
+
+About the writing, Matthew Ward’s translation serves as a charming, magnetic outlook into the story of Meursault. It’s easy to step into his world, but impossible to judge his actions comfortably.
+
+A lot more thoughts to be shared, a lot more conversations to be had about this book.
+
+Timeless.","the-stranger-3b5v2"
+"The Stranger","","Albert Camus","0307827666","9780307827661","en","IS_READING","4.5","2025-12-26","2025-12-28","","I haven’t read fiction this arresting in a long time. The opening line alone is so remarkable that I had to take a pause and gear up for what followed. The story of Meursault is that he fails to live with a narrative to please societal expectations.
+
+Camus stages a thought experiment with the help of Meursault: What happens if a man refuses to lie emotionally in a world that requires it?
+
+The book is about the punishment you get for not living up to social expectations regardless of how you feel.
+
+Meursault is ruthless, but in an honest way that intends no harm for others and yet, he’s punished for being that way.
+
+About the writing, Matthew Ward’s translation serves as a charming, magnetic outlook into the story of Meursault. It’s easy to step into his world, but impossible to judge his actions comfortably.
+
+A lot more thoughts to be shared, a lot more conversations to be had about this book.
+
+Timeless.","the-stranger-3b5v2"
+"Kitchen Confidential","Adventures in the Culinary Underbelly","Anthony Bourdain","0060899220","9780060899226","un","WANTS_TO_READ","","","","","","kitchen-confidential-updated-ed-p2gbl"
+"Tarkash","","Javed Akhtar","8126707267","9788126707263","hi","WANTS_TO_READ","5","2026-01-10","2026-01-13","","","javed-akhtar-tarkash-qdqck"
+"Never Let Me Go","","Kazuo Ishiguro","0571249388","9780571249381","en","WANTS_TO_READ","","2025-12-28","","","","never-let-me-go-lxl23"
+"Never Let Me Go","","Kazuo Ishiguro","0571249388","9780571249381","en","IS_READING","","2025-12-28","","","","never-let-me-go-lxl23"
+"Flashlight","","Susan Choi","","9780374616373","en","IS_READING","2.5","2025-12-30","","","My literary palate did not like this one. I gave it a few chances; it didn't work.
+
+I had better expectations from this Booker Prize long-listed book.
+
+Perhaps it's a book for the latest stages of my life.
+
+The granular realism made it rather unengaging, dull. ","susan-choi-flashlight-grfm3"
+"The Road to Character","","David Brooks","081299325X","9780812993257","en","WANTS_TO_READ","","2026-03-01","","","","the-road-to-character-7f83u"
+"Tarkash","","Javed Akhtar","8126707267","9788126707263","hi","IS_READING","5","2026-01-10","2026-01-13","","","javed-akhtar-tarkash-qdqck"
+"Good Material","","Dolly Alderton","0241523672","9780241523674","en","WANTS_TO_READ","3.5","2026-01-21","2026-01-29","","","dolly-alderton-good-material-rek7y"
+"Good Material","","Dolly Alderton","0241523672","9780241523674","en","IS_READING","3.5","2026-01-21","2026-01-29","","","dolly-alderton-good-material-rek7y"
+"Ghachar Ghochar","","Vivēka Śānabhāga","014311168X","9780143111689","en","IS_READING","2.5","2026-02-01","2026-02-01","","It’s about a poor family from Bangalore that suddenly sees a lot of money.
+
+With the sudden influx of money, and a new lifestyle, norms are challenged and problems brew slowly at every end. Most of them remain unspoken throughout the book, it’s something you feel.
+
+This is a translated work (originally written in Kannada) and I think it’s a decent read you can finish in a day. Felt bleak at times.
+
+Personally, not a big fan. I hate the family and all the members. I don’t appreciate their attitude. Money doesn’t buy class, sure.","ghachar-ghochar-gf596"
+"Designing Pleasurable Products","An Introduction to the New Human Factors","Patrick W. Jordan","0415298873","9780415298872","en","WANTS_TO_READ","","","","","","designing-pleasurable-products-rb82p"
+"Gaban","","Premcand","8122311962","9788122311969","en","IS_READING","","2026-02-01","","","","premcand-gaban-4nzfi"
+"Gaban","","Premcand","8122311962","9788122311969","en","NONE","","2026-02-01","","","","premcand-gaban-4nzfi"
+"Gaban","","Premcand","8122311962","9788122311969","en","WANTS_TO_READ","","2026-02-01","","","","premcand-gaban-4nzfi"
+"Gaban","","Premcand","8122311962","9788122311969","en","IS_READING","","2026-02-01","","","","premcand-gaban-4nzfi"
+"Gaban","The Stolen Jewels","Premchand,","0195662636","9780195662634","en","WANTS_TO_READ","","2026-02-01","","","","premchand-gaban-e1era"
+"Gaban","The Stolen Jewels","Premchand,","0195662636","9780195662634","en","IS_READING","","2026-02-01","","","","premchand-gaban-e1era"
+"The Road to Character","","David Brooks","081299325X","9780812993257","en","IS_READING","","2026-03-01","","","","the-road-to-character-7f83u"
+"The Science of Storytelling: Why Stories Make Us Human, and How to Tell Them Better","","Will Storr","0008276951","9780008276959","en","WANTS_TO_READ","","","","","","the-science-of-storytelling-why-stories-make-us-human-and-how-to-tell-them-better-4qk7l"
+"One Day Everyone Will Have Always Been Against This","","Omar El Akkad","","9780771021787","en","WANTS_TO_READ","","","","","","omar-el-akkad-one-day-everyone-will-have-always-been-against-this-4ckq0"
+"Finite and Infinite Games","","James Carse","1476731713","9781476731711","en","WANTS_TO_READ","","","","","","finite-and-infinite-games-glm14"
+"Project Hail Mary","A Novel","Andy Weir","0593135210","9780593135211","en","WANTS_TO_READ","5","2026-05-07","2026-05-14","","My new favorite.","project-hail-mary-6ku2l"
+"Project Hail Mary","A Novel","Andy Weir","0593135210","9780593135211","en","IS_READING","5","2026-05-07","2026-05-14","","My new favorite.","project-hail-mary-6ku2l"
+"Sapiens","A Brief History of Humankind","Yuval Noah Harari","0099590085","9780099590088","en","WANTS_TO_READ","","","","","","yuval-noah-harari-sapiens-ohhok"
+"The Ultimate Goal: A Former R&AW Chief Deconstructs How Nations andIntelligence Agencies Construct Narratives","","Vikram Sood","935357952X","9789353579524","en","WANTS_TO_READ","","2026-05-19","","","","vikram-sood-the-ultimate-goal-a-former-randaw-chief-deconstructs-how-nations-andintelligence-agencies-construct-narratives-we2e8"
+"The Ultimate Goal: A Former R&AW Chief Deconstructs How Nations andIntelligence Agencies Construct Narratives","","Vikram Sood","935357952X","9789353579524","en","IS_READING","","2026-05-19","","","","vikram-sood-the-ultimate-goal-a-former-randaw-chief-deconstructs-how-nations-andintelligence-agencies-construct-narratives-we2e8"
+"Days at the Morisaki Bookshop","The International Bestseller for lovers of Before the Coffee Gets Cold","Satoshi Yagisawa","1786583259","9781786583253","en","IS_READING","","2026-08-12","2026-08-16","","","satoshi-yagisawa-days-at-the-morisaki-bookshop-jxmbz"
+"Kuchh Ishq Kiya Kuchh Kaam Kiya","","Piyush Mishra","","","hi","WANTS_TO_READ","","2026-06-07","","","","piyush-mishra-kuchh-ishq-kiya-kuchh-kaam-kiya-61jof"
+"Kuchh Ishq Kiya Kuchh Kaam Kiya","","Piyush Mishra","","","hi","IS_READING","","2026-06-07","","","","piyush-mishra-kuchh-ishq-kiya-kuchh-kaam-kiya-61jof"
+"Who the F**k are You","A Polite Book about Finding Your Unfair Advantage and Making it Impossible to Ignore","Harinder Singh Pelia","0143476580","9780143476580","en","IS_READING","","2026-03-07","","","","harinder-singh-pelia-who-the-f-k-are-you-9f892"
+"The Count of Monte Cristo","","Alexandre Dumas","1846650798","9781846650796","en","WANTS_TO_READ","","2026-08-16","","","","alexandre-dumas-the-count-of-monte-cristo-4phwl"
+"The Art of Rhetoric","","Aristotle, Hugh Lawson-Tancred","0140445102","9780140445107","en","WANTS_TO_READ","","","","","","the-art-of-rhetoric-hfouj"
+"Very Cold People","A Novel","Sarah Manguso","0593241223","9780593241226","en","WANTS_TO_READ","","","","","","sarah-manguso-very-cold-people-ijz9x"
+"Without Their Permission","The Story of Reddit and a Blueprint for How to Change the World","Alexis Ohanian","","","un","WANTS_TO_READ","","","","","","alexis-ohanian-without-their-permission-efwz2"
+"The Art of Thinking Clearly","","Rolf Dobelli","0062359800","9780062359803","en","FINISHED","4","","2021-12-26","","","the-art-of-thinking-clearly-c9l6r"
+"Principles","","Ray Dalio","1982112387","9781982112387","en","WANTS_TO_READ","","","","","","ray-dalio-principles-hwb8a"
+"Outliers","The Story of Success","Malcolm Gladwell","0141036257","9780141036250","en","WANTS_TO_READ","","","","","","malcolm-gladwell-outliers-4mfao"
+"Anthro-Vision","A New Way to See in Business and Life","Gillian Tett","1982140968","9781982140960","un","WANTS_TO_READ","","","","","","anthro-vision-zpfq4"
+"The Silo Effect","The Peril of Expertise and the Promise of Breaking Down Barriers","Gillian Tett","1451644744","9781451644746","en","NONE","","","","","","the-silo-effect-0aybk"
+"Lying","","Sam Harris","1940051010","9781940051017","en","WANTS_TO_READ","","","","","","lying-mo6m9"
+"1984","","George Orwell","0547249640","9780547249643","en","WANTS_TO_READ","","","","","","george-orwell-1984-4w1fe"
+"Beyond Good and Evil","","Friedrich Nietzsche","014044923X","9780140449235","un","WANTS_TO_READ","","","","","","beyond-good-and-evil-jlpwe"
+"Think Again","The Power of Knowing what You Don't Know","Adam Grant","1984878107","9781984878106","un","FINISHED","5","","2022-04-05","","Great book with practical tips. I had a lot of ""wow"" moments reading this one.","think-again-xjd47"
+"12 Rules for Life","An Antidote to Chaos","Jordan B. Peterson","0345816021","9780345816023","en","DROPPED","","2022-01-04","","","","12-rules-for-life-9nfol"
+"The Ape that Understood the Universe","How the Mind and Culture Evolve","Steve Stewart-Williams","1108425046","9781108425049","en","WANTS_TO_READ","","","","","","the-ape-that-understood-the-universe-1znh9"
+"Blink","The Power of Thinking Without Thinking","Malcolm Gladwell","0316010669","978-0316010665","en","DROPPED","","2022-01-04","","","","malcolm-gladwellblink-2g91u"
+"Emotional Intelligence","10th Anniversary Edition; Why It Can Matter More Than IQ","Daniel Goleman","055380491X","9780553804911","en","DROPPED","","2022-02-05","","","","daniel-golemanemotional-intelligence-3cq8x"
+"What Got You Here Won't Get You There","","Marshall Goldsmith, Shane Clester","1610660137","9781610660136","en","WANTS_TO_READ","","","","","","marshall-goldsmith-shane-clester-what-got-you-here-wont-get-you-there-akjoy"
+"The Beginning of Infinity","Explanations that Transform the World","David Deutsch","0670022756","9780670022755","un","WANTS_TO_READ","","","","","","the-beginning-of-infinity-b3jlr"
+"How Innovation Works","And Why It Flourishes in Freedom","Matt Ridley","0062916599","9780062916594","un","WANTS_TO_READ","","","","","","how-innovation-works-v747q"
+"How To Live","27 conflicting answers and one weird conclusion","Derek Sivers","","","en","WANTS_TO_READ","","","","","","derek-sivers-how-to-live-aerpx"
+"General Systemantics","An Essay on how Systems Work, and Especially how They Fail, Together with the Very First Annotated Compendium of Basic Systems Axioms : a Handbook and Ready Reference for Scientists, Engineers, Laboratory Workers, Administrators, Public Officials, Systems Analysts, Etc., Etc., Etc., and the General Public","John Gall","","","en","WANTS_TO_READ","","","","","","john-gall-general-systemantics-0k8ef"
+"Thinking in Systems","A Primer","Donella H. Meadows, Diana Wright","1603580557","9781603580557","en","WANTS_TO_READ","","","","","","thinking-in-systems-0q34a"
+"Super Thinking","The Big Book of Mental Models","Gabriel Weinberg","0525542817","9780525542810","en","WANTS_TO_READ","","","","","","superthinking-d4lhr"
+"The Innovation Stack","Building an Unbeatable Business One Crazy Idea at a Time","Jim McKelvey","0593086732","9780593086735","en","WANTS_TO_READ","","","","","","the-innovation-stack-8gxw0"
+"The Checklist Manifesto","How to Get Things Right","Atul Gawande","1846683149","9781846683145","en","FINISHED","5","2022-04-08","2022-04-16","","Love the storytelling. I never felt bored reading this book.","the-checklist-manifesto-hxx8r"
+"Justice","What's the Right Thing to Do?","Michael Sandel","0141041331","9780141041339","en","WANTS_TO_READ","","","","","","justice-bh597"
+"The Ultimate Goal: A Former R&AW Chief Deconstructs How Nations andIntelligence Agencies Construct Narratives","","Vikram Sood","935357952X","9789353579524","en","DROPPED","","2026-05-19","","","","vikram-sood-the-ultimate-goal-a-former-randaw-chief-deconstructs-how-nations-andintelligence-agencies-construct-narratives-we2e8"
+"Algorithms to Live By","The Computer Science of Human Decisions","Tom Griffiths, Brian Christian","1627790365","9781627790369","un","WANTS_TO_READ","","","","","","algorithms-to-live-by-qr8yc"
+"No Longer Human","","Osamu Dazai","0811204812","9780811204811","en","WANTS_TO_READ","","","","","","no-longer-human-l6v2a"
+"Traction","A Startup Guide to Getting Customers","Gabriel Weinberg, Justin Mares","0976339609","9780976339601","en","WANTS_TO_READ","","","","","","traction-w9p8y"
+"Notes from Underground","","Fyodor Dostoevsky","067973452X","9780679734529","un","WANTS_TO_READ","","","","","","notes-from-underground-2jluj"
+"The magicians","a novel","Lev Grossman","","9780670020553","en","WANTS_TO_READ","","","","","","lev-grossmanthe-magicians-jb1p0"
+"Freakonomics Rev Ed","A Rogue Economist Explores the Hidden Side of Everything","Steven D. Levitt, Stephen J. Dubner","0061234001","9780061234002","en","NONE","","","2022-06-05","","","freakonomics-rev-ed-p7be8"
+"Super Freakonomics","","Steven D. Levitt","0062312871","9780062312877","en","NONE","","","","","","steven-d-levitt-super-freakonomics-33q95"
+"Research for People Who Think They Would Rather Create","","Dirk Vis","9493148432","9789493148437","en","WANTS_TO_READ","","","","","","dirk-vis-research-for-people-who-think-they-would-rather-create-popxj"
+"Super Thinking","The Big Book of Mental Models","Gabriel Weinberg, Lauren McCann","0525533583","9780525533580","un","WANTS_TO_READ","","","","","","super-thinking-cw4gu"
+"Build","An unorthodox guide to making things worth making.","Tony Fadell","1787634116","9781787634114","en","WANTS_TO_READ","","","","","","tony-fadell-build-78c5y"
+"Self-made Man","One Woman's Journey Into Manhood and Back Again","Norah Vincent","0670034665","9780670034666","en","WANTS_TO_READ","","","","","","norah-vincent-self-made-man-80229"
+"The Boron Letters","","Gary Halbert, Bond Halbert","1484825985","9781484825983","en","WANTS_TO_READ","","","","","","the-boron-letters-ii99p"
+"The Wisdom of Psychopaths","What Saints, Spies, and Serial Killers Can Teach Us About Success","Kevin Dutton","0374291357","9780374291358","en","WANTS_TO_READ","","","","","","the-wisdom-of-psychopaths-6am8e"
+"The Creative Act","A Way of Being","Rick Rubin","0593652886","9780593652886","en","WANTS_TO_READ","","","","","","rick-rubin-the-creative-act-ff6ov"
+"Mixed Signals","How Incentives Really Work","Uri Gneezy","0300255535","9780300255539","en","WANTS_TO_READ","","","","","","uri-gneezy-mixed-signals-1iwp4"
+"The Urgent Life","My Story of Love, Loss, and Survival","Bozoma Saint John","0593300173","9780593300176","en","WANTS_TO_READ","","","","","","bozoma-saint-john-the-urgent-life-xmb0q"
+"A Thousand Boy Kisses","","Tillie Cole","1530496195","9781530496198","en","WANTS_TO_READ","","","","","","a-thousand-boy-kisses-cr01e"
+"Kolyma Tales","","Varlan Shalanov","0140186956","9780140186956","en","WANTS_TO_READ","","","","","","kolyma-tales-xoqjw"
+"Tools of Titans","The Tactics, Routines, and Habits of Billionaires, Icons, and World-class Performers","Timothy Ferriss","1328683788","9781328683786","en","WANTS_TO_READ","","","","","","tools-of-titans-8ox88"
+"No Shortcuts","Rare Insights from 15 Successful Startup Founders","Nistha Tripathi","9352808274","9789352808274","en","WANTS_TO_READ","","","","","","nistha-tripathi-no-shortcuts-0xip2"
+"Think and Grow Rich","","Napoleon Hill","1605069302","9781605069302","en","FINISHED","2","2021-01-15","2021-01-26","","","napoleon-hill-think-and-grow-rich-zw69b"
+"Serious Guide to Joke Writing","How to Say Something Funny about Anything","Sally Holloway","1907498370","9781907498374","en","FINISHED","3","","","","","sally-holloway-serious-guide-to-joke-writing-q7kji"
+"The Richest Man in Babylon","","George S. Clason","0451205367","9780451205360","en","FINISHED","4","2021-01-26","2021-02-02","","","george-s-clasonthe-richest-man-in-babylon-7lcpq"
+"Deep Work","Rules for Focused Success in a Distracted World","Cal Newport","1455586692","9781455586691","en","FINISHED","4","2022-03-01","2022-03-11","","","deep-work-wbun9"
+"Superintelligence","Paths, Dangers, Strategies","Nick Bostrom","0199678111","9780199678112","en","WANTS_TO_READ","","","","","","superintelligence-5elo8"
+"Stubborn Attachments","A Vision for a Society of Free, Prosperous, and Responsible Individuals","Tyler Cowen","1732265135","9781732265134","en","WANTS_TO_READ","","","","","","stubborn-attachments-9e3pm"
+"The Black Swan","","Nassim Nicholas Taleb","0812979184","9780812979183","en","WANTS_TO_READ","","","","","","the-black-swan-mg7ze"
+"The 3 Mistakes of My Life","A Story about Business, Cricket, and Religion","Chetan Bhagat","8129113724","9788129113726","en","FINISHED","3.5","","2021-01-01","","","the-3-mistakes-of-my-life-cxepu"
+"Who Moved My Cheese?","An Amazing Way to Deal with Change in Your Work and in Your Life","Spencer Johnson","0091883768","9780091883768","un","FINISHED","2","","","","","who-moved-my-cheese-9oly1"
+"The Decision Book","Fifty models for strategic thinking (New Edition)","Roman Tschäppeler, Mikael Krogerus","1782834052","9781782834052","en","FINISHED","3","","","","","the-decision-book-4aqfx"
+"Slay Belles & Mayhem","A Medley of Dark Tales","Brianna Hale, Anna Edwards,  Lylah James","","9798574233061","en","FINISHED","3","2022-01-04","2022-03-01","","","anna-edwards-lylah-james-brianna-hale-slay-belles-and-mayhem-vro72"
+"Range","Why Generalists Triumph in a Specialized World","David Epstein","0735214484","9780735214484","en","WANTS_TO_READ","","","","","","range-yb56h"
+"The Daily Stoic","366 Meditations on Wisdom, Perseverance, and the Art of Living: Featuring new translations of Seneca, Epictetus, and Marcus Aurelius","Ryan Holiday, Stephen Hanselman","178283317X","9781782833178","en","WANTS_TO_READ","","","","","","the-daily-stoic-j8ic3"
+"The Art of War","","Sunzi, Sun Tzu","1599869772","9781599869773","en","FINISHED","4","","","","","the-art-of-war-ibl05"
+"Tuesdays with Morrie","an old man, a young man, and life's greatest lesson","Mitch Albom","","9780767905923","en","FINISHED","5","2021-04-18","2021-05-18","","","mitch-albomtuesdays-with-morrie-q42y3"
+"The Laws of Human Nature","","Robert Greene","1782833889","9781782833888","en","FINISHED","4","","","","","the-laws-of-human-nature-g189e"
+"Ego is the Enemy","","Ryan Holiday","1591847818","9781591847816","en","FINISHED","3","","","","","ego-is-the-enemy-1l0rf"
+"The Almanack of Naval Ravikant","A Guide to Wealth and Happiness","Eric Jorgenson","1544514212","9781544514215","un","FINISHED","","","2022-02-13","","","the-almanack-of-naval-ravikant-7aeik"
+"The 48 Laws of Power","","Robert Greene","0140280197","9780140280197","un","FINISHED","4","2021-06-29","2021-11-04","","","the-48-laws-of-power-16lji"
+"Human Compatible","Artificial Intelligence and the Problem of Control","Stuart Russell","0525558616","9780525558613","en","WANTS_TO_READ","","","","","","human-compatible-k9m8f"
+"The Book of Why","The New Science of Cause and Effect","Judea Pearl, Dana Mackenzie","046509760X","9780465097609","en","WANTS_TO_READ","","","","","","the-book-of-why-q6rxo"
+"Model Thinker","What You Need to Know to Make Data Work for You","Scott E. Page","0465094627","9780465094622","en","WANTS_TO_READ","","","","","","model-thinker-n45r7"
+"The Prince","","Niccolò Machiavelli","0937832383","9780937832387","un","WANTS_TO_READ","","","","","","the-prince-o6o0e"
+"Rework","","Jason Fried","0307463745","9780307463746","en","FINISHED","5","","","","","rework-kljqe"
+"The $100 Startup","Reinvent the Way You Make a Living, Do what You Love, and Create a New Future","Chris Guillebeau","0307951529","9780307951526","en","FINISHED","3","2021-05-18","2021-11-04","","","the-dollar100-startup-7mdwl"
+"Eleanor Oliphant is Completely Fine","","Gail Honeyman","0735220689","9780735220683","en","WANTS_TO_READ","","","","","","eleanor-oliphant-is-completely-fine-48i43"
+"Hooked","How to Build Habit-forming Products","Nir Eyal, Ryan Hoover","1591847788","9781591847786","en","WANTS_TO_READ","","","","","","hooked-u5dpd"
+"Broken (in the best possible way)","","Jenny Lawson","1250077036","9781250077035","en","WANTS_TO_READ","","","","","","broken-in-the-best-possible-way-ok6ea"
+"A Little Life","Shortlisted for the Man Booker Prize 2015","Hanya Yanagihara","144729484X","9781447294849","en","WANTS_TO_READ","","","","","","a-little-life-d44ko"
+"Making Sense","Conversations on Consciousness, Morality and the Future of Humanity","Sam Harris","1473560071","9781473560079","en","WANTS_TO_READ","","","","","","making-sense-qb7ag"
+"The Hard Thing About Hard Things","Building a Business When There Are No Easy Answers","Ben Horowitz","0062273205","9780062273208","en","WANTS_TO_READ","","","","","","the-hard-thing-about-hard-things-obql4"
+"The Kite Runner","","Khaled Hosseini","1350033243","9781350033245","en","WANTS_TO_READ","","","","","","the-kite-runner-ez54a"
+"Shoe Dog","A Memoir by the Creator of Nike","Philip H. Knight","1501135910","9781501135910","en","FINISHED","5","2021-02-02","2021-04-04","","","shoe-dog-iraoz"
+"How to Win Friends and Influence People","","Dale Carnegie, General Press","8180320219","9788180320217","en","FINISHED","5","2021-04-04","2021-05-18","","","dale-carnegie-general-press-how-to-win-friends-and-influence-people-ogkr9"
+"Rich Dad, Poor Dad","What the Rich Teach Their Kids about Money - that the Poor and Middle Class Do Not!","Robert T. Kiyosaki","0751532711","9780751532715","en","FINISHED","1","","","","","rich-dad-poor-dad-g11re"
+"Adult Children of Emotionally Immature Parents","How to Heal from Difficult, Rejecting, Or Self-involved Parents","Lindsay C. Gibson","1626251703","9781626251700","en","FINISHED","4","2022-01-25","2022-01-27","","","adult-children-of-emotionally-immature-parents-1bvqd"
+"The Monk Who Sold His Ferrari","A Fable About Fulfilling Your Dreams & Reaching Your Destiny","Robin Sharma","0062515675","9780062515674","en","FINISHED","4","","2021-01-26","","","the-monk-who-sold-his-ferrari-vkodj"
+"Atomic Habits","Tiny Changes, Remarkable Results : an Easy & Proven Way to Build Good Habits & Break Bad Ones","James Clear","0735211299","9780735211292","en","FINISHED","5","","","","","james-clear-atomic-habits-q5py4"
+"Flights","","Olga Tokarczuk","0525534199","9780525534198","en","WANTS_TO_READ","","","","","","olga-tokarczuk-flights-0e1hr"
+"Utopia for Realists","And How We Can Get There","Rutger Bregman","1408890259","9781408890257","en","WANTS_TO_READ","","","","","","utopia-for-realists-uh3we"
+"The Ghostwriter","","Alessandra Torre","1940941946","9781940941943","en","WANTS_TO_READ","","","","","","alessandra-torre-the-ghostwriter-w9p0f"
+"No Rules Rules","Netflix and the Culture of Reinvention","Reed Hastings","0593152387","9780593152386","en","WANTS_TO_READ","","","","","","no-rules-rules-2zdmc"
+"Dream with Your Eyes Open","An Entrepreneurial Journey","Ronnie Screwvala","8129135884","9788129135889","un","WANTS_TO_READ","","","","","","dream-with-your-eyes-open-45zoy"
+"Behave","The Biology of Humans at Our Best and Worst","Robert M. Sapolsky","1594205078","9781594205071","un","WANTS_TO_READ","","","","","","behave-55dbr"
+"On Being and Becoming","An Existentialist Approach to Life","Jennifer Anna Gosetti-Ferencei","0190913657","9780190913656","en","WANTS_TO_READ","","","","","","jennifer-anna-gosetti-ferencei-on-being-and-becoming-1ygy0"
+"Atomic Design","","Brad Frost","0998296600","9780998296609","en","WANTS_TO_READ","","","","","","atomic-design-4zpmf"
+"Jonathan Livingston Seagull","","Richard Bach","0743278909","9780743278904","un","FINISHED","4","","2022-01-27","","","jonathan-livingston-seagull-44kk3"
+"The Rudest Book Ever","","Shwetabh Gangwar","9388754433","9789388754439","en","FINISHED","4","2022-01-04","2022-01-11","","","shwetabh-gangwar-the-rudest-book-ever-p4khu"
+"The Psychology of Money","Timeless lessons on wealth, greed, and happiness","Morgan Housel","0857197681","9780857197689","en","FINISHED","5","","","","","the-psychology-of-money-81pxa"
+"Zero to One","Notes on Startups, Or how to Build the Future","Blake Masters, Peter A. Thiel","0804139296","9780804139298","en","FINISHED","5","","","","","zero-to-one-idrk3"
+"Make Time","How to focus on what matters every day","Jake Knapp, John Zeratsky","1473552915","9781473552913","en","WANTS_TO_READ","","","","","","make-time-cgvwe"
+"Bird by Bird","Some Instructions on Writing and Life","Anne Lamott","0385480016","9780385480017","en","WANTS_TO_READ","","","","","","bird-by-bird-ip0ni"
+"The Three-Body Problem","","Ken Liu, Liu Cixin","0765377063","9780765377067","en","WANTS_TO_READ","","","","","","the-three-body-problem-8n1zz"
+"Ace","What Asexuality Reveals about Desire, Society, and the Meaning of Sex","Angela Chen","080701379X","9780807013793","en","WANTS_TO_READ","","","","","","ace-poloe"
+"Invisible Women","Data Bias in a World Designed for Men","Caroline Criado Perez","1419729071","9781419729072","en","WANTS_TO_READ","","","","","","invisible-women-lvxxl"
+"A Book of Simple Living","Brief Notes from the Hills","Ruskin Bond","9385288253","9789385288258","en","WANTS_TO_READ","","","","","","a-book-of-simple-living-z7lo9"
+"Far From the Madding Crowd","","Thomas Hardy","142092852X","9781420928525","en","WANTS_TO_READ","","","","","","thomas-hardyfar-from-the-madding-crowd-jehb1"
+"Thinking, Fast and Slow","","Daniel Kahneman","0374275637","9780374275631","en","WANTS_TO_READ","","","","","","thinking-fast-and-slow-wwuk4"
+"The Go-giver","A Little Story about a Powerful Business Idea","John David Mann, Bob Burg","159184200X","9781591842002","en","WANTS_TO_READ","","","","","","the-go-giver-lfxhx"
+"Can't Hurt Me","Master Your Mind and Defy the Odds - Clean Edition","David Goggins","1544507852","9781544507859","en","WANTS_TO_READ","","","","","","cant-hurt-me-f4xmy"
+"The Subtle Art of Not Giving a F*ck","A Counterintuitive Approach to Living a Good Life","Mark Manson","006245773X","9780062457738","en","WANTS_TO_READ","","","","","","mark-manson-the-subtle-art-of-not-giving-a-fck-c3rqp"
+"The Alchemist","","Paulo Coelho","0062315005","9780062315007","en","FINISHED","3.5","","","","","the-alchemist-pjupi"
+"Dharma","","Amish Tripathi","9389648882","9789389648881","en","FINISHED","2","2021-05-18","2021-06-29","","","amish-tripathi-dharma-5coc9"
+"Fooled By Randomness","The Hidden Role Of Chance In Life And In The Markets","Nassim Nicholas Taleb","0812975219","9780812975215","en","WANTS_TO_READ","","","","","","fooled-by-randomness-lfeqd"
+"The Bed of Procrustes","Philosophical and Practical Aphorisms","Nassim Nicholas Taleb","1400069971","9781400069972","un","WANTS_TO_READ","","","","","","the-bed-of-procrustes-kcque"
+"Antifragile","Things That Gain from Disorder","Nassim Nicholas Taleb","1400067820","9781400067824","en","WANTS_TO_READ","","","","","","antifragile-83arx"
+"Asylum","","Madeleine Roux","0062220969","9780062220967","en","WANTS_TO_READ","","","","","","madeleine-rouxasylum-1nv4f"
+"Invent and Wander","","Jeff Bezos","","9791191425581","ko","WANTS_TO_READ","","","","","","jeff-bezos-invent-and-wander-5e0jz"
+"The Design of Everyday Things","","Donald A. Norman","0262525674","9780262525671","en","WANTS_TO_READ","","","","","","donald-a-norman-the-design-of-everyday-things-0c7fn"
+"A Gentleman in Moscow","The worldwide bestseller","Amor Towles","1448135508","9781448135509","en","WANTS_TO_READ","","","","","","a-gentleman-in-moscow-vk7y0"
+"Skin in the Game","The Thrills and Logic of Risk Taking","Nassim Nicholas Taleb","0241300657","9780241300657","en","WANTS_TO_READ","","","","","","skin-in-the-game-ofybo"
+"The Thing Which Has No Name","","Rory Sutherland","0753556510","9780753556511","en","WANTS_TO_READ","","","","","","the-thing-which-has-no-name-u7xlf"
+"A Mind for Numbers","How to Excel at Math and Science (even If You Flunked Algebra)","Barbara A. Oakley","039916524X","9780399165245","un","WANTS_TO_READ","","","","","","a-mind-for-numbers-aq3zu"
+"Fight Club","","Chuck Palahniuk","0393355942","9780393355949","un","WANTS_TO_READ","","","","","","fight-club-h2l6h"
+"Stoner","","John Williams","1590171993","9781590171998","en","WANTS_TO_READ","","","","","","john-williamsstoner-cd9ah"
+"Wanting","The Power of Mimetic Desire in Everyday Life","Luke Burgis","1250262488","9781250262486","en","WANTS_TO_READ","","","","","","wanting-57l4x"
+"Four Psychos","The Dark Side #1","Kristy Cunning","","","en","WANTS_TO_READ","","","","","","kristy-cunning-four-psychos-jbcoe"
+"Serpent & Dove","","Shelby Mahurin","0062878042","9780062878045","en","WANTS_TO_READ","","","","","","serpent-and-dove-5nam8"
+"The High Performance Entrepreneur","Golden Rules for Success in Today's World","Subroto Bagchi","0670999180","9780670999187","en","WANTS_TO_READ","","","","","","subroto-bagchi-the-high-performance-entrepreneur-j0rcy"
+"101 Essays That Will Change The Way You Think","","Brianna Wiest","1945796065","9781945796067","en","WANTS_TO_READ","","","","","","101-essays-that-will-change-the-way-you-think-fqpyx"
+"A Man Called Ove","A Novel","Fredrik Backman","1476738017","9781476738017","en","WANTS_TO_READ","","","","","","a-man-called-ove-373bu"
+"The Midnight Library","","Matt Haig","1786892715","9781786892713","en","WANTS_TO_READ","","","","","","the-midnight-library-mrpx0"
+"Influence","The Psychology of Persuasion (Collins Business Essentials)","Robert B. Cialdini ","006124189X","9780061241895","en","WANTS_TO_READ","","","","","","robert-b-cialdiniinfluence-ujb3y"
+"They Both Die at the End","","Adam Silvera","0062457799","9780062457790","en","WANTS_TO_READ","","","","","","they-both-die-at-the-end-mele5"
+"One Up On Wall Street","How To Use What You Already Know To Make Money In The Market","Peter Lynch, John Rothchild","0743200403","9780743200400","en","WANTS_TO_READ","","","","","","one-up-on-wall-street-q057w"
+"To Kill a Mockingbird","","Harper Lee","0062368680","9780062368683","en","WANTS_TO_READ","","","","","","to-kill-a-mockingbird-89wxl"
+"Solving Product Design Exercises","Questions and Answers","Artiom Dashinsky","1977000428","9781977000422","en","WANTS_TO_READ","","","","","","solving-product-design-exercises-jmgmj"
+"The Biggest Bluff","How I Learned to Pay Attention, Master Myself, and Win","Maria Konnikova","052552262X","9780525522621","en","WANTS_TO_READ","","","","","","the-biggest-bluff-eg6b3"
+"Think","A Compelling Introduction to Philosophy","Simon Blackburn","0192854259","9780192854254","en","WANTS_TO_READ","","","","","","think-yxkrf"
+"Biomimicry","Innovation Inspired by Nature","Janine M. Benyus","0061958921","9780061958922","un","DROPPED","","2022-10-22","","","","biomimicry-0uvr9"
+"The Storyteller","Tales of Life and Music","Dave Grohl","0063076098","9780063076099","en","WANTS_TO_READ","","","","","","dave-grohl-the-storyteller-l95f4"
+"The War of Art","Break Through the Blocks and Win Your Inner Creative Battles","Steven Pressfield","0446691437","9780446691437","en","WANTS_TO_READ","","","","","","the-war-of-art-c6vuz"
+"The Culture Map","Decoding How People Think, Lead, and Get Things Done Across Cultures","Erin Meyer","1610392760","9781610392761","un","WANTS_TO_READ","","","","","","the-culture-map-2bvli"
+"The Utopia of Rules","","David Graeber","1612195180","9781612195186","en","WANTS_TO_READ","","","","","","the-utopia-of-rules-aqr8a"
+"King, Warrior, Magician, Lover","Rediscovering the Archetypes of the Mature Masculine","Robert Moore","0062506064","9780062506061","un","WANTS_TO_READ","","","","","","king-warrior-magician-lover-0yl3c"
+"The Courage To Be Disliked","How to Free Yourself, Change Your Life and Achieve Real Happiness","Ichiro Kishimi, Fumitake Koga","176063073X","9781760630737","en","DROPPED","","2022-06-05","","","","the-courage-to-be-disliked-6dubz"
+"How to Do the Work","Recognize Your Patterns, Heal from Your Past, and Create Your Self","Nicole LePera","0063012103","9780063012103","un","WANTS_TO_READ","","","","","","how-to-do-the-work-x6bj7"
+"Get on Track: How to Build, Run, and Level Up Your Program Management Office","","Paula Dieli","1774580446","9781774580448","en","WANTS_TO_READ","","","","","","paula-dieli-get-on-track-how-to-build-run-and-level-up-your-program-management-office-9mlro"
+"Now Is Not the Time to Panic","A Novel","Kevin Wilson","0062913506","9780062913500","en","WANTS_TO_READ","","","","","","kevin-wilson-now-is-not-the-time-to-panic-kb564"
+"Master of the Game","","Sidney Sheldon","0006472613","9780006472612","en","WANTS_TO_READ","","","","","","sidney-sheldonmaster-of-the-game-ag6q5"
+"The Way of Men","","Jack Donovan","0985452307","9780985452308","en","WANTS_TO_READ","","","","","","the-way-of-men-jdc4r"
+"The Unending Game","A Former R&AW Chief’s Insights into Espionage","Vikram Sood","9353051665","9789353051662","en","WANTS_TO_READ","","","","","","vikram-sood-the-unending-game-iomwf"
+"The Silent Patient","","Alex Michaelides","1250301696","9781250301697","en","FINISHED","4","2023-04-05","2023-04-12","","I enjoyed reading this. The ending felt a little rushed & predictable.","the-silent-patient-n3igb"
+"The Spanish Love Deception (Spanish Love Deception #1)","","Elena Armas","","9798705893843","en","FINISHED","3","2023-02-11","2023-02-28","","Not my type but fine.
+
+Decent writing, I was not bored for the most part.","elena-armas-the-spanish-love-deception-clrpm"
+"The Word Snoop","","Ursula Dubosarsky","0803734069","9780803734067","en","WANTS_TO_READ","","","","","","ursula-dubosarsky-the-word-snoop-izckm"
+"Greenlights","Your Journal, Your Journey","Matthew McConaughey","0593235479","9780593235478","en","FINISHED","5","","2023-04-24","","This is how a memoir should be like.","greenlights-d0nvi"
+"Fire and Rain","The Beatles, Simon & Garfunkel, James Taylor, CSNY, and the Lost Story of 1970","David Browne","0306818507","9780306818509","en","WANTS_TO_READ","","","","","","fire-and-rain-rnhby"
+"Ella Minnow Pea","a novel in letters","Mark Dunn","0385722435","","en","WANTS_TO_READ","","","","","","mark-dunnella-minnow-pea-gdfax"
+"Creative Selection","Inside Apple's Design Process During the Golden Age of Steve Jobs","Ken Kocienda","1250194474","9781250194473","en","WANTS_TO_READ","","","","","","creative-selection-cblqz"
+"Love People, Use Things","Because the Opposite Never Works","Joshua Fields Millburn, Ryan Nicodemus","1472263871","9781472263872","en","WANTS_TO_READ","","","","","","love-people-use-things-3zm8d"
+"The Tender Bar","A Memoir","J. R. Moehringer","1401383416","9781401383411","en","WANTS_TO_READ","","","","","","the-tender-bar-wgmoo"
+"The Liars' Club","A Memoir","Mary Karr","0143035746","9780143035749","en","WANTS_TO_READ","","","","","","the-liars-club-rcqde"
+"Do Design","Why Beauty Is Key to Everything","Alan Moore","1907974288","9781907974281","en","WANTS_TO_READ","","","","","","do-design-ph198"
+"Prisoners of Geography","Ten Maps That Tell You Everything You Need to Know About Global Politics","Tim Marshall","1783961414","9781783961412","en","WANTS_TO_READ","","","","","","tim-marshallprisoners-of-geography-vo84b"
+"The Prophet","","Kahlil Gibran","000100039X","9780001000391","en","WANTS_TO_READ","","","","","","the-prophet-66gbm"
+"$100M Offers","How to Make Offers So Good People Feel Stupid Saying No","Alex Hormozi","1737475715","9781737475712","en","WANTS_TO_READ","","","","","","dollar100m-offers-37o56"
+"$100M Leads","How to Get Strangers to Want to Buy Your Stuff","Alex Hormozi","1737475766","9781737475767","en","WANTS_TO_READ","","","","","","alex-hormozi-dollar100m-leads-59fim"
+"Tell the Machine Goodnight","A Novel","Katie Williams","0525533133","9780525533139","en","WANTS_TO_READ","","","","","","katie-williams-tell-the-machine-goodnight-ux4qf"
+"Word Power Made Easy","","Norman Lewis","067174190X","9780671741907","en","NONE","","","","","","word-power-made-easy-v2mji"
+"Word Power Made Easy","The Complete Handbook for Building a Superior Vocabulary","Norman Lewis","0307817490","9780307817495","en","WANTS_TO_READ","","","","","","norman-lewis-word-power-made-easy-wbz5d"
+"The Summons","","John Grisham","0385339593","9780385339599","en","DROPPED","","2024-09-10","","","","the-summons-cukej"
+"How to See","Visual Adventures in a World God Never Made","George Nelson","0714873837","9780714873831","en","WANTS_TO_READ","","","","","","how-to-see-18c6h"
+"The E-myth revisited","why most small businesses don't work and what to do about it","Michael E. Gerber","0887307280","","en","WANTS_TO_READ","","","","","","michael-e-gerberthe-e-myth-revisited-pcrgg"
+"The Art of Dramatic Writing","Its Basis in the Creative Interpretation of Human Motives","Lajos Egri","1439123799","9781439123799","en","WANTS_TO_READ","","","","","","the-art-of-dramatic-writing-ijw7c"
+"Story Engineering","","Larry Brooks","1599632810","9781599632810","en","WANTS_TO_READ","","","","","","story-engineering-hazcj"
+"Ordinary People","","Diana Evans","1784742163","9781784742164","en","WANTS_TO_READ","","","","","","ordinary-people-7eegw"
+"Oh William!","A Novel","Elizabeth Strout","0812989430","9780812989434","en","WANTS_TO_READ","","","","","","elizabeth-strout-oh-william-u3noa"
+"East of Eden","","John Steinbeck","0142000655","9780142000656","en","WANTS_TO_READ","","","","","","east-of-eden-18yjb"
+"Win Bigly","Persuasion in a World where Facts Don't Matter","Scott Adams","0735219710","9780735219717","en","WANTS_TO_READ","","","","","","win-bigly-xj8zi"
+"Why Nations Fail","The Origins of Power, Prosperity, and Poverty","James A. Robinson, Daron Acemoğlu","0307719219","9780307719218","en","WANTS_TO_READ","","","","","","why-nations-fail-8lqqv"
+"Ultralearning: Accelerate Your Career, Master Hard Skills and Outsmart the Competition","","Scott H. Young","0008305722","9780008305727","en","WANTS_TO_READ","","","","","","scott-h-young-ultralearning-accelerate-your-career-master-hard-skills-and-outsmart-the-competition-zfz0z"
+"The Dispossessed","An Ambiguous Utopia","Ursula K. Le Guin","0785764038","9780785764038","en","WANTS_TO_READ","","","","","","the-dispossessed-1hav3"
+"Endure","Mind, Body, and the Curiously Elastic Limits of Human Performance","Alex Hutchinson","0062499971","9780062499974","en","WANTS_TO_READ","","","","","","alex-hutchinson-endure-48uqk"
+"Zen and the Art of Motorcycle Maintenance","An Inquiry Into Values","Robert M. Pirsig","0060589469","9780060589462","en","WANTS_TO_READ","","","","","","zen-and-the-art-of-motorcycle-maintenance-817n6"
+"The Game","Penetrating the Secret Society of Pickup Artists","Neil Strauss","0060554738","9780060554736","en","WANTS_TO_READ","","","","","","the-game-lfdhg"
+"Thank You for Arguing, Fourth Edition","What Aristotle, Lincoln, and Homer Simpson Can Teach Us about the Art of Persuasion","Jay Heinrichs","1663631778","9781663631770","en","WANTS_TO_READ","","","","","","jay-heinrichs-thank-you-for-arguing-fourth-edition-4kl2u"
+"Thank You for Arguing","What Aristotle, Lincoln, and Homer Simpson Can Teach Us about the Art of Persuasion","Jay Heinrichs","0307341445","9780307341440","en","NONE","","","","","","thank-you-for-arguing-u3jev"
+"Madame Bovary","Provincial Manners","Gustave Flaubert","0192840398","9780192840394","en","DROPPED","","","","","","madame-bovary-wed3b"
+"Operating Systems Three Easy Pieces","","Remzi H.Arpaci-Dusseau","","9791156007395","ko","NONE","","2025-06-12","","","","remzi-harpaci-dusseau-operating-systems-three-easy-pieces-227zc"
+"The Vegetarian","A Novel","Kang Han","0553448188","9780553448184","en","WANTS_TO_READ","","","","","","kang-han-the-vegetarian-hobo5"
+"Maybe You Should Talk to Someone","A Therapist, hertherapist, and Our Lives Revealed","Lori Gottlieb","1922310719","9781922310712","en","WANTS_TO_READ","","","","","","lori-gottlieb-maybe-you-should-talk-to-someone-y6r91"
+"Parade","A Novel","Rachel Cusk","0374610045","9780374610043","en","WANTS_TO_READ","","","","","","rachel-cusk-parade-3pgh1"
+"Headshot","A Novel","Rita Bullwinkel","0593654102","9780593654101","en","WANTS_TO_READ","","","","","","rita-bullwinkel-headshot-3wa6y"
+"Independent People","An Epic","Halldór Laxness","0679767924","9780679767923","en","WANTS_TO_READ","","","","","","independent-people-54d3i"
+"Steve Jobs","","Walter Isaacson, Steve Jobs","1451648537","9781451648539","en","FINISHED","5","2025-06-12","2025-12-21","","This is now one of my favourite biographies. It offers a fascinating glimpse into Jobs’ worldview and the stories that shaped those ideologies surrounding living, technology, and art.","steve-jobs-o59au"
+"The Old Man and the Sea","","Ernest Hemingway","0684830493","9780684830490","en","FINISHED","3","2025-12-22","2025-12-24","","In modern times, this book feels anti-algorithmic.
+
+One fisherman. One boat. Blood, salt, fatigue.
+
+Too far out in the sea for hours where nothing happens.
+
+The nothingness is the medium with which Hemingway conveys everything. The struggle, the restraint, the wrestle with a challenge.
+
+Almost like punching a bag for hours. There’s rhythm, no arc.
+
+A book about maintaining form under pressure. 
+
+Santiago, the fisherman, doesn’t “discover” himself in the sea. He doesn’t transform. He doesn’t resolve a psychological arc. He holds the line. That’s it.
+
+Hemingway’s ethic is brutally conservative here: dignity is not self-expression or growth; dignity is not breaking.
+
+The book is not inspiring nor magnetic, just coherent.","ernest-hemingwaythe-old-man-and-the-sea-ojr5g"
+"The Art of Innovation","Lessons in Creativity from Ideo, America's Leading Design Firm","TOM AUTOR KELLEY","0385499841","9780385499842","en","DROPPED","","2025-11-01","","","","the-art-of-innovation-y7vqu"
+"Dark Matter","A Novel","Blake Crouch","1101904224","9781101904220","un","WANTS_TO_READ","","","","","","dark-matter-3a2uq"
+"The Only Gaijin in the Village","","Iain Maloney","184697514X","9781846975141","en","NONE","","","","","","iain-maloney-the-only-gaijin-in-the-village-xuik2"
+"Why The Poor Don’t Kill Us","The Psychology of Indians","Manu Joseph","9365234573","9789365234572","en","FINISHED","4.5","2025-12-24","2025-12-26","","I was introduced to Manu Joseph via a show he created that’s on Netflix, “Decoupled”.
+
+It’s the kind of a show that made me want to learn more about who developed it instead of being a mere consumer of the plot. It’s when I noticed the work of Manu Joseph, who, in this book, splendidly conveys the nature of India in all its absurdities.
+
+Decoupled felt refreshing, unique, well-written. It hilariously showcased the Indian class divide and it grappled with idea of how India treats money, class, religion.
+
+Why The Poor Don’t Kill Us feels like an extension of sorts. At times, I read certain excerpts with the voice of R. Madhavan who plays the protagonist in the show Decoupled. It was hard to me for decouple the show with the book.
+
+Now, the book asserts the psychology of Indians across different socio-economic backgrounds and talks about ideas like how the aesthetic ugliness of the country reassures the poor, our outlook towards money and how it makes sense for rich moneylenders to prefer an austere life, how material success is more powerful than mere activism to bring real change.
+
+It is a darkly hilarious book that will make you laugh, and then leave you uncomfortable because you laughed. It confronts a reality that is deeply relevant to the Indian society in a bold, unapologetic	fashion that leaves you surprised because what you read in this book is what you live around, everyday, without noticing.","manu-joseph-why-the-poor-dont-kill-us-c8w6y"
+"Kitchen Confidential","Adventures in the Culinary Underbelly","Anthony Bourdain","0060899220","9780060899226","un","NONE","","","","","","kitchen-confidential-updated-ed-p2gbl"
+"How to Win an Indian Election","What Political Parties Don't Want You to Know","Shivam Shankar Singh","0143446843","9780143446842","en","WANTS_TO_READ","","","","","","how-to-win-an-indian-election-uh54e"
+"The Rational Optimist","How Prosperity Evolves","Matt Ridley","006145205X","9780061452055","un","NONE","","","","","","the-rational-optimist-f3h32"
+"Shop Class as Soulcraft","An Inquiry Into the Value of Work","Matthew B. Crawford","1594202230","9781594202230","un","WANTS_TO_READ","","","","","","shop-class-as-soulcraft-2lnlp"
+"So Late in the Day","Stories of Women and Men","Claire Keegan","0802160859","9780802160850","en","WANTS_TO_READ","","","","","","claire-keegan-so-late-in-the-day-kezdd"
+"The Stranger","","Albert Camus","0307827666","9780307827661","en","FINISHED","4.5","2025-12-26","2025-12-28","","I haven’t read fiction this arresting in a long time. The opening line alone is so remarkable that I had to take a pause and gear up for what followed. The story of Meursault is that he fails to live with a narrative to please societal expectations.
+
+Camus stages a thought experiment with the help of Meursault: What happens if a man refuses to lie emotionally in a world that requires it?
+
+The book is about the punishment you get for not living up to social expectations regardless of how you feel.
+
+Meursault is ruthless, but in an honest way that intends no harm for others and yet, he’s punished for being that way.
+
+About the writing, Matthew Ward’s translation serves as a charming, magnetic outlook into the story of Meursault. It’s easy to step into his world, but impossible to judge his actions comfortably.
+
+A lot more thoughts to be shared, a lot more conversations to be had about this book.
+
+Timeless.","the-stranger-3b5v2"
+"The Mahabharata","A Modern Rendering","Ramesh Menon","0595401872","9780595401871","en","WANTS_TO_READ","","","","","","the-mahabharata-72wan"
+"Never Let Me Go","","Kazuo Ishiguro","0571249388","9780571249381","en","DROPPED","","2025-12-28","","","","never-let-me-go-lxl23"
+"The Myth of Sisyphus","Penguin Modern Classics","Albert Camus","0141182008","9780141182001","en","WANTS_TO_READ","","","","","","albert-camusthe-myth-of-sisyphus-penguin-modern-classics-vqavl"
+"The Fall","","Albert Camus","0679720227","9780679720225","en","WANTS_TO_READ","","","","","","the-fall-7uqoz"
+"The Plague","","Albert Camus","0141395214","9780141395210","en","WANTS_TO_READ","","","","","","the-plague-u1zzv"
+"Tarkash","","Javed Akhtar","8126707267","9788126707263","hi","FINISHED","5","2026-01-10","2026-01-13","","","javed-akhtar-tarkash-qdqck"
+"Flashlight","","Susan Choi","","9780374616373","en","DROPPED","2.5","2025-12-30","","","My literary palate did not like this one. I gave it a few chances; it didn't work.
+
+I had better expectations from this Booker Prize long-listed book.
+
+Perhaps it's a book for the latest stages of my life.
+
+The granular realism made it rather unengaging, dull. ","susan-choi-flashlight-grfm3"
+"Power","The Essential Works of Michel Foucault 1954-1984","Michel Foucault","0141991372","9780141991375","en","WANTS_TO_READ","","","","","","michel-foucault-power-hehdm"
+"Good Material","","Dolly Alderton","0241523672","9780241523674","en","FINISHED","3.5","2026-01-21","2026-01-29","","","dolly-alderton-good-material-rek7y"
+"Ghachar Ghochar","","Vivēka Śānabhāga","014311168X","9780143111689","en","FINISHED","2.5","2026-02-01","2026-02-01","","It’s about a poor family from Bangalore that suddenly sees a lot of money.
+
+With the sudden influx of money, and a new lifestyle, norms are challenged and problems brew slowly at every end. Most of them remain unspoken throughout the book, it’s something you feel.
+
+This is a translated work (originally written in Kannada) and I think it’s a decent read you can finish in a day. Felt bleak at times.
+
+Personally, not a big fan. I hate the family and all the members. I don’t appreciate their attitude. Money doesn’t buy class, sure.","ghachar-ghochar-gf596"
+"Designing Pleasurable Products","An Introduction to the New Human Factors","Patrick W. Jordan","0415298873","9780415298872","en","NONE","","","","","","designing-pleasurable-products-rb82p"
+"Gaban","","Premcand","8122311962","9788122311969","en","NONE","","2026-02-01","","","","premcand-gaban-4nzfi"
+"Blind Man's Bluff","The Untold Story Of American Submarine Espionage","Sherry Sontag, Christopher Drew, Annette Lawrence Drew","1891620088","9781891620089","en","WANTS_TO_READ","","","","","","sherry-sontag-christopher-drew-annette-lawrence-drew-blind-mans-bluff-9o41m"
+"Untouchable","","Mulk Raj Anand","0141956941","9780141956947","en","WANTS_TO_READ","","","","","","mulk-raj-anand-untouchable-j4267"
+"Hacking Growth","How Today's Fastest-Growing Companies Drive Breakout Success","Morgan Brown, Sean Ellis","0753545373","9780753545379","un","WANTS_TO_READ","","","","","","hacking-growth-2mzyp"
+"Obviously Awesome","How to Nail Product Positioning So Customers Get It, Buy It, Love It","April Dunford","1999023005","9781999023003","en","WANTS_TO_READ","","","","","","obviously-awesome-a2wxv"
+"Gaban","The Stolen Jewels","Premchand,","0195662636","9780195662634","en","WANTS_TO_READ","","2026-02-01","","","","premchand-gaban-e1era"
+"Monetizing Innovation","How Smart Companies Design the Product Around the Price","Georg Tacke, Madhavan Ramanujam","1119240867","9781119240860","en","WANTS_TO_READ","","","","","","monetizing-innovation-gpk4i"
+"Power","Why Some People Have It—and Others Don't","Jeffrey Pfeffer","0062010611","9780062010612","en","WANTS_TO_READ","","","","","","power-6kquk"
+"The Science of Storytelling: Why Stories Make Us Human, and How to Tell Them Better","","Will Storr","0008276951","9780008276959","en","NONE","","","","","","the-science-of-storytelling-why-stories-make-us-human-and-how-to-tell-them-better-4qk7l"
+"The Science of Storytelling","Why Stories Make Us Human, and How to Tell Them Better","Will Storr","0008276978","9780008276973","en","WANTS_TO_READ","","","","","","will-storr-the-science-of-storytelling-9vw88"
+"Designing Brand Identity","An Essential Guide for the Whole Branding Team","Alina Wheeler","0470401427","9780470401422","un","WANTS_TO_READ","","","","","","designing-brand-identity-o0yqf"
+"One Day Everyone Will Have Always Been Against This","","Omar El Akkad","","9780771021787","en","NONE","","","","","","omar-el-akkad-one-day-everyone-will-have-always-been-against-this-4ckq0"
+"Essential Poker Math, Expanded Edition","Fundamental No-Limit Hold'em Mathematics You Need to Know","Alton Hardin","0998294500","9780998294506","en","WANTS_TO_READ","","","","","","alton-hardin-essential-poker-math-expanded-edition-kzco3"
+"Self-Portrait with Boy","A Novel","Rachel Lyon","1501169599","9781501169595","en","WANTS_TO_READ","","","","","","rachel-lyon-self-portrait-with-boy-ip5lf"
+"Finite and Infinite Games","","James Carse","1476731713","9781476731711","en","NONE","","","","","","finite-and-infinite-games-glm14"
+"The Road to Character","","David Brooks","081299325X","9780812993257","en","DROPPED","","2026-03-01","","","","the-road-to-character-7f83u"
+"True Style","The History and Principles of Classic Menswear","G. Bruce Boyer","0465061591","9780465061594","en","WANTS_TO_READ","","","","","","g-bruce-boyer-true-style-v444o"
+"Dressing the Man","Mastering the Art of Permanent Fashion","Alan Flusser","0060191449","9780060191443","un","WANTS_TO_READ","","","","","","dressing-the-man-bo88c"
+"The Executioner's Song","","","1559270748","9781559270748","en","WANTS_TO_READ","","","","","","the-executioner-s-song-n2o3i"
+"Project Hail Mary","A Novel","Andy Weir","0593135210","9780593135211","en","FINISHED","5","2026-05-07","2026-05-14","","My new favorite.","project-hail-mary-6ku2l"
+"East of Eden","","John Steinbeck","","","en","WANTS_TO_READ","","","","","","john-steinbeck-east-of-eden-y1g57"
+"Sapiens","A Brief History of Humankind","Yuval Noah Harari","0099590085","9780099590088","en","NONE","","","","","","yuval-noah-harari-sapiens-ohhok"
+"The God of Small Things","","Arundhati Roy","0753158884","","en","WANTS_TO_READ","","","","","","arundhati-roygod-of-small-things-znz0h"
+"Gods, Guns and Missionaries","The Making of the Modern Hindu Identity","Manu S Pillai","0141993502","9780141993508","en","WANTS_TO_READ","","","","","","manu-s-pillai-gods-guns-and-missionaries-ofod4"
+"The Contender","","Robert Lipsyte","0064471527","9780064471527","en","WANTS_TO_READ","","","","","","robert-lipsyte-the-contender-1e5i1"
+"Days at the Morisaki Bookshop","The International Bestseller for lovers of Before the Coffee Gets Cold","Satoshi Yagisawa","1786583259","9781786583253","en","FINISHED","","2026-08-12","2026-08-16","","","satoshi-yagisawa-days-at-the-morisaki-bookshop-jxmbz"
+"Kuchh Ishq Kiya Kuchh Kaam Kiya","","Piyush Mishra","","","hi","DROPPED","","2026-06-07","","","","piyush-mishra-kuchh-ishq-kiya-kuchh-kaam-kiya-61jof"
+"Who the F**k are You","A Polite Book about Finding Your Unfair Advantage and Making it Impossible to Ignore","Harinder Singh Pelia","0143476580","9780143476580","en","DROPPED","","2026-03-07","","","","harinder-singh-pelia-who-the-f-k-are-you-9f892"
+"The Count of Monte Cristo","","Alexandre Dumas","1846650798","9781846650796","en","IS_READING","","2026-08-16","","","","alexandre-dumas-the-count-of-monte-cristo-4phwl"
+"Flash Boys","","Michael Lewis","0141981032","9780141981031","en","WANTS_TO_READ","","","","","","flash-boys-5m82j"
+"The Elements of Eloquence","Secrets of the Perfect Turn of Phrase","Mark Forsyth","042527618X","9780425276181","en","WANTS_TO_READ","","","","","","mark-forsyth-the-elements-of-eloquence-1lyfg"
+"The Art of Rhetoric","","Aristotle, Hugh Lawson-Tancred","0140445102","9780140445107","en","NONE","","","","","","the-art-of-rhetoric-hfouj"

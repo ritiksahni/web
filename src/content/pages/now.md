@@ -3,13 +3,21 @@ title: Now
 seo:
   title: What I'm doing now
   description: A brief snapshot of what I'm focused on right now.
-  updated: Mar 07, 2026
+  updated: Sep 01, 2026
 ---
 
-### Building
+### Working
 
-[trystandout.com](https://trystandout.com). On the way to $1k MRR in 5 weeks. It's the kind of deadline that makes everything else sharper. Every day is either shipping a feature or talking to a user. No middle ground.
+Founding engineer at [Manicule](https://manicule.com) (YC P26).
+
+### Learning
+
+Electric guitar. I practice every day, and most of it is unglamorous. It is quite meditative.
 
 ### Training
 
-Working with a personal trainer. Tracking strength numbers and diet progress week over week.
+Strength work. Tracking the numbers week over week.
+
+### Reading
+
+The Count of Monte Cristo.

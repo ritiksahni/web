@@ -7,6 +7,8 @@ seo:
 
 I build software. Mostly backend systems, developer tools, and the occasional AI experiment. Go, Python, Swift, TypeScript. Whatever the problem asks for.
 
+Right now I'm a founding engineer at [Manicule](https://manicule.com) (YC P26).
+
 ## Security Roots
 
 I didn't start as an engineer. I started as a breaker.

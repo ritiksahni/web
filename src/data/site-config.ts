@@ -39,7 +39,7 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Ritik Sahni',
-    subtitle: 'Software Engineer. Building tools, writing essays.',
+    subtitle: 'Software engineer. I take things apart to understand them.',
     description:
         'Ritik Sahni is a software engineer and writer. He builds developer tools and writes about engineering, technology, and culture.',
     image: {
@@ -48,7 +48,6 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         { text: 'Writings', href: '/blog' },
-        { text: 'Notes', href: '/notes' },
         { text: 'Projects', href: '/projects' },
         { text: 'Bookshelf', href: '/bookshelf' },
         { text: 'Uses', href: '/uses' },

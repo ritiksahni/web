@@ -15,6 +15,6 @@ seo:
 
 ## Apps
 - Editor: [Cursor](https://cursor.com) / [Sublime Text](https://www.sublimetext.com/)
-- Browser: [Zen Browser](https://zen-browser.app/)
-- Notes: [Obsidian](https://obsidian.md/) / Apple Notes
+- Browser: [Helium](https://helium.computer/)
+- Notes: [Roam Research](https://roamresearch.com/) / Apple Notes
 - Terminal: [Ghostty](https://ghostty.org/)

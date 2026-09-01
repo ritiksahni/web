@@ -12,9 +12,7 @@ Founding engineer at [Manicule](https://manicule.com) (YC P26).
 
 ### Learning
 
-Electric guitar. I practice every day, and most of it is unglamorous — the same few chords until the transitions stop sounding like an accident.
-
-Also coffee. Learning to actually brew a good cup instead of getting one by luck.
+Electric guitar. I practice every day, and most of it is unglamorous. It is quite meditative.
 
 ### Training
 

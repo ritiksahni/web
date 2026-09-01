@@ -48,7 +48,6 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         { text: 'Writings', href: '/blog' },
-        { text: 'Notes', href: '/notes' },
         { text: 'Projects', href: '/projects' },
         { text: 'Bookshelf', href: '/bookshelf' },
         { text: 'Uses', href: '/uses' },

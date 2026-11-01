@@ -18,5 +18,5 @@ seo:
 - Browser: [Helium](https://helium.computer/)
 - Notes: [Roam Research](https://roamresearch.com/) / Apple Notes
 - Terminal: [Ghostty](https://ghostty.org/)
-- Agents: [Herdr](https://herdr.dev/)
+- AI Agents: [Herdr](https://herdr.dev/)
 - Markdown: [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) / [MacMD Viewer](https://macmdviewer.com/)

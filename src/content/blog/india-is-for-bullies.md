@@ -1,6 +1,7 @@
 ---
 title: 'India Is for Bullies'
 publishDate: 'Nov 11 2026'
+excerpt: "The anger on India's roads and in its homes comes from the same place: nobody can predict anyone."
 tags:
   - culture
 ---
